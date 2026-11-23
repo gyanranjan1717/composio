@@ -1,0 +1,75 @@
+{
+  "id": 44,
+  "name": "Salesforce Commerce Cloud",
+  "category": "Ecommerce",
+  "hint": "developer.salesforce.com/docs/commerce",
+  "record": {
+    "oneLiner": "Salesforce Commerce Cloud provides powerful REST and JWT-authenticated APIs for managing ecommerce storefronts and administrative functions, complemented by an official B2C MCP server.",
+    "authMethods": [
+      "oauth2",
+      "jwt"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "partnerGated",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/b2c-developer-tooling.html",
+    "buildable": "no",
+    "mainBlocker": "partnerOrSalesGate",
+    "verdictReason": "Salesforce Commerce Cloud APIs are fully documented and offer robust capabilities with an official MCP server, but API credentials and sandbox environments require Salesforce partner or enterprise enterprise-sales onboarding (partnerGated), preventing self-serve developer signup.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+        "quote": "Both the Admin and Shopper APIs are authorized using an access token in the form of a JSON Web Token (JWT)."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+        "quote": "| Admin API token | Create an API client in Account Manager (guide), then POST to oauth2/access_token. |"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+        "quote": "For a runnable example that fetches a token and calls an endpoint, see Make Your First Request."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/b2c-developer-tooling.html",
+        "quote": "- B2C MCP: Connect your assistant to B2C Commerce tools, official documentation search, and workflow skills. Investigate issues, debug live cartridge code, or work with B2C Commerce data through SCAPI Admin APIs."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Salesforce Commerce Cloud developer documentation APIs authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com/docs/commerce Model Context Protocol MCP server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com/docs/commerce pricing access developer account"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 23691,
+    "outputTokens": 1208
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

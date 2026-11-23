@@ -1,0 +1,34 @@
+{
+  "id": 64,
+  "name": "Cloudflare",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "quote": "Select Create Token to generate the token's secret.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "quote": "Select Create Token to generate the token's secret.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "quote": "Authorization: Bearer <API_TOKEN>",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare",
+      "quote": "at `https://mcp.cloudflare.com/mcp` is the only MCP server you need to work with Cloudflare.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

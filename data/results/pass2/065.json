@@ -1,0 +1,55 @@
+{
+  "id": 65,
+  "name": "Supabase",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "supabase.com/docs",
+  "record": {
+    "oneLiner": "Hosted Postgres platform with an auto-generated REST API for database tables and a Management API for projects, authenticated with API keys, personal access tokens or OAuth2.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://supabase.com/docs/guides/getting-started/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A free plan includes API access and project API keys are self-serve in the dashboard. The Data REST API is schema-driven, and the Management API is documented with personal access tokens; an official hosted MCP server also exists.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://supabase.com/docs/guides/api",
+        "quote": "You can find the API Keys in the Settings > API Keys section of the Dashboard."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://supabase.com/docs/reference/api/introduction",
+        "quote": "OAuth2 allows your application to generate tokens on behalf of a Supabase user."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://supabase.com/pricing",
+        "quote": "Free: $0/month, including 500 MB database size."
+      },
+      {
+        "field": "apiType",
+        "url": "https://supabase.com/docs/guides/api",
+        "quote": "Supabase auto-generates an API directly from your database schema"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://supabase.com/docs/guides/getting-started/mcp",
+        "quote": "The hosted Supabase MCP server is available at https://mcp.supabase.com/mcp."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

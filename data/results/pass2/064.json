@@ -1,0 +1,49 @@
+{
+  "id": 64,
+  "name": "Cloudflare",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "developers.cloudflare.com/api",
+  "record": {
+    "oneLiner": "Global cloud platform whose REST API is called with account or user API tokens created in the dashboard.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.cloudflare.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "API tokens are created self-serve in the dashboard and sent as Bearer tokens. Cloudflare publishes an official remote MCP server at mcp.cloudflare.com. Breadth was not checked against the full API reference; the Global API Key and Origin CA key were not confirmed from the fetched page.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "quote": "Select Create Token to generate the token's secret."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "quote": "Select Create Token to generate the token's secret."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "quote": "Authorization: Bearer <API_TOKEN>"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare",
+        "quote": "at `https://mcp.cloudflare.com/mcp` is the only MCP server you need to work with Cloudflare."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

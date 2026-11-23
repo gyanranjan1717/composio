@@ -1,0 +1,15 @@
+{
+  "id": 79,
+  "name": "Smartsheet",
+  "toolkitSlug": "smartsheet",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "apiKey"
+  ]
+}

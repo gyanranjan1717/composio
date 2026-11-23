@@ -1,0 +1,48 @@
+{
+  "id": 69,
+  "name": "Datadog",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "docs.datadoghq.com/api",
+  "record": {
+    "oneLiner": "HTTP REST API for Datadog observability data and configuration, authenticated with API and application keys, with a regional official MCP server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.datadoghq.com/mcp_server/setup/",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "The API uses DD-API-KEY and application keys, which need an account. The only documented route to credentials is a 14-day free trial, so use after the trial needs a paid plan. The docs did not state how keys are created or whether any plan gates them.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "quote": "Requests that read data require full access and also require an `application key`."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.datadoghq.com/free-datadog-trial/",
+        "quote": "Try Datadog for 14 days"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.datadoghq.com/api/",
+        "quote": "The Datadog API is an HTTP REST API."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.datadoghq.com/mcp_server/setup/",
+        "quote": "Each Datadog site has its own MCP Server endpoint."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

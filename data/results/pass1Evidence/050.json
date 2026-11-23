@@ -1,0 +1,34 @@
+{
+  "id": 50,
+  "name": "fanbasis",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://devdocs.work/solutions/developer-experience",
+      "quote": "Every API call requires a bearer token in the\nAuthorization header. Tokens are issued per\nworkspace and scoped to a set of permissions.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://finance.yahoo.com/small-business/articles/commas-platform-quietly-powering-billions-130000295.html",
+      "quote": "Anyone can now create a free account at commas.com and sell on the same infrastructure that runs businesses at nine-figure scale.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://demo.embedded.fanbasis.io/docs/how-it-works",
+      "quote": "- API: Use our REST API to programmatically create and manage products",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://www.commas.com",
+      "quote": "MCP beta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

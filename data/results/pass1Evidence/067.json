@@ -1,0 +1,27 @@
+{
+  "id": 67,
+  "name": "Snowflake",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "quote": "To use OAuth, follow these steps:",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+      "quote": "A Snowflake trial account lets you evaluate/test Snowflake's full range of innovative and powerful features with no cost or contractual obligations.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+      "quote": "The Snowflake-managed MCP server lets AI agents securely retrieve data from Snowflake accounts",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

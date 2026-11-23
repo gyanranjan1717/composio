@@ -1,0 +1,11 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://seranking.com/api/data/getting-started."
+    }
+  ]
+}

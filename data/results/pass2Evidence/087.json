@@ -1,0 +1,34 @@
+{
+  "id": 87,
+  "name": "Xero",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.xero.com/faq/custom-integration",
+      "quote": "An access token can be requested using only the client_id and client_secret.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.xero.com/faq/custom-integration",
+      "quote": "premium integration option",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.xero.com/documentation/api/accounting/overview",
+      "quote": "UNVERIFIED: page returned title only ('Accounting API Overview \u2014 Xero Developer'); no verbatim quote obtained",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://raw.githubusercontent.com/XeroAPI/xero-mcp-server/HEAD/README.md",
+      "quote": "This is a Model Context Protocol (MCP) server implementation for Xero.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

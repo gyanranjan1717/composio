@@ -1,0 +1,34 @@
+{
+  "id": 60,
+  "name": "Clay",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.clay.com/public-api/authentication.md",
+      "quote": "Every request to the Clay Public API must include a Clay API key in the `clay-api-key` header.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.clay.com/",
+      "quote": "14-day Pro trial, no credit card required",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.clay.com/quickstart.md",
+      "quote": "It says you can call the Clay API from your own applications.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.clay.com/quickstart.md",
+      "quote": "It requires a coding-agent host with a shell \u2014 Claude Code, Codex, or Cursor",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

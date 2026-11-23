@@ -1,0 +1,34 @@
+{
+  "id": 34,
+  "name": "GoHighLevel",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+      "quote": "HighLevel supports: Private Integration Tokens for internal or single-location integrations, OAuth 2.0 for public integrations and Marketplace apps requiring user authorization",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+      "quote": "Q. Is API access available on all HighLevel plans? API access varies by plan: Starter & Unlimited: Basic API access",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://marketplace.gohighlevel.com/docs",
+      "quote": "Complete REST API documentation for the HighLevel CRM platform.Build powerful integrations with our comprehensive developer resources.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://marketplace.gohighlevel.com/docs/other/mcp",
+      "quote": "The LeadConnector MCP (Model Context Protocol) server securely connects MCP-compatible AI assistants to your CRM.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": 99,
+  "name": "YouTube Transcript",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://transcriptapi.com/docs/api/",
+      "quote": "The API uses Bearer token authentication.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://transcriptapi.com/pricing",
+      "quote": "100 free credits to try the API \u2014 no card required.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://transcriptapi.com/docs/api/",
+      "quote": "The API provides the following endpoints:",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://transcriptapi.com/docs/",
+      "quote": "Use TranscriptAPI with Model Context Protocol for seamless integration with AI tools.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

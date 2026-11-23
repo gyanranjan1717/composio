@@ -1,0 +1,49 @@
+{
+  "id": 94,
+  "name": "Consensus",
+  "category": "AI, Research and Media-native",
+  "hint": "consensus.app (OAuth requested)",
+  "record": {
+    "oneLiner": "AI search engine over 400M+ peer-reviewed papers, exposed through a REST search API and an MCP server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "narrow",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.consensus.app/consensus-mcp",
+    "buildable": "partial",
+    "mainBlocker": "narrowApi",
+    "verdictReason": "The documented REST API exposes one search endpoint authenticated by an x-api-key header, so breadth is narrow. The OAuth guide the user expected is a PDF that could not be read, and docs.consensus.app and the API subscription page returned 403, so access level is inferred from plan-scoped result caps and is unverified.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://consensus.app/home/mcp/",
+        "quote": "-H \"x-api-key: $CONSENSUS_API_KEY\""
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://consensus.app/llms.txt",
+        "quote": "with caps by plan (Pro and Team 300, Deep 750, Enterprise 1000)"
+      },
+      {
+        "field": "apiType",
+        "url": "https://consensus.app/home/mcp/",
+        "quote": "curl -G \"https://api.consensus.app/v1/search\""
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://consensus.app/home/mcp/",
+        "quote": "Connect Claude, ChatGPT, Copilot, Perplexity or any MCP client to 400M+ scholarly works"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

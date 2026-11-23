@@ -1,0 +1,34 @@
+{
+  "id": 48,
+  "name": "Gumroad",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://rollout.com/integration-guides/gumroad/api-essentials",
+      "quote": "Gumroad uses OAuth 2.0 for API authentication. You need to register an OAuth application to get an application ID and secret.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://gumroad.com/help/article/280-create-application-api",
+      "quote": "First, sign in to your Gumroad account. Then, go to advanced settings. Here, you'll see a form to create a new application.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "apiType",
+      "url": "https://rollout.com/integration-guides/gumroad/api-essentials",
+      "quote": "Gumroad's API is RESTful and returns JSON for all requests.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://gumroad.com/claude",
+      "quote": "Gumroad MCP for Claude Connect your Gumroad store to Claude. Create product drafts, check sales, and track payouts from your chat. Listed in Claude\u2019s connector directory. You can also add it as a custom connector.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 36,
+  "name": "Klaviyo",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.klaviyo.com/en/docs/api_overview",
+      "quote": "Private key authentication for /api endpoints is performed by setting the following request header:\n\nAuthorization: Klaviyo-API-Key your-private-api-key",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developers.klaviyo.com/en/docs/api_overview",
+      "quote": "If you are a tech partner integrating with Klaviyo, we recommend using OAuth to authenticate your app. OAuth offers multiple benefits over a private key integration, including security, usability, and improved rate limits. Check out our guide on setting up OAuth .",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.klaviyo.com/en/reference",
+      "quote": "Quickstart New Klaviyo developers: Check out our Get started with Klaviyo series to set up an account, obtain API credentials, and authenticate.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.klaviyo.com/en/docs/api_overview",
+      "quote": "Every endpoint in the Klaviyo REST API, with its authentication, parameters, request and response bodies, and an example request.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+      "quote": "The Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo\u2019s APIs, enabling AI clients to interact with your Klaviyo data. This page introduces the MCP server and what you can do with it.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": 51,
+  "name": "DataForSEO",
+  "category": "Data, SEO and Scraping",
+  "hint": "docs.dataforseo.com",
+  "record": {
+    "oneLiner": "DataForSEO provides comprehensive SEO, SERP, and keyword research REST APIs authenticated via HTTP Basic auth with self-serve free signup.",
+    "authMethods": [
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "DataForSEO offers a fully documented REST API with self-serve free registration and HTTP Basic authentication, making it completely buildable into agent toolkits without any approval gates.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.dataforseo.com/v3/auth",
+        "quote": "DataForSEO is using the Basic Authentication, which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://composio.dev/content/how-to-get-a-dataforseo-api-key-step-by-step-guide",
+        "quote": "1. Create a free account. DataForSEO adds $1 in trial credit when you sign up."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.dataforseo.com/v3/dataforseo_labs-errors",
+        "quote": "All POST data should be sent in JSON format (UTF-8 encoding). The task setting is done using the POST method."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.dataforseo.com/v3/auth",
+        "quote": "DataForSEO is using the Basic Authentication, which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "DataForSEO documentation authentication api key"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.dataforseo.com MCP server"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 16375,
+    "outputTokens": 1075
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

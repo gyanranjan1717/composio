@@ -1,0 +1,12 @@
+{
+  "id": 87,
+  "name": "Xero",
+  "toolkitSlug": "xero",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

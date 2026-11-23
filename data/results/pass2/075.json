@@ -1,0 +1,50 @@
+{
+  "id": 75,
+  "name": "Asana",
+  "category": "Productivity and Project Management",
+  "hint": "developers.asana.com",
+  "record": {
+    "oneLiner": "Work management platform with a RESTful API for tasks, projects and workspaces.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.asana.com/v2/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal access tokens are generated in the developer console and OAuth is documented, with no review step stated. Breadth is judged from the reference scope, not from a full endpoint audit, so treat broad as provisional.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.asana.com/docs/authentication",
+        "quote": "A personal access token (PAT) is the quickest and simplest way to authenticate in the API."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.asana.com/docs/authentication",
+        "quote": "PATs are generated in the developer console."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.asana.com/reference/rest-api-reference",
+        "quote": "The Asana API is a RESTful interface with predictable resource-oriented URLs"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+        "quote": "Asana offers a Model Context Protocol (MCP) server"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

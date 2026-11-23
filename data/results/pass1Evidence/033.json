@@ -1,0 +1,34 @@
+{
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://learn.microsoft.com/linkedin/marketing/authentication/lms-generate-an-access-token?view=li-lms-2025-06",
+      "quote": "Grant Type: Authorization Code",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://learn.microsoft.com/linkedin/marketing/integrations/marketing-tiers?view=li-lms-2025-05",
+      "quote": "Visit your app's Product tab in the Developer Portal to apply for the Advertising API product.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://learn.microsoft.com/linkedin/marketing/sample-apps-lms?view=li-lms-2025-11",
+      "quote": "The Marketing Sample Application provides ready-to-use code that you can use to try out RESTful API calls to LinkedIn's OAuth and marketing APIs.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://registry.modelcontextprotocol.io?q=io.github.Trusty-Squire%2Fmcp",
+      "quote": "Official MCP Registry",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": 54,
+  "name": "MrScraper",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.mrscraper.com/docs/api/authentication",
+      "quote": "The MrScraper API uses API token authentication to secure all endpoints. Every request must include a valid API token in the HTTP request headers.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://mrscraper.com/pricing",
+      "quote": "Scraper Free includes 1,000 MrScraper tokens every month at no cost - no credit card required.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.mrscraper.com/docs/api/overview",
+      "quote": "Comprehensive documentation for MrScraper's API endpoints, including authentication, pagination, error handling, and scraper management.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/mrscraper-com/mrscraper-mcp",
+      "quote": "Official MrScraper MCP server: Scraper API for HTML, Markdown, and screenshots, web search, and account usage for AI agents.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

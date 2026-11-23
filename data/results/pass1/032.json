@@ -1,0 +1,67 @@
+{
+  "id": 32,
+  "name": "Meta Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "developers.facebook.com/docs/marketing-apis",
+  "record": {
+    "oneLiner": "Meta Ads Marketing API enables programmatic creation, management, and optimization of ad campaigns across Meta technologies using Graph API endpoints.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Meta Ads provides a comprehensive Marketing API that can be accessed self-serve by creating a developer app and generating User or System User access tokens. Initial access is granted automatically, with production limits scaling up after usage.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+        "quote": "Every Marketing API call requires an access token as a parameter."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+        "quote": "Automatically granted when you add the Marketing API product to your app."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "quote": "The Marketing API is a collection of Graph API endpoints and other features that can be used to help you advertise across Meta technologies."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "quote": "This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as references to community-built servers and additional resources."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Meta Marketing API documentation authentication developers facebook com"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol servers meta or facebook"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 14488,
+    "outputTokens": 1046
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

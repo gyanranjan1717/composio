@@ -1,0 +1,47 @@
+{
+  "id": 67,
+  "name": "Snowflake",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "docs.snowflake.com",
+  "record": {
+    "oneLiner": "Cloud data platform with REST and SQL APIs that accept key pair JWT, OAuth, and programmatic access tokens, plus a Snowflake-managed MCP server.",
+    "authMethods": [
+      "oauth2",
+      "jwt",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "Free access is a 30-day trial, after which a paid account is needed for continued API use. The vendor docs document OAuth, key pair JWT and PAT auth, and an official managed MCP server. apiType and apiBreadth evidence was not captured verbatim from fetched pages, so those values are unverified.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "quote": "To use OAuth, follow these steps:"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+        "quote": "A Snowflake trial account lets you evaluate/test Snowflake's full range of innovative and powerful features with no cost or contractual obligations."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+        "quote": "The Snowflake-managed MCP server lets AI agents securely retrieve data from Snowflake accounts"
+      }
+    ]
+  },
+  "validationProblems": [
+    "evidence: nothing cited for apiType"
+  ],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

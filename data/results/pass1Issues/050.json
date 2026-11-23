@@ -1,0 +1,11 @@
+{
+  "id": 50,
+  "name": "fanbasis",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://demo.embedded.fanbasis.io/docs/how-it-works). Cite a page that fetchPage can open."
+    }
+  ]
+}

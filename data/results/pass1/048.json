@@ -1,0 +1,88 @@
+{
+  "id": 48,
+  "name": "Gumroad",
+  "category": "Ecommerce",
+  "hint": "gumroad.com/api",
+  "record": {
+    "oneLiner": "Gumroad provides a RESTful API authenticated via API keys or OAuth2 to manage creators' products, sales, subscribers, and payouts, alongside an official MCP server.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://gumroad.com/claude/v1/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Gumroad features a fully documented self-serve REST API with API key and OAuth2 authentication, plus an official MCP server hosted by the vendor.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://rollout.com/integration-guides/gumroad/api-essentials",
+        "quote": "Gumroad uses OAuth 2.0 for API authentication. You need to register an OAuth application to get an application ID and secret."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://gumroad.com/help/article/280-create-application-api",
+        "quote": "First, sign in to your Gumroad account. Then, go to advanced settings. Here, you'll see a form to create a new application."
+      },
+      {
+        "field": "apiType",
+        "url": "https://rollout.com/integration-guides/gumroad/api-essentials",
+        "quote": "Gumroad's API is RESTful and returns JSON for all requests."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://gumroad.com/claude",
+        "quote": "Gumroad MCP for Claude Connect your Gumroad store to Claude. Create product drafts, check sales, and track payouts from your chat. Listed in Claude\u2019s connector directory. You can also add it as a custom connector."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Gumroad API documentation authentication pricing"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:help.gumroad.com API documentation endpoints"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:help.gumroad.com \"API\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"Model Context Protocol\" OR \"MCP\" gumroad"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://gumroad.com/claude"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 37652,
+    "outputTokens": 1053
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

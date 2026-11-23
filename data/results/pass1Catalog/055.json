@@ -1,0 +1,12 @@
+{
+  "id": 55,
+  "name": "Apify",
+  "toolkitSlug": "apify",
+  "mcpToolkitSlug": "apify_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

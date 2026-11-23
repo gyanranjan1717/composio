@@ -1,0 +1,48 @@
+{
+  "id": 21,
+  "name": "Slack",
+  "category": "Communications and Messaging",
+  "hint": "slack.com",
+  "record": {
+    "oneLiner": "Team messaging platform with a Web API for messages, channels, users and files, plus an official hosted MCP server.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "other",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.slack.dev/ai/mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Apps are created and installed self-serve and the Web API covers most core objects. Slack's own docs call the Web API 'not a REST API' (RPC-style over HTTP), so apiType is other. The official MCP server is gated by directory-published or internal apps and admin approval, so the REST route is the practical build path.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.slack.dev/authentication/installing-with-oauth",
+        "quote": "Slack apps are installed with a v2 OAuth 2.0 flow."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.slack.dev/app-management/quickstart-app-settings",
+        "quote": "Click **Create New App**."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.slack.dev/apis/web-api",
+        "quote": "While it's not a REST API, those familiar with REST should be at home with its foundations in HTTP."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.slack.dev/ai/mcp-server",
+        "quote": "The Slack MCP server provides tools for searching through Slack"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

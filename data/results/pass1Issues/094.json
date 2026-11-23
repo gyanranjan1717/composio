@@ -1,0 +1,16 @@
+{
+  "id": 94,
+  "name": "Consensus",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The quote cited for authMethods is not on the page https://consensus.app/home/mcp/."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://consensus.app/llms.txt."
+    }
+  ]
+}

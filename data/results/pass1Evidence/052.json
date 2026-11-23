@@ -1,0 +1,34 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://seranking.com/api/data/getting-started",
+      "quote": "Method 1: Authorization header (recommended)\nInclude an Authorization header in your request, with the value Token YOUR_API_KEY .",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://seranking.com/blog/best-seo-mcps",
+      "quote": "SE Ranking offers a 14-day free trial with 100K API credits, which covers MCP usage. No credit card required to start.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://seranking.com/api/data/getting-started",
+      "quote": "The base URL for all endpoints is:\nhttps://api.seranking.com",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://seranking.com/api/integrations/mcp",
+      "quote": "The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model to access your SE Ranking and SE Visible data simply and securely.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

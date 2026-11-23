@@ -1,0 +1,49 @@
+{
+  "id": 95,
+  "name": "Reducto",
+  "category": "AI, Research and Media-native",
+  "hint": "reducto.ai (document parsing)",
+  "record": {
+    "oneLiner": "Document parsing API that turns PDFs and files into structured content, with a hosted MCP server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.reducto.ai/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A free account yields an API key created in the console and sent as a Bearer token to a REST parse endpoint. Breadth is rated medium because only the parse endpoint was verified in the fetched pages.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.reducto.ai/quickstart",
+        "quote": "Create a key right here. Give it a name and copy it."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.reducto.ai/quickstart",
+        "quote": "Sign up for a free account without leaving the docs."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.reducto.ai/quickstart",
+        "quote": "https://platform.reducto.ai/parse"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.reducto.ai/mcp-server",
+        "quote": "The Reducto MCP server connects AI agents directly to Reducto."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

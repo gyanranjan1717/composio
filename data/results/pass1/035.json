@@ -1,0 +1,88 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "mailchimp.com/developer",
+  "record": {
+    "oneLiner": "Mailchimp provides a comprehensive REST API for marketing and transactional email campaigns, authenticated via API keys or OAuth 2.0 with a self-serve developer experience and an official documentation MCP server.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mailchimp.com/developer/_mcp/server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Mailchimp offers a robust and fully documented REST API for its marketing platform. Credentials such as API keys can be generated immediately on a free account self-serve, and OAuth 2.0 is supported for multi-tenant applications. Furthermore, Mailchimp provides an official Model Context Protocol (MCP) server for developer tools and documentation search.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+        "quote": "Mailchimp supports two authentication methods: API keys and OAuth 2.0."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+        "quote": "You can start development against your own account with a key and move to OAuth 2 later; the request-signing mechanics below are identical for both."
+      },
+      {
+        "field": "apiType",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+        "quote": "Every request to the Marketing API carries a credential."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server",
+        "quote": "Model Context Protocol (MCP) is an open standard that lets an AI agent discover and call an external server\u2019s tools during a conversation. This documentation site is itself an MCP server."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Mailchimp developer documentation authentication API keys OAuth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:mailchimp.com/developer \"mcp\" or \"Model Context Protocol\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:mailchimp.com/pricing plans marketing api access"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 36605,
+    "outputTokens": 1077
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

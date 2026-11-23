@@ -1,0 +1,12 @@
+{
+  "id": 48,
+  "name": "Gumroad",
+  "toolkitSlug": "gumroad",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": 88,
+  "name": "Brex",
+  "toolkitSlug": "brex",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

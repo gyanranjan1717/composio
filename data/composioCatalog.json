@@ -1,0 +1,11204 @@
+{
+  "0codekit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "0CodeKit"
+  },
+  "0xarchive": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "0xArchive"
+  },
+  "44api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "44API"
+  },
+  "7shifts": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "7shifts"
+  },
+  "_1password": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "1password"
+  },
+  "_21risk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "21risk"
+  },
+  "_2chat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "2chat"
+  },
+  "ably": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ably"
+  },
+  "abstract": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Abstract"
+  },
+  "abuselpdb": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AbuseIPDB"
+  },
+  "abyssale": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Abyssale"
+  },
+  "accredible_certificates": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Accredible certificates"
+  },
+  "accu_weather": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AccuWeather"
+  },
+  "acculynx": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Acculynx"
+  },
+  "active_campaign": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ActiveCampaign"
+  },
+  "active_merge": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ActiveMerge"
+  },
+  "active_trail": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ActiveTrail"
+  },
+  "adafruit_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Adafruit IO"
+  },
+  "addressfinder": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Addressfinder"
+  },
+  "addresszen": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Addresszen"
+  },
+  "admakeai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AdMakeAI"
+  },
+  "adobe_marketing_agent_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Adobe Marketing Agent MCP"
+  },
+  "adrapid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Adrapid"
+  },
+  "adroll": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "AdRoll"
+  },
+  "adtraction": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Adtraction"
+  },
+  "adyntel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Adyntel"
+  },
+  "aeroleads": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Aeroleads"
+  },
+  "affinda": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Affinda"
+  },
+  "affinity": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Affinity"
+  },
+  "aftership": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AfterShip"
+  },
+  "agencyzoom": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC_WITH_JWT"
+    ],
+    "name": "AgencyZoom"
+  },
+  "agent37": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agent37"
+  },
+  "agent_mail": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agent Mail"
+  },
+  "agentphone": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AgentPhone"
+  },
+  "agentql": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agentql"
+  },
+  "agenty": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agenty"
+  },
+  "agile_crm": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agile CRM"
+  },
+  "agiled": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agiled"
+  },
+  "agility_cms": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Agility CMS"
+  },
+  "aha": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Aha!"
+  },
+  "ahrefs": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Ahrefs"
+  },
+  "ahrefs_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Ahrefs MCP"
+  },
+  "ai_ark": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AI Ark"
+  },
+  "ai_ml_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AI/ML API"
+  },
+  "aimtell": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AimTell"
+  },
+  "aircall": {
+    "authSchemes": [
+      "OAUTH2",
+      "BASIC"
+    ],
+    "name": "Aircall"
+  },
+  "airops_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "AirOps MCP"
+  },
+  "airparser": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Airparser"
+  },
+  "airtable": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Airtable"
+  },
+  "airtop": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Airtop"
+  },
+  "airwallex": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Airwallex"
+  },
+  "aivoov": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Aivoov"
+  },
+  "aiwyn_tax_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Aiwyn Tax MCP"
+  },
+  "akta": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Akta"
+  },
+  "alchemy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Alchemy"
+  },
+  "algodocs": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Algodocs"
+  },
+  "algolia": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Algolia"
+  },
+  "alion": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Alion"
+  },
+  "all_images_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "All Images AI"
+  },
+  "allmodels": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AllModels"
+  },
+  "alltrails_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "AllTrails MCP"
+  },
+  "alpaca": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Alpaca"
+  },
+  "alpha_vantage": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Alpha Vantage"
+  },
+  "alt_text_lab": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AltTextLab"
+  },
+  "altoviz": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Altoviz"
+  },
+  "alttext_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AltText.ai"
+  },
+  "amara": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Amara"
+  },
+  "amazing_marvin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Amazing Marvin"
+  },
+  "amazon": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Amazon"
+  },
+  "ambee": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ambee"
+  },
+  "ambient_weather": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ambient Weather"
+  },
+  "ambiguous_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ambiguous MCP"
+  },
+  "amcards": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Amcards"
+  },
+  "amplitude": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Amplitude"
+  },
+  "amplitude_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Amplitude MCP"
+  },
+  "anakin_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Anakin"
+  },
+  "anaplan": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Anaplan"
+  },
+  "anchor_browser": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Anchor Browser"
+  },
+  "android_texter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Android Texter"
+  },
+  "anonyflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Anonyflow"
+  },
+  "anrok": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Anrok"
+  },
+  "anthropic_administrator": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Anthropic Administrator"
+  },
+  "any_db": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AnyDB"
+  },
+  "anyapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AnyAPI"
+  },
+  "apaleo": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Apaleo"
+  },
+  "apexverify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ApexVerify"
+  },
+  "api2pdf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "API2PDF"
+  },
+  "api_bible": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "API.Bible"
+  },
+  "api_labz": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "API Labz"
+  },
+  "api_ninjas": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "API Ninjas"
+  },
+  "api_sports": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "API-Sports"
+  },
+  "apiflash": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Apiflash"
+  },
+  "apiframe": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Apiframe"
+  },
+  "apify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Apify"
+  },
+  "apify_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Apify MCP"
+  },
+  "apilio": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Apilio"
+  },
+  "apipie_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "APIpie AI"
+  },
+  "apitemplate_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Apitemplate"
+  },
+  "apiverve": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Apiverve"
+  },
+  "apollo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Apollo"
+  },
+  "appcircle": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Appcircle"
+  },
+  "appdrag": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AppDrag"
+  },
+  "appfollow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AppFollow"
+  },
+  "appointo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Appointo"
+  },
+  "apptivegrid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ApptiveGrid"
+  },
+  "appveyor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Appveyor"
+  },
+  "archive_org": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Archive.org"
+  },
+  "arena": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Are.na"
+  },
+  "arize_ax": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Arize AX"
+  },
+  "artificial_analysis": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Artificial Analysis"
+  },
+  "aryn": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Aryn"
+  },
+  "asana": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Asana"
+  },
+  "ascora": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ascora"
+  },
+  "ashby": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ashby"
+  },
+  "asin_data_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ASIN Data API"
+  },
+  "assemblyai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AssemblyAI"
+  },
+  "astica_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Astica AI"
+  },
+  "async_interview": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Async Interview"
+  },
+  "atlassian_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Atlassian MCP"
+  },
+  "attio": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Attio"
+  },
+  "audd": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AudD"
+  },
+  "audioscrape_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Audioscrape MCP"
+  },
+  "authyo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Authyo"
+  },
+  "autobound": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Autobound"
+  },
+  "autom": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Autom"
+  },
+  "aviationstack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "AviationStack"
+  },
+  "aviato": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Aviato"
+  },
+  "avoma": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Avoma"
+  },
+  "aweber": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "AWeber"
+  },
+  "aws_marketplace_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "AWS Marketplace MCP"
+  },
+  "ayrshare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ayrshare"
+  },
+  "azure_blob_storage": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Azure Blob Storage"
+  },
+  "azure_devops": {
+    "authSchemes": [
+      "BASIC",
+      "OAUTH2"
+    ],
+    "name": "Azure DevOps"
+  },
+  "azure_monitor_activity_log": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Azure Monitor Activity Log"
+  },
+  "backendless": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Backendless"
+  },
+  "bamboohr": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "BambooHR"
+  },
+  "bannerbear": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bannerbear"
+  },
+  "bannerbite": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bannerbite"
+  },
+  "baremetrics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Baremetrics"
+  },
+  "bart": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bart"
+  },
+  "basecamp": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Basecamp"
+  },
+  "baselinker": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Baselinker"
+  },
+  "baserow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Baserow"
+  },
+  "basin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Basin"
+  },
+  "beach_day_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Beach Day API"
+  },
+  "beaconchain": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "beaconcha.in"
+  },
+  "beaconstac": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Beaconstac"
+  },
+  "beamer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Beamer"
+  },
+  "beatapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BeatAPI"
+  },
+  "beehiiv": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Beehiiv"
+  },
+  "beeminder": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Beeminder"
+  },
+  "bench": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Bench"
+  },
+  "benchmark_email": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Benchmark Email"
+  },
+  "benzinga": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Benzinga"
+  },
+  "bestbuy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bestbuy"
+  },
+  "better_proposals": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Better Proposals"
+  },
+  "better_stack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Better Stack"
+  },
+  "better_stack_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Better Stack MCP"
+  },
+  "bettercontact": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bettercontact"
+  },
+  "bexio": {
+    "authSchemes": [
+      "OAUTH2",
+      "BEARER_TOKEN"
+    ],
+    "name": "bexio"
+  },
+  "bfl": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Black Forest Labs"
+  },
+  "bidsketch": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bidsketch"
+  },
+  "big_data_cloud": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BigDataCloud"
+  },
+  "bigcommerce": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "BigCommerce"
+  },
+  "bigdata_com_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bigdata.com MCP"
+  },
+  "bigmailer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bigmailer"
+  },
+  "bigml": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bigml"
+  },
+  "bigpicture_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BigPicture.io"
+  },
+  "bika": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bika.ai"
+  },
+  "billsby": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Billsby"
+  },
+  "bing_webmaster_tools": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bing Webmaster Tools"
+  },
+  "bitbucket": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Bitbucket"
+  },
+  "bitly": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Bitly"
+  },
+  "bitquery": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bitquery"
+  },
+  "bitwarden": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Bitwarden"
+  },
+  "blackbaud": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Blackbaud"
+  },
+  "blackboard": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Blackboard"
+  },
+  "bland_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bland AI"
+  },
+  "blazemeter": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Blazemeter"
+  },
+  "blitz_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Blitz API"
+  },
+  "blocknative": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Blocknative"
+  },
+  "blooio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Blooio"
+  },
+  "bluebarry": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bluebarry"
+  },
+  "bluefox_email": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BlueFox Email"
+  },
+  "bluepillow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Blue Pillow Hotels & Stays"
+  },
+  "boldsign": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Boldsign"
+  },
+  "bolna": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bolna"
+  },
+  "boloforms": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Boloforms"
+  },
+  "bolt_iot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bolt Iot"
+  },
+  "bonsai": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Bonsai"
+  },
+  "bookingmood": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bookingmood"
+  },
+  "booqable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Booqable"
+  },
+  "borneo": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Borneo"
+  },
+  "botbaba": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Botbaba"
+  },
+  "botdog": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Botdog"
+  },
+  "botmape": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BotMape"
+  },
+  "botpenguin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BotPenguin"
+  },
+  "botpress": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Botpress"
+  },
+  "botsonic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Botsonic"
+  },
+  "botstar": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Botstar"
+  },
+  "botster": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Botster"
+  },
+  "bouncer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bouncer"
+  },
+  "bouncify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bouncify"
+  },
+  "box": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Box"
+  },
+  "box_mcp": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Box MCP"
+  },
+  "boxhero": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Boxhero"
+  },
+  "brain_graph": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BrainGraph"
+  },
+  "braintrust": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Braintrust"
+  },
+  "brandfetch": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Brandfetch"
+  },
+  "brave_search": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Brave Search"
+  },
+  "braze": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Braze"
+  },
+  "bread_butter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bread & Butter"
+  },
+  "breathehr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Breathe HR"
+  },
+  "breeze": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Breeze"
+  },
+  "breezy_hr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Breezy Hr"
+  },
+  "brevo": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Brevo"
+  },
+  "brex": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Brex"
+  },
+  "brightdata": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bright Data"
+  },
+  "brilliant_directories": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Brilliant Directories"
+  },
+  "browseai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Browseai"
+  },
+  "browser_use": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Browser Use"
+  },
+  "browseract": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BrowserAct"
+  },
+  "browserbase_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Browserbase MCP"
+  },
+  "browserbase_tool": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Browserbase"
+  },
+  "browserless": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Browserless"
+  },
+  "bsc_designer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BSC Designer"
+  },
+  "btcpay_server": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BTCPay Server"
+  },
+  "bubble": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bubble"
+  },
+  "buffer": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Buffer"
+  },
+  "bug_recorder": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bug Recorder"
+  },
+  "bugbug": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bugbug"
+  },
+  "bugherd": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bugherd"
+  },
+  "bugsnag": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bugsnag"
+  },
+  "builder_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Builder.io"
+  },
+  "buildkite": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Buildkite"
+  },
+  "builtwith": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BuiltWith"
+  },
+  "bulk_email_checker": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Bulk Email Checker"
+  },
+  "bulkpublish": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BulkPublish"
+  },
+  "bunnycdn": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BunnyCDN"
+  },
+  "byte_plus_ark": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "BytePlus Ark"
+  },
+  "byteforms": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Byteforms"
+  },
+  "cabinpanda": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cabinpanda"
+  },
+  "cal": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Cal"
+  },
+  "calendarhero": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CalendarHero"
+  },
+  "calendly": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Calendly"
+  },
+  "calendly_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Calendly MCP"
+  },
+  "callback24": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Callback24"
+  },
+  "callerapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Callerapi"
+  },
+  "callingly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Callingly"
+  },
+  "callonthego": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CallOnTheGo"
+  },
+  "callpage": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Callpage"
+  },
+  "camb_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CAMB.AI"
+  },
+  "campaign_cleaner": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Campaign Cleaner"
+  },
+  "campayn": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Campayn"
+  },
+  "candid_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Candid MCP"
+  },
+  "canny": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Canny"
+  },
+  "canva": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Canva"
+  },
+  "canva_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Canva MCP"
+  },
+  "canvas": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Canvas"
+  },
+  "capsolver": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CapSolver"
+  },
+  "capsule_crm": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Capsule CRM"
+  },
+  "captions": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Captions"
+  },
+  "capturekit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CaptureKit"
+  },
+  "carbon_voice_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Carbon Voice MCP"
+  },
+  "carbone": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Carbone"
+  },
+  "cardboard_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Cardboard MCP"
+  },
+  "cardclan": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CardClan"
+  },
+  "cardly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cardly"
+  },
+  "carsxe": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CarsXE"
+  },
+  "carta": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Carta"
+  },
+  "cartesia": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cartesia"
+  },
+  "cashfree_payments_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Cashfree MCP"
+  },
+  "castingwords": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Castingwords"
+  },
+  "cats": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cats"
+  },
+  "cb_insights": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CB Insights"
+  },
+  "cdr_platform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cdr Platform"
+  },
+  "celigo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Celigo"
+  },
+  "census_bureau": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Census Bureau"
+  },
+  "centralstationcrm": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CentralStationCRM"
+  },
+  "ceramic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ceramic"
+  },
+  "cert_seal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CertSeal"
+  },
+  "certifier": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Certifier"
+  },
+  "chameleon": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chameleon"
+  },
+  "charla": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Charla"
+  },
+  "chartly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chartly"
+  },
+  "chartmogul": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ChartMogul"
+  },
+  "chaser": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chaser"
+  },
+  "chatbotkit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chatbotkit"
+  },
+  "chatfai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chatfai"
+  },
+  "chatforma": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chatforma"
+  },
+  "chatwork": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chatwork"
+  },
+  "check_cherry": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Check Cherry"
+  },
+  "checkflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CheckFlow"
+  },
+  "checkvist": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Checkvist"
+  },
+  "chmeetings": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Chmeetings"
+  },
+  "cincopa": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cincopa"
+  },
+  "circleback_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Circleback MCP"
+  },
+  "circleci": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CircleCI"
+  },
+  "claid_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Claid.ai"
+  },
+  "clarify_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Clarify MCP"
+  },
+  "clarity_ai_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Clarity AI MCP"
+  },
+  "classmarker": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Classmarker"
+  },
+  "clay": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Clay"
+  },
+  "clay_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Clay MCP"
+  },
+  "clearout": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Clearout"
+  },
+  "clerkfield": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Clerkfield"
+  },
+  "cleverreach": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "CleverReach"
+  },
+  "clickfunnels": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "ClickFunnels 2.0"
+  },
+  "clickhouse": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "ClickHouse"
+  },
+  "clickhouse_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "ClickHouse MCP"
+  },
+  "clickmeeting": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Clickmeeting"
+  },
+  "clicksend": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "ClickSend"
+  },
+  "clickup": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "ClickUp"
+  },
+  "clickup_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "ClickUp MCP"
+  },
+  "clientary": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Clientary"
+  },
+  "clio_manage": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Clio Manage"
+  },
+  "clockify": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Clockify"
+  },
+  "cloro": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloro"
+  },
+  "close": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Close"
+  },
+  "close_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Close MCP"
+  },
+  "cloud_66": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Cloud 66"
+  },
+  "cloud_pdf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CloudPDF"
+  },
+  "cloudcart": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudcart"
+  },
+  "cloudconvert": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CloudConvert"
+  },
+  "cloudflare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudflare"
+  },
+  "cloudflare_api_key": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudflare Api Key"
+  },
+  "cloudflare_browser_rendering": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudflare Browser Rendering"
+  },
+  "cloudflare_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Cloudflare MCP"
+  },
+  "cloudinary": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudinary"
+  },
+  "cloudlayer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudlayer"
+  },
+  "cloudpress": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudpress"
+  },
+  "cloudsmith": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cloudsmith"
+  },
+  "clover": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Clover"
+  },
+  "clueso_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Clueso MCP"
+  },
+  "coassemble": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Coassemble"
+  },
+  "coda": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Coda"
+  },
+  "codacy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Codacy"
+  },
+  "codemagic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Codemagic"
+  },
+  "codereadr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Codereadr"
+  },
+  "cody": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cody"
+  },
+  "cohere": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cohere"
+  },
+  "coinbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Coinbase"
+  },
+  "coinbase_agents_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Coinbase Agents MCP"
+  },
+  "coinbase_wallet_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Coinbase Wallet MCP"
+  },
+  "coingecko": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CoinGecko"
+  },
+  "coinmarketcal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CoinMarketCal"
+  },
+  "coinmarketcap": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CoinMarketCap"
+  },
+  "coinranking": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Coinranking"
+  },
+  "college_football_data": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "College Football Data"
+  },
+  "cometapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CometAPI"
+  },
+  "commcare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CommCare"
+  },
+  "commerce_layer": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Commerce Layer"
+  },
+  "common_room_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Common Room MCP"
+  },
+  "company_url_finder": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Company URL Finder"
+  },
+  "companycam": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CompanyCam"
+  },
+  "companyenrich": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CompanyEnrich"
+  },
+  "compdf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ComPDF"
+  },
+  "composio": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Composio"
+  },
+  "conductor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Conductor"
+  },
+  "configcat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ConfigCat"
+  },
+  "confluence": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Confluence"
+  },
+  "connecteam": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Connecteam"
+  },
+  "consensus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Consensus"
+  },
+  "consensus_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Consensus MCP"
+  },
+  "constant_contact": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Constant Contact"
+  },
+  "contactout": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ContactOut"
+  },
+  "contacts_plus": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Contacts+"
+  },
+  "content_studio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ContentStudio"
+  },
+  "contentdrips": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Contentdrips"
+  },
+  "contentful": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Contentful"
+  },
+  "contentful_graphql": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Contentful Graphql"
+  },
+  "contentsquare_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Contentsquare MCP"
+  },
+  "context7_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Context7 MCP"
+  },
+  "context_dev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Context.dev"
+  },
+  "contractbook": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Contractbook"
+  },
+  "control_d": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Control D"
+  },
+  "conversion_tools": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Conversion Tools"
+  },
+  "convertapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Convertapi"
+  },
+  "convex": {
+    "authSchemes": [
+      "API_KEY",
+      "BEARER_TOKEN"
+    ],
+    "name": "Convex"
+  },
+  "conveyor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Conveyor"
+  },
+  "convolo_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Convolo AI"
+  },
+  "copper": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Copper"
+  },
+  "copyleaks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Copyleaks"
+  },
+  "coresignal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Coresignal"
+  },
+  "corrently": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Corrently"
+  },
+  "countdown_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Countdown API"
+  },
+  "coupa": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Coupa"
+  },
+  "cradl_ai": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Cradl AI"
+  },
+  "craft_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Craft MCP"
+  },
+  "craftmypdf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Craftmypdf"
+  },
+  "crawl4ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Crawl4AI"
+  },
+  "crawlbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Crawlbase"
+  },
+  "creatomate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Creatomate"
+  },
+  "creem": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Creem"
+  },
+  "crew_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CrewAI"
+  },
+  "crisp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Crisp"
+  },
+  "cronfree_time_scheduler": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cronfree Time Scheduler"
+  },
+  "cronly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cronly"
+  },
+  "crowdin": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Crowdin"
+  },
+  "crowterminal": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "CrowTerminal"
+  },
+  "crunchbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Crunchbase"
+  },
+  "crustdata": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Crustdata"
+  },
+  "csvbox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CSVBox"
+  },
+  "cults": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cults"
+  },
+  "curated": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Curated"
+  },
+  "currencyapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Currencyapi"
+  },
+  "currencyscoop": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "CurrencyScoop"
+  },
+  "currents_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Currents API"
+  },
+  "cursor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cursor"
+  },
+  "customerio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Customer.io"
+  },
+  "customerio_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Customer.io MCP"
+  },
+  "customgpt": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Customgpt"
+  },
+  "customjs": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Customjs"
+  },
+  "cutt_ly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Cutt.ly"
+  },
+  "cve_now_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "cve.now MCP"
+  },
+  "d2lbrightspace": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "D2L Brightspace"
+  },
+  "dadata_ru": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DaData.ru"
+  },
+  "daffy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Daffy"
+  },
+  "daily": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Daily"
+  },
+  "dailybot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dailybot"
+  },
+  "dart": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Dart"
+  },
+  "data247": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Data247"
+  },
+  "databox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Databox"
+  },
+  "databricks": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Databricks"
+  },
+  "datadog": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY",
+      "BEARER_TOKEN"
+    ],
+    "name": "Datadog"
+  },
+  "datadog_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Datadog MCP"
+  },
+  "dataforb2b": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DataForB2B"
+  },
+  "dataforseo": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "DataForSEO"
+  },
+  "datagma": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Datagma"
+  },
+  "datarobot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DataRobot"
+  },
+  "datascope": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Datascope"
+  },
+  "daytona": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Daytona"
+  },
+  "dbt_cloud": {
+    "authSchemes": [
+      "BEARER_TOKEN",
+      "OAUTH2"
+    ],
+    "name": "dbt Cloud"
+  },
+  "deadline_funnel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Deadline Funnel"
+  },
+  "debitura": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Debitura"
+  },
+  "debounce": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DeBounce"
+  },
+  "deel": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Deel"
+  },
+  "deepgram": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Deepgram"
+  },
+  "deepimage": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DeepImage"
+  },
+  "deepl_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "DeepL MCP"
+  },
+  "deepseek": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DeepSeek"
+  },
+  "deepwiki_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "DeepWiki MCP"
+  },
+  "delighted": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Delighted"
+  },
+  "demio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Demio"
+  },
+  "deployhq": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "DeployHQ"
+  },
+  "deputy": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Deputy"
+  },
+  "descope": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Descope"
+  },
+  "descript_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Descript MCP"
+  },
+  "desktime": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DeskTime"
+  },
+  "details_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Details MCP"
+  },
+  "detrack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Detrack"
+  },
+  "dev_cycle": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "DevCycle"
+  },
+  "devin_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Devin MCP"
+  },
+  "devolens": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Devolens / Cryptolens"
+  },
+  "devto": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DEV Community"
+  },
+  "dialmycalls": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dialmycalls"
+  },
+  "dialpad": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Dialpad"
+  },
+  "dice_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Dice MCP"
+  },
+  "dictionary_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dictionary Api"
+  },
+  "didit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Didit"
+  },
+  "diffbot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Diffbot"
+  },
+  "dify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dify"
+  },
+  "digicert": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Digicert"
+  },
+  "digital_humani": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Digital Humani"
+  },
+  "digital_ocean": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "DigitalOcean"
+  },
+  "directiq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DirectIQ"
+  },
+  "discord": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Discord"
+  },
+  "discordbot": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Discord Bot"
+  },
+  "disqus": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Disqus"
+  },
+  "dnsfilter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dnsfilter"
+  },
+  "dock_certs": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dock Certs"
+  },
+  "docker_hub": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docker Hub"
+  },
+  "docmosis": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docmosis"
+  },
+  "docnify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docnify"
+  },
+  "docparser": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docparser"
+  },
+  "docraptor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocRaptor"
+  },
+  "docsautomator": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docsautomator"
+  },
+  "docsbot_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocsBot AI"
+  },
+  "docsumo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docsumo"
+  },
+  "docugenerate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocuGenerate"
+  },
+  "documenso": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Documenso"
+  },
+  "documentero": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Documentero"
+  },
+  "documint": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Documint"
+  },
+  "docupilot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Docupilot"
+  },
+  "docupipe": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocuPipe"
+  },
+  "docupost": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocuPost"
+  },
+  "docupotion": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocuPotion"
+  },
+  "docuseal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "DocuSeal"
+  },
+  "docusign": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "DocuSign"
+  },
+  "domotz_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Domotz MCP"
+  },
+  "donately": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Donately"
+  },
+  "doppler": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Doppler"
+  },
+  "doppler_marketing_automation": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Doppler Marketing Automation"
+  },
+  "doppler_secretops": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Doppler SecretOps"
+  },
+  "dotsimple": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dotsimple"
+  },
+  "dovetail": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dovetail"
+  },
+  "dpd2": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dpd2"
+  },
+  "draftable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Draftable"
+  },
+  "dreamstudio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dreamstudio"
+  },
+  "dribbble": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Dribbble"
+  },
+  "dripcel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dripcel"
+  },
+  "dromo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dromo"
+  },
+  "drop_to_cdn": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Drop to CDN"
+  },
+  "dropbox": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Dropbox"
+  },
+  "dropbox_sign": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Dropbox Sign"
+  },
+  "dropcontact": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dropcontact"
+  },
+  "dropleads": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dropleads"
+  },
+  "dub": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Dub"
+  },
+  "dungeon_fighter_online": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dungeon Fighter Online"
+  },
+  "dynamic_mockups": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dynamic Mockups"
+  },
+  "dynamics365": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Dynamics 365"
+  },
+  "dynapictures": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dynapictures"
+  },
+  "dynatrace": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Dynatrace"
+  },
+  "dynosend": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Dynosend"
+  },
+  "e2b": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "E2B"
+  },
+  "eagle_doc": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eagle doc"
+  },
+  "easy_email_verification": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Easy Email Verification"
+  },
+  "ebay": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "eBay"
+  },
+  "echtpost": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Echtpost"
+  },
+  "ecologi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ecologi"
+  },
+  "eden_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eden AI"
+  },
+  "edworking": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Edworking"
+  },
+  "egnyte": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Egnyte"
+  },
+  "elai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Elai"
+  },
+  "elastic_email": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Elastic Email"
+  },
+  "elasticsearch": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Elasticsearch"
+  },
+  "electricity_maps": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Electricity Maps"
+  },
+  "eledo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eledo PDF"
+  },
+  "elevenlabs": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ElevenLabs"
+  },
+  "elevenreader": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Elevenreader"
+  },
+  "elorus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Elorus"
+  },
+  "emailable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Emailable"
+  },
+  "emaillistverify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Emaillistverify"
+  },
+  "emailoctopus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "EmailOctopus"
+  },
+  "emailvalidation": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Emailvalidation"
+  },
+  "emelia": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Emelia"
+  },
+  "encodian": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Encodian"
+  },
+  "endorsal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Endorsal"
+  },
+  "enforcedflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "EnforcedFlow"
+  },
+  "engage": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Engage"
+  },
+  "engage_platform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Engage Platform"
+  },
+  "enginemailer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Enginemailer"
+  },
+  "enigma": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Enigma"
+  },
+  "enrich": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Enrich"
+  },
+  "enrich_layer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Enrich Layer"
+  },
+  "entelligence": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Entelligence"
+  },
+  "eodhd_apis": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "EODHD APIs"
+  },
+  "epic_games": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Epic Games"
+  },
+  "era_context_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Era Context MCP"
+  },
+  "eranol": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eranol"
+  },
+  "eraser_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Eraser MCP"
+  },
+  "erpnext": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Erpnext"
+  },
+  "esignatures": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "eSignatures"
+  },
+  "esignatures_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "eSignatures.io"
+  },
+  "espocrm": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Espocrm"
+  },
+  "esputnik": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Esputnik"
+  },
+  "etermin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Etermin"
+  },
+  "etherscan": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Etherscan"
+  },
+  "evenium": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Evenium"
+  },
+  "eventbrite": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Eventbrite"
+  },
+  "eventee": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eventee"
+  },
+  "eventzilla": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eventzilla"
+  },
+  "everhour": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Everhour"
+  },
+  "eversign": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Eversign"
+  },
+  "exa": {
+    "authSchemes": [
+      "API_KEY",
+      "BEARER_TOKEN"
+    ],
+    "name": "Exa"
+  },
+  "excalidraw_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Excalidraw MCP"
+  },
+  "excel": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Excel"
+  },
+  "exceptionless": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Exceptionless"
+  },
+  "exist": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Exist"
+  },
+  "explorium": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Explorium"
+  },
+  "explorium_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Explorium MCP"
+  },
+  "expofp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Expofp"
+  },
+  "extracta_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Extracta.ai"
+  },
+  "extrovert": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Extrovert"
+  },
+  "facebook": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Facebook"
+  },
+  "faceup": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Faceup"
+  },
+  "fairing": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fairing"
+  },
+  "fal_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fal.ai"
+  },
+  "faraday": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Faraday"
+  },
+  "fathom": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Fathom"
+  },
+  "feathery": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Feathery"
+  },
+  "feedbear": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FeedBear"
+  },
+  "fellow_ai_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Fellow.ai MCP"
+  },
+  "felt": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Felt"
+  },
+  "fiber": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fiber"
+  },
+  "fibery": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fibery"
+  },
+  "fidel_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fidel API"
+  },
+  "figma": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Figma"
+  },
+  "files_com": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Files.com"
+  },
+  "filetopdf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FileToPDF.dev"
+  },
+  "fillout_forms": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fillout Forms"
+  },
+  "finage": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finage"
+  },
+  "financial_datasets_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Financial Datasets"
+  },
+  "financial_datasets_ai_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Financial Datasets AI MCP"
+  },
+  "findymail": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Findymail"
+  },
+  "finerworks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finerworks"
+  },
+  "fingertip": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fingertip"
+  },
+  "finlight": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finlight"
+  },
+  "finmei": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finmei"
+  },
+  "finmo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finmo"
+  },
+  "finnhub": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finnhub"
+  },
+  "finviz": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Finviz"
+  },
+  "firebase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Firebase"
+  },
+  "fireberry": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fireberry"
+  },
+  "firecrawl": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Firecrawl"
+  },
+  "fireflies": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fireflies"
+  },
+  "fireworks_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fireworks AI"
+  },
+  "firmable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Firmable"
+  },
+  "firmao": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Firmao"
+  },
+  "fish_audio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fish Audio"
+  },
+  "fixer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fixer"
+  },
+  "fixer_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fixer.io"
+  },
+  "flatfile": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Flatfile"
+  },
+  "fleetio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fleetio"
+  },
+  "flexisign": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Flexisign"
+  },
+  "float": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Float"
+  },
+  "flotiq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Flotiq"
+  },
+  "flowiseai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Flowiseai"
+  },
+  "flutterwave": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Flutterwave"
+  },
+  "fluxguard": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fluxguard"
+  },
+  "fly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fly"
+  },
+  "folk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Folk"
+  },
+  "follow_up_boss": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Follow Up Boss"
+  },
+  "fomo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Fomo"
+  },
+  "forcemanager": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Forcemanager"
+  },
+  "formbricks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Formbricks"
+  },
+  "formcarry": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Formcarry"
+  },
+  "formcrafts": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Formcrafts"
+  },
+  "formdesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Formdesk"
+  },
+  "formilla": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Formilla"
+  },
+  "formsite": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Formsite"
+  },
+  "foursquare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Foursquare"
+  },
+  "frame_io_v4": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Frame.io V4"
+  },
+  "framer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Framer"
+  },
+  "fraudlabs_pro": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FraudLabs Pro"
+  },
+  "freeagent": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Freeagent"
+  },
+  "freee": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "freee"
+  },
+  "freshbooks": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "FreshBooks"
+  },
+  "freshdesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Freshdesk"
+  },
+  "freshsales": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Freshsales"
+  },
+  "freshservice": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Freshservice"
+  },
+  "front": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Front"
+  },
+  "fullenrich": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FullEnrich"
+  },
+  "fullstory": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FullStory"
+  },
+  "fuseai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FuseAI"
+  },
+  "fuseai_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "FuseAI MCP"
+  },
+  "fusedesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FuseDesk"
+  },
+  "futureagi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "FutureAGI"
+  },
+  "fynk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "fynk"
+  },
+  "gagelist": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Gagelist"
+  },
+  "gamma": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gamma"
+  },
+  "gan_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gan.AI"
+  },
+  "gatherup": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gatherup"
+  },
+  "geekflare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Geekflare"
+  },
+  "gelato": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gelato"
+  },
+  "gemini": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gemini"
+  },
+  "gender_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gender API"
+  },
+  "genderapi_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GenderAPI.io"
+  },
+  "genderize": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Genderize"
+  },
+  "geoapify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Geoapify"
+  },
+  "geocodio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Geocodio"
+  },
+  "geokeo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Geokeo"
+  },
+  "get_transcribe": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GetTranscribe"
+  },
+  "getanyapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GetAnyAPI"
+  },
+  "getform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Getform"
+  },
+  "getprospect": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Getprospect"
+  },
+  "getresponse": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "GetResponse"
+  },
+  "gift_up": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gift Up!"
+  },
+  "gigasheet": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gigasheet"
+  },
+  "giphy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Giphy"
+  },
+  "gist": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gist"
+  },
+  "gitea": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gitea"
+  },
+  "github": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "GitHub"
+  },
+  "github_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GitHub MCP"
+  },
+  "gitlab": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "GitLab"
+  },
+  "givebutter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Givebutter"
+  },
+  "gladia": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gladia"
+  },
+  "glasp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Glasp"
+  },
+  "gleap": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gleap"
+  },
+  "gleif": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "GLEIF API"
+  },
+  "glen_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Glen MCP"
+  },
+  "glide_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Glide MCP"
+  },
+  "globalping": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Globalping"
+  },
+  "gmail": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Gmail"
+  },
+  "go_table": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GoTable"
+  },
+  "go_to_training": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "GoTo Training"
+  },
+  "gocardless_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "GoCardless MCP"
+  },
+  "godaddy_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "GoDaddy MCP"
+  },
+  "godial": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Godial"
+  },
+  "gofile": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GoFile"
+  },
+  "gong": {
+    "authSchemes": [
+      "BASIC",
+      "OAUTH2"
+    ],
+    "name": "Gong"
+  },
+  "goodapi_plant_trees": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GoodAPI: Plant Trees"
+  },
+  "goodbits": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Goodbits"
+  },
+  "goody": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Goody"
+  },
+  "google_address_validation": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Google Address Validation"
+  },
+  "google_admin": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Admin"
+  },
+  "google_adsense": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google AdSense"
+  },
+  "google_analytics": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Analytics"
+  },
+  "google_business_profile": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Business Profile"
+  },
+  "google_chat": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Chat"
+  },
+  "google_classroom": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Classroom"
+  },
+  "google_cloud_vision": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Google Cloud Vision"
+  },
+  "google_data_studio": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Data Studio"
+  },
+  "google_maps": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Google Maps"
+  },
+  "google_merchant": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Merchant Center"
+  },
+  "google_search_console": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Search Console"
+  },
+  "google_stitch": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Google Stitch"
+  },
+  "googleads": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Ads"
+  },
+  "googlebigquery": {
+    "authSchemes": [
+      "OAUTH2",
+      "GOOGLE_SERVICE_ACCOUNT"
+    ],
+    "name": "Google BigQuery"
+  },
+  "googlecalendar": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Calendar"
+  },
+  "googlecontacts": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Googlecontacts"
+  },
+  "googledocs": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Docs"
+  },
+  "googledrive": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Drive"
+  },
+  "googleforms": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Googleforms"
+  },
+  "googlemeet": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Meet"
+  },
+  "googlephotos": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Photos"
+  },
+  "googlesheets": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Sheets"
+  },
+  "googleslides": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Slides"
+  },
+  "googlesuper": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Google Super"
+  },
+  "googletasks": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Google Tasks"
+  },
+  "gorgias": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Gorgias"
+  },
+  "gorilladesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GorillaDesk"
+  },
+  "gosquared": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gosquared"
+  },
+  "gptbots": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GPTBots"
+  },
+  "gradium": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Gradium"
+  },
+  "grafana": {
+    "authSchemes": [
+      "BEARER_TOKEN"
+    ],
+    "name": "Grafana"
+  },
+  "grafana_cloud_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Grafana Cloud MCP"
+  },
+  "grafbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Grafbase"
+  },
+  "grain": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Grain"
+  },
+  "granola_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Granola MCP"
+  },
+  "granted_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Granted MCP"
+  },
+  "graphhopper": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GraphHopper"
+  },
+  "greenhouse": {
+    "authSchemes": [
+      "S2S_OAUTH2",
+      "OAUTH2"
+    ],
+    "name": "Greenhouse"
+  },
+  "greptile_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Greptile MCP"
+  },
+  "greynoise": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GreyNoise"
+  },
+  "griptape": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Griptape"
+  },
+  "grist": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Grist"
+  },
+  "grok": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Grok"
+  },
+  "groqcloud": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GroqCloud"
+  },
+  "gtmetrix": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "GTmetrix"
+  },
+  "gumroad": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Gumroad"
+  },
+  "gusto": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Gusto"
+  },
+  "habitica": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Habitica"
+  },
+  "hackernews": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Hacker News"
+  },
+  "hackerrank_work": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HackerRank Work"
+  },
+  "hackmd": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HackMD"
+  },
+  "halopsa": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "HaloPSA"
+  },
+  "handwrite": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Handwrite.io"
+  },
+  "handwrytten": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Handwrytten"
+  },
+  "happy_scribe": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Happy Scribe"
+  },
+  "harmonic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Harmonic"
+  },
+  "harness": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Harness"
+  },
+  "harvest": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Harvest"
+  },
+  "harvestapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HarvestAPI"
+  },
+  "harvey": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Harvey"
+  },
+  "hashnode": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hashnode"
+  },
+  "headout": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Headout"
+  },
+  "heartbeat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Heartbeat"
+  },
+  "heights_platform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Heights Platform"
+  },
+  "hello_tracks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HelloTracks"
+  },
+  "helloleads": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Helloleads"
+  },
+  "help_scout": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Help Scout"
+  },
+  "help_spot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HelpSpot"
+  },
+  "helpdesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Helpdesk"
+  },
+  "helpwise": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Helpwise"
+  },
+  "here": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HERE"
+  },
+  "hex": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hex"
+  },
+  "heygen": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HeyGen"
+  },
+  "heyreach": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Heyreach"
+  },
+  "heyy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Heyy"
+  },
+  "heyzine": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Heyzine"
+  },
+  "hibob": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HiBob"
+  },
+  "higgsfield": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Higgsfield"
+  },
+  "higgsfield_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Higgsfield MCP"
+  },
+  "highergov": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Highergov"
+  },
+  "highlevel_agency": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "HighLevel Agency"
+  },
+  "highlevel_location": {
+    "authSchemes": [
+      "OAUTH2",
+      "BEARER_TOKEN"
+    ],
+    "name": "HighLevel Location"
+  },
+  "highlevel_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HighLevel MCP"
+  },
+  "hireflix": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hireflix"
+  },
+  "hitl": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Human Approval - HITL Platform"
+  },
+  "hitpay": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HitPay"
+  },
+  "hive": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hive"
+  },
+  "hjarni": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hjarni"
+  },
+  "hlr_lookup": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HLR Lookup"
+  },
+  "holded": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Holded"
+  },
+  "honcho": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Honcho"
+  },
+  "honeybadger": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Honeybadger"
+  },
+  "honeycomb_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Honeycomb MCP"
+  },
+  "honeyhive": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Honeyhive"
+  },
+  "hookdeck": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hookdeck"
+  },
+  "hostinger": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hostinger"
+  },
+  "hotspotsystem": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hotspotsystem"
+  },
+  "housecall_pro": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Housecall Pro"
+  },
+  "hr_partner": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HR Partner"
+  },
+  "html_to_image": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HTML to Image"
+  },
+  "htmlcss_to_image": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HTML/CSS to Image"
+  },
+  "hub_planner": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hub Planner"
+  },
+  "hubspot": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "HubSpot"
+  },
+  "hugging_face": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Hugging Face"
+  },
+  "humanitix": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Humanitix"
+  },
+  "humanloop": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Humanloop"
+  },
+  "hunter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hunter"
+  },
+  "hydradb": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "HydraDB"
+  },
+  "hypeauditor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hypeauditor"
+  },
+  "hyperbrowser": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hyperbrowser"
+  },
+  "hyperise": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hyperise"
+  },
+  "hypotize": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hypotize"
+  },
+  "hystruct": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Hystruct"
+  },
+  "i_love_pdf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "iLovePDF"
+  },
+  "ibm_x_force_exchange": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IBM X-Force Exchange"
+  },
+  "icons8": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Icons8"
+  },
+  "icypeas": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Icypeas"
+  },
+  "idealpostcodes": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ideal Postcodes"
+  },
+  "identitycheck": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Identitycheck"
+  },
+  "ignav_flights": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ignav Flights"
+  },
+  "ignav_flights_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Ignav Flights MCP"
+  },
+  "ignisign": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ignisign"
+  },
+  "ilert": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "iLert"
+  },
+  "imagekit_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ImageKit"
+  },
+  "imagerouter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ImageRouter"
+  },
+  "imagior": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Imagior"
+  },
+  "imejis_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Imejis.io"
+  },
+  "imgbb": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ImgBB"
+  },
+  "imgix": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Imgix"
+  },
+  "imply_polaris": {
+    "authSchemes": [
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "name": "Imply Polaris"
+  },
+  "inblog": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Inblog"
+  },
+  "incident_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "incident.io"
+  },
+  "infisical": {
+    "authSchemes": [
+      "OAUTH2",
+      "BEARER_TOKEN"
+    ],
+    "name": "Infisical"
+  },
+  "influxdb_cloud": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "InfluxDB Cloud"
+  },
+  "inistate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Inistate"
+  },
+  "insighto_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Insighto.ai"
+  },
+  "inspo_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Inspo MCP"
+  },
+  "instagram": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Instagram"
+  },
+  "instantly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Instantly"
+  },
+  "instatus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Instatus"
+  },
+  "intelliprint": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Intelliprint"
+  },
+  "intercom": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Intercom"
+  },
+  "intercom_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Intercom MCP"
+  },
+  "interzoid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Interzoid"
+  },
+  "interzoid_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Interzoid MCP"
+  },
+  "invalid_bounce": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Invalid Bounce"
+  },
+  "invofox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Invofox"
+  },
+  "inworld_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Inworld AI"
+  },
+  "ip2location": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ip2Location"
+  },
+  "ip2location_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IP2Location.io"
+  },
+  "ip2proxy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ip2Proxy"
+  },
+  "ip2whois": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ip2Whois"
+  },
+  "ip_registry": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IPRegistry"
+  },
+  "ipdata_co": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ipdata.co"
+  },
+  "ipgeolocation": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IPGeolocation.io"
+  },
+  "ipinfo_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IPinfo"
+  },
+  "iplocate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IPLocate"
+  },
+  "iqair_airvisual": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "IQAir AirVisual"
+  },
+  "ironclad": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Ironclad"
+  },
+  "iterable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Iterable"
+  },
+  "iterate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Iterate"
+  },
+  "itm_platform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ITM Platform"
+  },
+  "jam": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jam"
+  },
+  "jentic_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Jentic MCP"
+  },
+  "jev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jev"
+  },
+  "jibble": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Jibble"
+  },
+  "jigsawstack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jigsawstack"
+  },
+  "jinko": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jinko"
+  },
+  "jira": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Jira"
+  },
+  "job_search": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Job Search"
+  },
+  "jobber": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Jobber"
+  },
+  "jobnimbus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "JobNimbus"
+  },
+  "jogg_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "JoggAI"
+  },
+  "jotform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jotform"
+  },
+  "jotform_sign": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jotform Sign"
+  },
+  "judge_me": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Judge.me"
+  },
+  "jumpcloud": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "JumpCloud"
+  },
+  "junglescout": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Jungle Scout"
+  },
+  "just_one_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Just One API"
+  },
+  "kadoa": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kadoa"
+  },
+  "kaggle": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kaggle"
+  },
+  "kajabi": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Kajabi"
+  },
+  "kaleido": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kaleido"
+  },
+  "kanban_tool": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kanban Tool"
+  },
+  "kanbanize": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kanbanize"
+  },
+  "kapso": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kapso"
+  },
+  "keen_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Keen.io"
+  },
+  "keenable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Keenable"
+  },
+  "keiki_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Keiki MCP"
+  },
+  "kernel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kernel"
+  },
+  "kernel_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Kernel MCP"
+  },
+  "keyword": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Keyword"
+  },
+  "keyzy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Keyzy"
+  },
+  "kibana": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Kibana"
+  },
+  "kick": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Kick"
+  },
+  "kickbox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kickbox"
+  },
+  "kieai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kieai"
+  },
+  "kintone": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kintone"
+  },
+  "kintone_rest": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Kintone REST"
+  },
+  "kit": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Kit"
+  },
+  "kitt": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kitt AI"
+  },
+  "klarna": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Klarna"
+  },
+  "klaviyo": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Klaviyo"
+  },
+  "klazify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Klazify"
+  },
+  "klipfolio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Klipfolio"
+  },
+  "knack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Knack"
+  },
+  "ko_fi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ko-fi"
+  },
+  "kobotoolbox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "KoboToolbox"
+  },
+  "kommo": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Kommo"
+  },
+  "kommunicate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kommunicate"
+  },
+  "kontent_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kontent.ai"
+  },
+  "kraken_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Kraken.io"
+  },
+  "l2s": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "L2s"
+  },
+  "labs64_netlicensing": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Labs64 NetLicensing"
+  },
+  "labsmobile": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "LabsMobile"
+  },
+  "lagrowthmachine": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "La Growth Machine"
+  },
+  "lakera_guard": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lakera Guard"
+  },
+  "landbot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Landbot"
+  },
+  "langbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Langbase"
+  },
+  "langfuse": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Langfuse"
+  },
+  "laposta": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Laposta"
+  },
+  "lark": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Lark"
+  },
+  "launch_darkly": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "LaunchDarkly"
+  },
+  "layerre": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Layerre"
+  },
+  "lc_cx": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "lc.cx"
+  },
+  "leadboxer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LeadBoxer"
+  },
+  "leadfeeder": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Leadfeeder"
+  },
+  "leadiq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LeadIQ"
+  },
+  "leadmagic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LeadMagic"
+  },
+  "leadoku": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Leadoku"
+  },
+  "leadsforge": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Leadsforge"
+  },
+  "leexi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Leexi"
+  },
+  "legal_data_hunter_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Legal Data Hunter MCP"
+  },
+  "leiga": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Leiga"
+  },
+  "lemlist": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lemlist"
+  },
+  "lemon_squeezy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lemon Squeezy"
+  },
+  "lessonspace": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lessonspace"
+  },
+  "lettr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lettr"
+  },
+  "lever": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Lever"
+  },
+  "leverly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Leverly"
+  },
+  "lexoffice": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lexoffice"
+  },
+  "lightspeed": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Lightspeed Retail X-Series"
+  },
+  "lilt_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "LILT MCP"
+  },
+  "limadata": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LimaData"
+  },
+  "line": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LINE"
+  },
+  "linear": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Linear"
+  },
+  "linear_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Linear MCP"
+  },
+  "linguapop": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Linguapop"
+  },
+  "linguin_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Linguin AI"
+  },
+  "link_twin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LinkTwin"
+  },
+  "linkedin": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "LinkedIn"
+  },
+  "linkedin_ads": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Linkedin Ads"
+  },
+  "linkhut": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Linkhut"
+  },
+  "linkly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Linkly"
+  },
+  "linkup": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Linkup"
+  },
+  "linode": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Linode"
+  },
+  "linq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Linq"
+  },
+  "listclean": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Listclean"
+  },
+  "listennotes": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Listen Notes"
+  },
+  "livechat": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "LiveChat"
+  },
+  "livesession": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Livesession"
+  },
+  "llm_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LLM API"
+  },
+  "llmwhisperer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LLMWhisperer"
+  },
+  "lmnt": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "LMNT"
+  },
+  "lob": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lob"
+  },
+  "lodgify": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Lodgify"
+  },
+  "logo_dev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Logo.dev"
+  },
+  "lokalise": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lokalise"
+  },
+  "longbridge_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Longbridge MCP"
+  },
+  "loomio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Loomio"
+  },
+  "loops_so": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Loops.so"
+  },
+  "loyverse": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Loyverse"
+  },
+  "lucid_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Lucid MCP"
+  },
+  "luma_labs": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Luma Labs"
+  },
+  "lumify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lumify"
+  },
+  "lusha": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lusha"
+  },
+  "lyzr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Lyzr"
+  },
+  "magic_hour": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Magic Hour"
+  },
+  "magic_patterns_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Magic Patterns MCP"
+  },
+  "magicslides": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MagicSlides"
+  },
+  "magnetic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Magnetic"
+  },
+  "mail_channels": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailChannels"
+  },
+  "mail_up": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "MailUp"
+  },
+  "mailbluster": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailBluster"
+  },
+  "mailboxlayer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mailboxlayer"
+  },
+  "mailboxvalidator": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailboxValidator"
+  },
+  "mailcheck": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mailcheck"
+  },
+  "mailchimp": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Mailchimp"
+  },
+  "mailcoach": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mailcoach"
+  },
+  "maildroppa": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Maildroppa"
+  },
+  "mailercheck": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailerCheck"
+  },
+  "mailercloud": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mailercloud"
+  },
+  "mailerlite": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailerLite"
+  },
+  "mailersend": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailerSend"
+  },
+  "mailfloss": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "mailfloss"
+  },
+  "mails_so": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mails.so"
+  },
+  "mailslurp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailSlurp"
+  },
+  "mailsoftly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mailsoftly"
+  },
+  "mailtrap": {
+    "authSchemes": [
+      "BEARER_TOKEN"
+    ],
+    "name": "Mailtrap"
+  },
+  "mailvalid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailValid"
+  },
+  "mailveri": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MailVeri"
+  },
+  "maintainx": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Maintainx"
+  },
+  "make": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Make"
+  },
+  "malwarebytes_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Malwarebytes MCP"
+  },
+  "manus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Manus"
+  },
+  "many_chat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ManyChat"
+  },
+  "manyreach": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ManyReach"
+  },
+  "mapbox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mapbox"
+  },
+  "mapflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mapflow.ai"
+  },
+  "mapulus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mapulus"
+  },
+  "marcopolo_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "MarcoPolo MCP"
+  },
+  "marketstack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Marketstack"
+  },
+  "markup_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Markup AI"
+  },
+  "mathpix": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mathpix"
+  },
+  "matterport": {
+    "authSchemes": [
+      "BASIC",
+      "OAUTH2"
+    ],
+    "name": "Matterport"
+  },
+  "maxio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Maxio"
+  },
+  "meetgeek": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MeetGeek"
+  },
+  "meister_task": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "MeisterTask"
+  },
+  "melo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Melo"
+  },
+  "mem": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mem"
+  },
+  "mem0": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mem0"
+  },
+  "memberspot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Memberspot"
+  },
+  "memberstack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Memberstack"
+  },
+  "membervault": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Membervault"
+  },
+  "memelord": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Memelord"
+  },
+  "memelord_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH",
+      "API_KEY"
+    ],
+    "name": "Memelord MCP"
+  },
+  "merchantpro": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MerchantPro"
+  },
+  "mercury_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Mercury MCP"
+  },
+  "mermaid_chart_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Mermaid Chart MCP"
+  },
+  "meshy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Meshy"
+  },
+  "metaads": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Meta Ads"
+  },
+  "metabase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Metabase"
+  },
+  "metaphor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Metaphor"
+  },
+  "metatextai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Metatextai"
+  },
+  "metricool_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Metricool MCP"
+  },
+  "metronome": {
+    "authSchemes": [
+      "BEARER_TOKEN"
+    ],
+    "name": "Metronome"
+  },
+  "mezmo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mezmo"
+  },
+  "microsoft_365": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft 365"
+  },
+  "microsoft_advertising": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft Advertising"
+  },
+  "microsoft_bookings": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft Bookings"
+  },
+  "microsoft_clarity": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Microsoft Clarity"
+  },
+  "microsoft_copilot": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft 365 Copilot"
+  },
+  "microsoft_defender": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft Defender"
+  },
+  "microsoft_entra_id": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft Entra ID"
+  },
+  "microsoft_fabric": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft Fabric"
+  },
+  "microsoft_intune": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft Intune"
+  },
+  "microsoft_planner": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft Planner"
+  },
+  "microsoft_power_bi": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft Power Bi"
+  },
+  "microsoft_powerpoint": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft PowerPoint"
+  },
+  "microsoft_purview": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft Purview"
+  },
+  "microsoft_teams": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Microsoft Teams"
+  },
+  "microsoft_todo": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft To Do"
+  },
+  "microsoft_viva_engage": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft Viva Engage"
+  },
+  "microsoft_word": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft Word"
+  },
+  "midpage_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Midpage MCP"
+  },
+  "mighty_networks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mighty Networks"
+  },
+  "mihu_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mihu AI"
+  },
+  "mindbody": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mindbody"
+  },
+  "minelead": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Minelead.io"
+  },
+  "minerstat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Minerstat"
+  },
+  "minimax": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MiniMax"
+  },
+  "mintlify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mintlify"
+  },
+  "mintlify_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Mintlify MCP"
+  },
+  "miro": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Miro"
+  },
+  "missive": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Missive"
+  },
+  "mistral_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mistral AI"
+  },
+  "mixmax": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mixmax"
+  },
+  "mixpanel": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Mixpanel"
+  },
+  "mobbin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mobbin"
+  },
+  "mobbin_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Mobbin MCP"
+  },
+  "mocean": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mocean"
+  },
+  "moco": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Moco"
+  },
+  "modelry": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Modelry"
+  },
+  "modem": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Modem"
+  },
+  "modem_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Modem MCP"
+  },
+  "moderationapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Moderation API"
+  },
+  "moltsets": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MoltSets"
+  },
+  "monday": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Monday"
+  },
+  "monday_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Monday MCP"
+  },
+  "money_forward": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Money Forward"
+  },
+  "moneybird": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Moneybird"
+  },
+  "mongodb": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "MongoDB"
+  },
+  "mongodb_mcp": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "MongoDB MCP"
+  },
+  "moonclerk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Moonclerk"
+  },
+  "moosend": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Moosend"
+  },
+  "mopinion": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Mopinion"
+  },
+  "more_trees": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "More Trees"
+  },
+  "mospi_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "MoSPI MCP"
+  },
+  "motherduck_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "MotherDuck MCP"
+  },
+  "motion": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Motion"
+  },
+  "moz": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Moz"
+  },
+  "mrscraper": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MrScraper"
+  },
+  "msg91": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Msg91"
+  },
+  "muapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MuAPI"
+  },
+  "mural": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Mural"
+  },
+  "mx_technologies": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "MX Technologies"
+  },
+  "mx_toolbox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MXToolbox"
+  },
+  "myemailverifier": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "MyEmailVerifier"
+  },
+  "namsor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NamSor"
+  },
+  "nango": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nango"
+  },
+  "nano_nets": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nanonets"
+  },
+  "nanonets_ocr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nanonets OCR"
+  },
+  "narwhal_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Narwhal API"
+  },
+  "nasa": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nasa"
+  },
+  "nasdaq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nasdaq"
+  },
+  "navan": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Navan"
+  },
+  "needle": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Needle"
+  },
+  "neetoform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NeetoForm"
+  },
+  "neo4j": {
+    "authSchemes": [
+      "OAUTH2",
+      "BASIC",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "name": "Neo4J"
+  },
+  "neon": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Neon"
+  },
+  "neon_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Neon MCP"
+  },
+  "nethunt_crm": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "NetHunt CRM"
+  },
+  "netlicensing": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NetLicensing"
+  },
+  "netlify_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Netlify MCP"
+  },
+  "netsuite": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Netsuite"
+  },
+  "neuronwriter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Neuronwriter"
+  },
+  "neutrino": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Neutrino"
+  },
+  "neverbounce": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NeverBounce"
+  },
+  "new_relic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "New Relic"
+  },
+  "news_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NewsAPI"
+  },
+  "nextdns": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nextdns"
+  },
+  "ngram": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ngram"
+  },
+  "ngrok": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ngrok"
+  },
+  "niftyimages": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Niftyimages"
+  },
+  "ninox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ninox"
+  },
+  "nmkr_studio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NMKR Studio"
+  },
+  "nocodb": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NocoDB"
+  },
+  "nocrm_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "NoCRM.io"
+  },
+  "noloco": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Noloco"
+  },
+  "northflank": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Northflank"
+  },
+  "notebook_lm": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "NotebookLM"
+  },
+  "notion": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Notion"
+  },
+  "notion_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Notion MCP"
+  },
+  "notra": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Notra"
+  },
+  "nozbe_teams": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nozbe Teams"
+  },
+  "npm": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Npm"
+  },
+  "ntfy": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Ntfy"
+  },
+  "nusii_proposals": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nusii proposals"
+  },
+  "nutrient_document_web_services_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nutrient Document Web Services API"
+  },
+  "nutshell": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Nutshell"
+  },
+  "nylas_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Nylas MCP"
+  },
+  "oboard": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Oboard"
+  },
+  "ocean_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ocean.io"
+  },
+  "ocr_web_service": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "OCR Web Service"
+  },
+  "ocrspace": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OCR.space"
+  },
+  "octagon_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Octagon MCP"
+  },
+  "octen": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Octen"
+  },
+  "odata": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "OData"
+  },
+  "odoo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Odoo"
+  },
+  "oksign": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Oksign"
+  },
+  "okzest": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OKZest"
+  },
+  "ollama": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ollama"
+  },
+  "olostep": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Olostep"
+  },
+  "omnisend": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Omnisend"
+  },
+  "one_drive": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "OneDrive"
+  },
+  "onedesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Onedesk"
+  },
+  "onenote": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Microsoft OneNote"
+  },
+  "onepage": {
+    "authSchemes": [
+      "BEARER_TOKEN"
+    ],
+    "name": "Onepage"
+  },
+  "onesignal_rest_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OneSignal REST API"
+  },
+  "onesignal_user_auth": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OneSignal User Auth"
+  },
+  "onesimpleapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OneSimpleAPI"
+  },
+  "onetapcheckin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OneTapCheckIn"
+  },
+  "oneup": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OneUp"
+  },
+  "onlyoffice_docspace": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ONLYOFFICE DocSpace"
+  },
+  "onlysocial": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OnlySocial"
+  },
+  "open_exchange_rates": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Open Exchange Rates"
+  },
+  "open_fda": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "openFDA"
+  },
+  "open_register": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenRegister"
+  },
+  "open_sea": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenSea"
+  },
+  "openai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenAI"
+  },
+  "openalex": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenAlex"
+  },
+  "opencage": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Opencage"
+  },
+  "openfunnel_agent_primitives": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenFunnel Agent Primitives"
+  },
+  "opengraph_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenGraph.io"
+  },
+  "openlayer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Openlayer"
+  },
+  "openperplex": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Openperplex"
+  },
+  "openrouter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenRouter"
+  },
+  "openui": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenUI Cloud"
+  },
+  "openweather_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenWeather API"
+  },
+  "openweb_ninja": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OpenWeb Ninja"
+  },
+  "opn_form": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OPNForm"
+  },
+  "optimoroute": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "OptimoRoute"
+  },
+  "order_desk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Order Desk"
+  },
+  "ordinal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ordinal"
+  },
+  "orgo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Orgo"
+  },
+  "orshot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Orshot"
+  },
+  "osv": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "OSV"
+  },
+  "otter_ai_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Otter.ai MCP"
+  },
+  "outbound_dev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Outbound"
+  },
+  "outline": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Outline"
+  },
+  "outlook": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Outlook"
+  },
+  "owl_protocol": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Owl Protocol"
+  },
+  "page_vitals": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PageVitals"
+  },
+  "page_x": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Page X"
+  },
+  "pagerduty": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "PagerDuty"
+  },
+  "pandadoc": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PandaDoc"
+  },
+  "pandadoc_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "PandaDoc MCP"
+  },
+  "paperform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Paperform"
+  },
+  "paradym": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Paradym"
+  },
+  "parallel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parallel"
+  },
+  "parallel_task_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Parallel Task MCP"
+  },
+  "parma": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Parma"
+  },
+  "parse_bot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parse.bot"
+  },
+  "parsehub": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parsehub"
+  },
+  "parsera": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parsera"
+  },
+  "parseur": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parseur"
+  },
+  "parsio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parsio"
+  },
+  "parsio_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Parsio.io"
+  },
+  "particl_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Particl MCP"
+  },
+  "passcreator": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Passcreator"
+  },
+  "passslot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Passslot"
+  },
+  "past_dev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Past.dev"
+  },
+  "paved": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Paved"
+  },
+  "paychasers": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PayChasers"
+  },
+  "payhere": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Payhere"
+  },
+  "payhip": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Payhip"
+  },
+  "paypal": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Paypal"
+  },
+  "paystack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Paystack"
+  },
+  "pdf4me": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pdf4me"
+  },
+  "pdf_api_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDF-API.io"
+  },
+  "pdf_blocks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDF Blocks"
+  },
+  "pdf_co": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDF.co"
+  },
+  "pdf_munk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDF Munk"
+  },
+  "pdf_vector": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDF Vector"
+  },
+  "pdfgen": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDFgen"
+  },
+  "pdfless": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pdfless"
+  },
+  "pdfmonkey": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PDFMonkey"
+  },
+  "peaka": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Peaka"
+  },
+  "peec_ai_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Peec AI MCP"
+  },
+  "peerdom": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Peerdom"
+  },
+  "penpot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Penpot"
+  },
+  "peopledatalabs": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "People Data Labs"
+  },
+  "perigon": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Perigon"
+  },
+  "perplexityai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Perplexity AI"
+  },
+  "persistiq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Persistiq"
+  },
+  "persona": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Persona"
+  },
+  "personio": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Personio"
+  },
+  "pexels": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pexels"
+  },
+  "phantombuster": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PhantomBuster"
+  },
+  "phone_harness": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Phone Harness"
+  },
+  "photon_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Photon MCP"
+  },
+  "photoroom": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PhotoRoom"
+  },
+  "phrase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Phrase"
+  },
+  "picnie": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Picnie"
+  },
+  "piggy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Piggy"
+  },
+  "pigment": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pigment"
+  },
+  "piloterr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Piloterr"
+  },
+  "pilvio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pilvio"
+  },
+  "pinata": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pinata"
+  },
+  "pinecone": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Pinecone"
+  },
+  "pingdom": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pingdom"
+  },
+  "pinterest": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Pinterest"
+  },
+  "pinterest_ads": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Pinterest Ads"
+  },
+  "pipedrive": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Pipedrive"
+  },
+  "pipeless": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pipeless Recommendations"
+  },
+  "pipeline_crm": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pipeline CRM"
+  },
+  "pitchbook": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PitchBook"
+  },
+  "pivot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pivot"
+  },
+  "placekey": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Placekey"
+  },
+  "placid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Placid"
+  },
+  "plaid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plaid"
+  },
+  "plaid_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Plaid MCP"
+  },
+  "plain": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plain"
+  },
+  "plain_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Plain MCP"
+  },
+  "planetscale": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "PlanetScale"
+  },
+  "planly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Planly"
+  },
+  "planyo_online_booking": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Planyo Online Booking"
+  },
+  "plasmic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plasmic"
+  },
+  "platerecognizer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plate Recognizer"
+  },
+  "plausible_analytics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plausible Analytics"
+  },
+  "plisio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plisio"
+  },
+  "plivo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Plivo"
+  },
+  "ploid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ploid"
+  },
+  "pneumatic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pneumatic"
+  },
+  "pocketsmith": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PocketSmith"
+  },
+  "podio": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Podio"
+  },
+  "pointagram": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pointagram"
+  },
+  "polar": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Polar"
+  },
+  "polar_signals_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Polar Signals MCP"
+  },
+  "polygon": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Polygon"
+  },
+  "polygon_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Polygon.io"
+  },
+  "polymarket": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Polymarket US"
+  },
+  "polymarket_us": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Polymarket US"
+  },
+  "polymer_co": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Polymer.co"
+  },
+  "poma_grill": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "POMA Grill"
+  },
+  "poof": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Poof"
+  },
+  "pophive_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "PopHIVE MCP"
+  },
+  "popupsmart": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Popupsmart"
+  },
+  "postal_data_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postal Data API"
+  },
+  "postalytics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postalytics"
+  },
+  "postgrid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postgrid"
+  },
+  "postgrid_verify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PostGrid Verify"
+  },
+  "posthog": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PostHog"
+  },
+  "posthog_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "PostHog MCP"
+  },
+  "postiz_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postiz"
+  },
+  "postman": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postman"
+  },
+  "postmark": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postmark"
+  },
+  "postpone": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Postpone"
+  },
+  "predict_leads": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PredictLeads"
+  },
+  "predicthq": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PredictHQ"
+  },
+  "prerender": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Prerender"
+  },
+  "presenton": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Presenton"
+  },
+  "pricemend": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pricemend"
+  },
+  "printautopilot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Printautopilot"
+  },
+  "printful": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Printful"
+  },
+  "printify": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Printify"
+  },
+  "prisma": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Prisma"
+  },
+  "prismic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Prismic"
+  },
+  "proabono": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Proabono"
+  },
+  "process_street": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Process Street"
+  },
+  "procfu": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Procfu"
+  },
+  "procore_company_admin": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Company Admin"
+  },
+  "procore_core": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Core"
+  },
+  "procore_field_operations": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Field Operations"
+  },
+  "procore_financials": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Financials"
+  },
+  "procore_preconstruction": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Preconstruction"
+  },
+  "procore_project_documents": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Project Documents"
+  },
+  "procore_quality_safety": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Quality & Safety"
+  },
+  "procore_resource_management": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Procore Resource Management"
+  },
+  "product_hunt": {
+    "authSchemes": [
+      "OAUTH2",
+      "BEARER_TOKEN"
+    ],
+    "name": "Product Hunt"
+  },
+  "product_hunt_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Product Hunt MCP"
+  },
+  "productboard": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Productboard"
+  },
+  "productlane": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Productlane"
+  },
+  "productnow_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "ProductNow MCP"
+  },
+  "project_bubble": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Project Bubble"
+  },
+  "prompt_hub": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PromptHub"
+  },
+  "promptlayer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PromptLayer"
+  },
+  "promptmate_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Promptmate.io"
+  },
+  "proofly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Proofly"
+  },
+  "prospeo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Prospeo"
+  },
+  "proxiedmail": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Proxiedmail"
+  },
+  "pumble": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pumble"
+  },
+  "purechecker": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PureChecker"
+  },
+  "push_alert": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "PushAlert"
+  },
+  "push_by_techulus": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Push by Techulus"
+  },
+  "pushbullet": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Pushbullet"
+  },
+  "pushinator": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pushinator"
+  },
+  "pushover": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Pushover"
+  },
+  "pylon_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Pylon MCP"
+  },
+  "quaderno": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Quaderno"
+  },
+  "quickbooks": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "QuickBooks"
+  },
+  "quickenrich": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "QuickEnrich"
+  },
+  "quicknode_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "QuickNode MCP"
+  },
+  "quiltt": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Quiltt"
+  },
+  "quintadb": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "QuintaDB"
+  },
+  "quire": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Quire"
+  },
+  "quo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Quo"
+  },
+  "qwilr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Qwilr"
+  },
+  "radar": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Radar"
+  },
+  "rafflys": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rafflys"
+  },
+  "ragic": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ragic"
+  },
+  "ragie": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ragie"
+  },
+  "railway": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Railway"
+  },
+  "railway_mcp": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Railway MCP"
+  },
+  "raindrop": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Raindrop.io"
+  },
+  "raisely": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Raisely"
+  },
+  "ramp": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Ramp"
+  },
+  "ramp_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Ramp MCP"
+  },
+  "rawg_video_games_database": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "RAWG Video Games Database"
+  },
+  "razorpay": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Razorpay"
+  },
+  "rd_station_marketing": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "RD Station Marketing"
+  },
+  "re_amaze": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Re:amaze"
+  },
+  "read_ai_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Read AI MCP"
+  },
+  "readwise_reader": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Readwise Reader"
+  },
+  "realphonevalidation": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Realphonevalidation"
+  },
+  "rebrandly": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Rebrandly"
+  },
+  "recallai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Recall.ai"
+  },
+  "recraft": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Recraft"
+  },
+  "recraft_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Recraft MCP"
+  },
+  "recruitee": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Recruitee"
+  },
+  "recurly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Recurly"
+  },
+  "redcircle_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "RedCircle API"
+  },
+  "reddit": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Reddit"
+  },
+  "reddit_ads": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Reddit Ads"
+  },
+  "redirect_pizza": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "redirect.pizza"
+  },
+  "referralrock": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "ReferralRock"
+  },
+  "refiner": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Refiner"
+  },
+  "reloadly": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "Reloadly"
+  },
+  "remarkety": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Remarkety"
+  },
+  "remote_retrieval": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Remote Retrieval"
+  },
+  "remove_bg": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Remove.bg"
+  },
+  "render": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Render"
+  },
+  "renderform": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Renderform"
+  },
+  "rentman": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rentman"
+  },
+  "repairshopr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "RepairShopr"
+  },
+  "replay_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Replay MCP"
+  },
+  "replicate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Replicate"
+  },
+  "reply": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Reply"
+  },
+  "reply_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Reply.io"
+  },
+  "request_tracker": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Request Tracker (RT)"
+  },
+  "resend": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Resend"
+  },
+  "resend_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Resend MCP"
+  },
+  "resortlife_travel_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Resortlife Travel MCP"
+  },
+  "resource_planner": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Resource Planner"
+  },
+  "respond_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Respond.io"
+  },
+  "retable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Retable"
+  },
+  "retailed": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Retailed"
+  },
+  "retellai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Retell AI"
+  },
+  "reteno": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Reteno"
+  },
+  "retently": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Retently"
+  },
+  "rev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rev AI"
+  },
+  "rev_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rev AI"
+  },
+  "revolt": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Revolt"
+  },
+  "rillet": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2",
+      "DCR_OAUTH"
+    ],
+    "name": "Rillet"
+  },
+  "rippling": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Rippling"
+  },
+  "ritekit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Ritekit"
+  },
+  "rize": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rize"
+  },
+  "rkvst": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rkvst"
+  },
+  "roam": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Roam"
+  },
+  "roblox": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Roblox"
+  },
+  "roboflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Roboflow"
+  },
+  "rocket_reach": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "RocketReach"
+  },
+  "rocketadmin": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rocketadmin"
+  },
+  "rocketlane": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rocketlane"
+  },
+  "rollbar": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rollbar"
+  },
+  "rootly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rootly"
+  },
+  "rosette_text_analytics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rosette Text Analytics"
+  },
+  "route4me": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Route4me"
+  },
+  "rudderstack_transformation": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "RudderStack Transformation"
+  },
+  "rulebricks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Rulebricks"
+  },
+  "runpod": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "RunPod"
+  },
+  "runway": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Runway"
+  },
+  "safetyculture": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SafetyCulture"
+  },
+  "sage_intacct": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Sage Intacct"
+  },
+  "salesflare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Salesflare"
+  },
+  "salesforce": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Salesforce"
+  },
+  "salesforce_data_360": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Salesforce Data 360"
+  },
+  "salesforce_service_cloud": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Salesforce Service Cloud"
+  },
+  "salesmate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Salesmate"
+  },
+  "salesrobot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SalesRobot"
+  },
+  "sanity": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sanity"
+  },
+  "sap_successfactors": {
+    "authSchemes": [
+      "SAML"
+    ],
+    "name": "SAP SuccessFactors"
+  },
+  "saperly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Saperly"
+  },
+  "saperly_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Saperly MCP"
+  },
+  "satismeter": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Satismeter"
+  },
+  "saucelabs": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Saucelabs"
+  },
+  "savvycal": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "SavvyCal"
+  },
+  "scale_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Scale ai"
+  },
+  "scheduleonce": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Scheduleonce"
+  },
+  "scorecard_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Scorecard MCP"
+  },
+  "scrape_do": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Scrape Do"
+  },
+  "scrapecreators": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ScrapeCreators"
+  },
+  "scrapegraph_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ScrapeGraphAI"
+  },
+  "scrapfly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Scrapfly"
+  },
+  "scrapingant": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Scrapingant"
+  },
+  "scrapingbee": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Scrapingbee"
+  },
+  "scrapingdog": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Scrapingdog"
+  },
+  "screenshot_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Screenshot API"
+  },
+  "screenshot_fyi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Screenshot.fyi"
+  },
+  "screenshotbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Screenshotbase"
+  },
+  "screenshotone": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ScreenshotOne"
+  },
+  "seam": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Seam"
+  },
+  "search1api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Search1API"
+  },
+  "search_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Search api"
+  },
+  "searchapi_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "SearchAPI MCP"
+  },
+  "seat_geek": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Seat Geek"
+  },
+  "seatable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SeaTable"
+  },
+  "sec": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SEC EDGAR"
+  },
+  "securitytrails": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Securitytrails"
+  },
+  "seek_table": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SeekTable"
+  },
+  "segment": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Segment"
+  },
+  "segmetrics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Segmetrics"
+  },
+  "seltz": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Seltz"
+  },
+  "semanticscholar": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Semantic Scholar"
+  },
+  "semrush": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Semrush"
+  },
+  "semrush_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Semrush MCP"
+  },
+  "send_pulse": {
+    "authSchemes": [
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "name": "SendPulse"
+  },
+  "sendbird": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sendbird"
+  },
+  "sendbird_ai_chabot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sendbird AI Chatbot"
+  },
+  "sender": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sender"
+  },
+  "sendfox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sendfox"
+  },
+  "sendgrid": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SendGrid"
+  },
+  "sendlane": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sendlane"
+  },
+  "sendloop": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Sendloop"
+  },
+  "sendspark": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sendspark"
+  },
+  "sensibo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sensibo"
+  },
+  "sentfromai": {
+    "authSchemes": [
+      "NO_AUTH",
+      "API_KEY"
+    ],
+    "name": "SentFromAI"
+  },
+  "sentry": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Sentry"
+  },
+  "sentry_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Sentry MCP"
+  },
+  "seoptimer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SEOptimer"
+  },
+  "seqera": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Seqera"
+  },
+  "sequenzy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sequenzy"
+  },
+  "serpapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SerpApi"
+  },
+  "serpdog": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Serpdog"
+  },
+  "serper": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Serper"
+  },
+  "serphouse": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Serphouse"
+  },
+  "serply": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Serply"
+  },
+  "serveravatar": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Serveravatar"
+  },
+  "servicem8": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Servicem8"
+  },
+  "servicenow": {
+    "authSchemes": [
+      "BASIC",
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "ServiceNow"
+  },
+  "servicetitan": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "ServiceTitan"
+  },
+  "sevdesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sevdesk"
+  },
+  "seven_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Seven.io"
+  },
+  "share_point": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "SharePoint"
+  },
+  "sharepoint_graph": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "SharePoint Graph"
+  },
+  "shipday": {
+    "authSchemes": [
+      "BASIC",
+      "API_KEY"
+    ],
+    "name": "Shipday"
+  },
+  "shipengine": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shipengine"
+  },
+  "shippo": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Shippo"
+  },
+  "shodan": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shodan"
+  },
+  "shopify": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Shopify"
+  },
+  "short_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Short Io"
+  },
+  "short_menu": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Short Menu"
+  },
+  "shortcut": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shortcut"
+  },
+  "shorten_rest": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shorten.REST"
+  },
+  "shortpixel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shortpixel"
+  },
+  "shotlane": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shotlane"
+  },
+  "shotstack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Shotstack"
+  },
+  "sideshow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sideshow"
+  },
+  "sideshow_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Sideshow MCP"
+  },
+  "sidetracker": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sidetracker"
+  },
+  "sign_now": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "SignNow"
+  },
+  "signa": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Signa"
+  },
+  "signalbase": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Signalbase"
+  },
+  "signaturely": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Signaturely"
+  },
+  "signpath": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Signpath"
+  },
+  "signwell": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Signwell"
+  },
+  "similarweb_digitalrank_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SimilarWeb Digital Rank API"
+  },
+  "simla_com": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Simla.com"
+  },
+  "simple_analytics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Simple Analytics"
+  },
+  "simple_localize": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SimpleLocalize"
+  },
+  "simplekpi": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Simplekpi"
+  },
+  "simplero": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Simplero"
+  },
+  "simplesat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Simplesat"
+  },
+  "simplescraper_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Simplescraper MCP"
+  },
+  "siteleaf": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Siteleaf"
+  },
+  "sitespeakai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sitespeakai"
+  },
+  "sixtyfour": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sixtyfour"
+  },
+  "skyfire": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Skyfire"
+  },
+  "skyvern": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Skyvern"
+  },
+  "slack": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Slack"
+  },
+  "slackbot": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Slackbot"
+  },
+  "slazzer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Slazzer"
+  },
+  "slidesgpt_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "SlidesGPT MCP"
+  },
+  "slite": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Slite"
+  },
+  "smarthr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SmartHR"
+  },
+  "smartlead": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Smartlead"
+  },
+  "smartproxy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Smartproxy"
+  },
+  "smartsheet": {
+    "authSchemes": [
+      "OAUTH2",
+      "BEARER_TOKEN"
+    ],
+    "name": "Smartsheet"
+  },
+  "smokeball": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Smokeball"
+  },
+  "smol_machines": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Smol Machines"
+  },
+  "sms_alert": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SMS Alert"
+  },
+  "smtp2go": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Smtp2go"
+  },
+  "smtping": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SMTPing"
+  },
+  "smugmug": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SmugMug"
+  },
+  "snapchat": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Snapchat"
+  },
+  "snaprender": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SnapRender"
+  },
+  "sncf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SNCF"
+  },
+  "snowflake": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Snowflake"
+  },
+  "snowflake_basic": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Snowflake Basic"
+  },
+  "snyk": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Snyk"
+  },
+  "softr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Softr"
+  },
+  "solcast": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Solcast"
+  },
+  "soundcloud": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "SoundCloud"
+  },
+  "sourcegraph": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sourcegraph"
+  },
+  "specific": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Specific"
+  },
+  "speechmatics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Speechmatics"
+  },
+  "spider": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Spider"
+  },
+  "splice_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Splice MCP"
+  },
+  "splitwise": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Splitwise"
+  },
+  "spoki": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Spoki"
+  },
+  "spondyr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Spondyr"
+  },
+  "spotify": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Spotify"
+  },
+  "spotlightr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Spotlightr"
+  },
+  "sprout_social": {
+    "authSchemes": [
+      "S2S_OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Sprout Social"
+  },
+  "spydra": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Spydra"
+  },
+  "square": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Square"
+  },
+  "sslmate_cert_spotter_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SSLMate Cert Spotter API"
+  },
+  "stack_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Stack Ai"
+  },
+  "stack_exchange": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Stack Exchange"
+  },
+  "stackby": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Stackby"
+  },
+  "stannp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Stannp"
+  },
+  "starcovery": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Starcovery"
+  },
+  "starshipit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Starshipit"
+  },
+  "starton": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Starton"
+  },
+  "statsig": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Statsig"
+  },
+  "statsig_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Statsig MCP"
+  },
+  "statuscake": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Statuscake"
+  },
+  "storeganise": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Storeganise"
+  },
+  "storerocket": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Storerocket"
+  },
+  "stormboard": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Stormboard"
+  },
+  "stormglass_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Stormglass Io"
+  },
+  "storyblok": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Storyblok"
+  },
+  "strale": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Strale"
+  },
+  "streamtime": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Streamtime"
+  },
+  "stripe": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Stripe"
+  },
+  "stripe_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Stripe MCP"
+  },
+  "studio_by_ai21_labs": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Studio By Ai21 Labs"
+  },
+  "stytch_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Stytch MCP"
+  },
+  "suitedash": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Suitedash"
+  },
+  "sumble": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sumble"
+  },
+  "supabase": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Supabase"
+  },
+  "supabase_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Supabase MCP"
+  },
+  "supabase_read_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Supabase Read MCP"
+  },
+  "supadata": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Supadata"
+  },
+  "superchat": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Superchat"
+  },
+  "supermemory": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Supermemory"
+  },
+  "supersaas": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC"
+    ],
+    "name": "Supersaas"
+  },
+  "supportbee": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Supportbee"
+  },
+  "supportivekoala": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Supportivekoala"
+  },
+  "surecontact": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "SureContact"
+  },
+  "surf": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Surf"
+  },
+  "survey_monkey": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "SurveyMonkey"
+  },
+  "svix": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Svix"
+  },
+  "swaggerhub": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Swaggerhub"
+  },
+  "swarmsyncai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Swarmsyncai"
+  },
+  "sympla": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Sympla"
+  },
+  "synthesia": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Synthesia"
+  },
+  "synthesize_bio_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Synthesize Bio MCP"
+  },
+  "synthflow_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Synthflow AI"
+  },
+  "tableau": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tableau"
+  },
+  "taggun": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Taggun"
+  },
+  "tailscale": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tailscale"
+  },
+  "talenthr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Talenthr"
+  },
+  "tally": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Tally"
+  },
+  "tapfiliate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tapfiliate"
+  },
+  "taskrabbit_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Taskrabbit MCP"
+  },
+  "tave": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tave"
+  },
+  "tavily": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tavily"
+  },
+  "tavily_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Tavily MCP"
+  },
+  "taxjar": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Taxjar"
+  },
+  "teamcamp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Teamcamp"
+  },
+  "teamleader": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Teamleader Focus"
+  },
+  "teamwork": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Teamwork"
+  },
+  "telegram": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Telegram"
+  },
+  "telnyx": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Telnyx"
+  },
+  "teltel": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Teltel"
+  },
+  "templated": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Templated"
+  },
+  "templatefox": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TemplateFox"
+  },
+  "temporal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Temporal"
+  },
+  "tenderlead": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TenderLead"
+  },
+  "test_app": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Test app"
+  },
+  "textcortex": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Textcortex"
+  },
+  "textit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Textit"
+  },
+  "textrazor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TextRazor"
+  },
+  "thanks_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Thanks.io"
+  },
+  "the_odds_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "The Odds API"
+  },
+  "the_org": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "The Org"
+  },
+  "thecompaniesapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "The Companies API"
+  },
+  "theirstack": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TheirStack"
+  },
+  "thoughtspot_spotter_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "ThoughtSpot Spotter MCP"
+  },
+  "threads": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Threads"
+  },
+  "ticket_tailor_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Ticket Tailor MCP"
+  },
+  "ticketmaster": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Ticketmaster"
+  },
+  "ticktick": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Ticktick"
+  },
+  "tidb_cloud": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TiDB Cloud"
+  },
+  "tidy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tidy"
+  },
+  "tiingo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tiingo"
+  },
+  "tik_hub": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TikHub"
+  },
+  "tiktok": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Tiktok"
+  },
+  "tiktok_ads": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "TikTok Ads"
+  },
+  "timecamp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TimeCamp"
+  },
+  "timelinesai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TimelinesAI"
+  },
+  "timelink": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Timelink"
+  },
+  "timely": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Timely"
+  },
+  "timetopost": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TimeToPost"
+  },
+  "tinyfish": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TinyFish"
+  },
+  "tinyfish_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "TinyFish MCP"
+  },
+  "tinypng": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TinyPNG"
+  },
+  "tinyurl": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tinyurl"
+  },
+  "tipalti": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Tipalti"
+  },
+  "tisane": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tisane Labs"
+  },
+  "tldv": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tldv"
+  },
+  "todoist": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Todoist"
+  },
+  "todoist_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Todoist MCP"
+  },
+  "toggl": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Toggl"
+  },
+  "toggl_track": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Toggl Track"
+  },
+  "token_metrics": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Token Metrics"
+  },
+  "tomba": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tomba"
+  },
+  "tomtom": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tomtom"
+  },
+  "toneden": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Toneden"
+  },
+  "toolfound_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Toolfound MCP"
+  },
+  "tpscheck": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tpscheck"
+  },
+  "trackdesk": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Trackdesk"
+  },
+  "trackingmore": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TrackingMore"
+  },
+  "transloadit": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Transloadit"
+  },
+  "trello": {
+    "authSchemes": [
+      "OAUTH1"
+    ],
+    "name": "Trello"
+  },
+  "trello_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Trello MCP"
+  },
+  "trestle": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Trestle"
+  },
+  "trigger_dev": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Trigger.dev"
+  },
+  "triggercmd": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Triggercmd"
+  },
+  "tripadvisor": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tripadvisor"
+  },
+  "tripadvisor_content_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TripAdvisor Content API"
+  },
+  "tripo3d": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Tripo3D"
+  },
+  "trivago_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Trivago MCP"
+  },
+  "true_list": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TrueList"
+  },
+  "truthscan": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TruthScan"
+  },
+  "truvera": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Truvera"
+  },
+  "tryfundable": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TryFundable"
+  },
+  "turbot_pipes": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Turbot Pipes"
+  },
+  "turso": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Turso"
+  },
+  "twelve_data": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Twelve Data"
+  },
+  "twenty": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Twenty"
+  },
+  "twilio": {
+    "authSchemes": [
+      "API_KEY",
+      "BASIC",
+      "S2S_OAUTH2"
+    ],
+    "name": "Twilio"
+  },
+  "twitch": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Twitch"
+  },
+  "twitter": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Twitter"
+  },
+  "twittershots": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "TwitterShots"
+  },
+  "twocaptcha": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Twocaptcha"
+  },
+  "typecast": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Typecast"
+  },
+  "typeform": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Typeform"
+  },
+  "typefully": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Typefully"
+  },
+  "typless": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Typless"
+  },
+  "u301": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "U301"
+  },
+  "unifi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "UniFi"
+  },
+  "unione": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Unione"
+  },
+  "unipile": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Unipile"
+  },
+  "unisender": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Unisender"
+  },
+  "uniswap_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Uniswap Api"
+  },
+  "unleash": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Unleash"
+  },
+  "unsplash": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Unsplash"
+  },
+  "unstructured": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Unstructured"
+  },
+  "updown_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Updown.io"
+  },
+  "uplisting": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Uplisting"
+  },
+  "upload_post": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Upload-Post"
+  },
+  "upload_to_url": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Upload to URL"
+  },
+  "uploadcare": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Uploadcare"
+  },
+  "uptimerobot": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Uptimerobot"
+  },
+  "urlscanio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "urlscan.io"
+  },
+  "userflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Userflow"
+  },
+  "userlist": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Userlist"
+  },
+  "v0": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "V0"
+  },
+  "valyu": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Valyu"
+  },
+  "vantage_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Vantage MCP"
+  },
+  "vapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Vapi"
+  },
+  "vaquill": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Vaquill"
+  },
+  "vast_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Vast.ai"
+  },
+  "vectorshift": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Vectorshift"
+  },
+  "veo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Veo"
+  },
+  "vercel": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Vercel"
+  },
+  "vercel_ai_gateway": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Vercel AI Gateway"
+  },
+  "vercel_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Vercel MCP"
+  },
+  "verifi_email": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Verifi.Email"
+  },
+  "verifiedemail": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Verifiedemail"
+  },
+  "veriphone": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Veriphone"
+  },
+  "veriphone_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Veriphone MCP"
+  },
+  "veryfi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Veryfi OCR"
+  },
+  "vestaboard": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Vestaboard"
+  },
+  "viator_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "Viator MCP"
+  },
+  "vibe": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "Vibe"
+  },
+  "vibe_prospecting_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Vibe Prospecting MCP"
+  },
+  "video_db": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "VideoDB"
+  },
+  "vidiq_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH",
+      "API_KEY"
+    ],
+    "name": "vidIQ MCP"
+  },
+  "vimeo": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Vimeo"
+  },
+  "viral_loops": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Viral Loops"
+  },
+  "virkly": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Virkly"
+  },
+  "virustotal": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "VirusTotal"
+  },
+  "visualping": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Visualping"
+  },
+  "vlm_run": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "VLM Run"
+  },
+  "voiceflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Voiceflow"
+  },
+  "waboxapp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Waboxapp"
+  },
+  "wachete": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wachete"
+  },
+  "waiverfile": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Waiverfile"
+  },
+  "wakatime": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "WakaTime"
+  },
+  "wanikani": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "WaniKani"
+  },
+  "wati": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wati"
+  },
+  "weaviate_mcp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Weaviate MCP"
+  },
+  "web3_career": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Web3 Career"
+  },
+  "webcrawlerapi": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "WebCrawlerAPI"
+  },
+  "webex": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Webex"
+  },
+  "webflow": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Webflow"
+  },
+  "webpushr": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Webpushr"
+  },
+  "webscraper_io": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Webscraper io"
+  },
+  "webscraping_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "WebScraping.AI"
+  },
+  "webvizio": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Webvizio"
+  },
+  "weights_and_biases": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Weights & Biases"
+  },
+  "whatsapp": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "WhatsApp"
+  },
+  "whautomate": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Whautomate"
+  },
+  "whoisfreaks": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Whoisfreaks"
+  },
+  "whop": {
+    "authSchemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "name": "Whop"
+  },
+  "wild_apricot": {
+    "authSchemes": [
+      "S2S_OAUTH2"
+    ],
+    "name": "WildApricot"
+  },
+  "windsor_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Windsor.ai"
+  },
+  "winston_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Winston AI"
+  },
+  "wise": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wise"
+  },
+  "wisepops": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wisepops"
+  },
+  "wispr_flow_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Wispr Flow MCP"
+  },
+  "wistia": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wistia"
+  },
+  "wit_ai": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wit.ai"
+  },
+  "withpica": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "withPICA"
+  },
+  "wix": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Wix"
+  },
+  "wix_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Wix MCP"
+  },
+  "wiza": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wiza"
+  },
+  "wolfram_alpha_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wolfram|Alpha API"
+  },
+  "woodpecker_co": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Woodpecker Co"
+  },
+  "woop_social": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "WoopSocial"
+  },
+  "wordpress_com": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "WordPress.com"
+  },
+  "words_into_music": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Words into Music (Savuko)"
+  },
+  "workable": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Workable"
+  },
+  "workday": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Workday"
+  },
+  "workday_adaptive_planning": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Workday Adaptive Planning"
+  },
+  "workday_raas": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Workday RaaS"
+  },
+  "workiom": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Workiom"
+  },
+  "workiz": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Workiz"
+  },
+  "workos": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "WorkOS"
+  },
+  "worksnaps": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Worksnaps"
+  },
+  "world_news_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "World News API"
+  },
+  "wp_maps": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wp Maps"
+  },
+  "wrike": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Wrike"
+  },
+  "writer": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Writer"
+  },
+  "wufoo": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Wufoo"
+  },
+  "x_mcp": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "X MCP"
+  },
+  "xata": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Xata"
+  },
+  "xero": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Xero"
+  },
+  "y_gy": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Y gy"
+  },
+  "yandex": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Yandex"
+  },
+  "yelp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Yelp"
+  },
+  "ynab": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "YNAB"
+  },
+  "yousearch": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "You.com"
+  },
+  "youtube": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "YouTube"
+  },
+  "youtube_transcript": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "YouTube Transcript"
+  },
+  "zelt": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zelt"
+  },
+  "zendesk": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zendesk"
+  },
+  "zenrows": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ZenRows"
+  },
+  "zenserp": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zenserp"
+  },
+  "zep": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zep"
+  },
+  "zeplin": {
+    "authSchemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "name": "Zeplin"
+  },
+  "zernio_mcp": {
+    "authSchemes": [
+      "DCR_OAUTH"
+    ],
+    "name": "Zernio MCP"
+  },
+  "zerobounce": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "ZeroBounce"
+  },
+  "zettle": {
+    "authSchemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "name": "PayPal Zettle"
+  },
+  "zigpoll": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zigpoll"
+  },
+  "zip": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zip"
+  },
+  "ziprecruiter_mcp": {
+    "authSchemes": [
+      "NO_AUTH"
+    ],
+    "name": "ZipRecruiter MCP"
+  },
+  "zixflow": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zixflow"
+  },
+  "zoho": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho"
+  },
+  "zoho_analytics": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Analytics"
+  },
+  "zoho_bigin": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Bigin"
+  },
+  "zoho_bookings": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Bookings"
+  },
+  "zoho_books": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Books"
+  },
+  "zoho_calendar": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Calendar"
+  },
+  "zoho_campaigns": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Campaigns"
+  },
+  "zoho_cliq": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Cliq"
+  },
+  "zoho_creator": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Creator"
+  },
+  "zoho_desk": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Desk"
+  },
+  "zoho_forms": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Forms"
+  },
+  "zoho_inventory": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Inventory"
+  },
+  "zoho_invoice": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Invoice"
+  },
+  "zoho_mail": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Mail"
+  },
+  "zoho_people": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho People"
+  },
+  "zoho_projects": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Projects"
+  },
+  "zoho_recruit": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Recruit"
+  },
+  "zoho_sheet": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Sheet"
+  },
+  "zoho_sign": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho Sign"
+  },
+  "zoho_work_drive": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoho WorkDrive"
+  },
+  "zoom": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoom"
+  },
+  "zoom_chat": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoom Team Chat"
+  },
+  "zoominfo": {
+    "authSchemes": [
+      "OAUTH2"
+    ],
+    "name": "Zoominfo"
+  },
+  "zulip": {
+    "authSchemes": [
+      "BASIC"
+    ],
+    "name": "Zulip"
+  },
+  "zylvie": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zylvie"
+  },
+  "zyte_api": {
+    "authSchemes": [
+      "API_KEY"
+    ],
+    "name": "Zyte Api"
+  }
+}

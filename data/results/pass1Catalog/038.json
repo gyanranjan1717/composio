@@ -1,0 +1,12 @@
+{
+  "id": 38,
+  "name": "Pinterest",
+  "toolkitSlug": "pinterest",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

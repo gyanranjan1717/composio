@@ -1,0 +1,49 @@
+{
+  "id": 57,
+  "name": "Bright Data",
+  "category": "Data, SEO and Scraping",
+  "hint": "brightdata.com",
+  "record": {
+    "oneLiner": "Web data platform offering scraper, SERP, unlocker, browser and proxy APIs, with an official MCP server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.brightdata.com/ai/mcp-server/faqs",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Every account gets a default API token and 5,000 free credits per month, so the core APIs can be used self-serve. The docs do not use the term REST, so apiType rest is inferred from HTTP POST endpoints with a Bearer token. The free-tier figures differ across Bright Data pages, so the current offer should be checked in the account.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "quote": "We create a default key for you upon account creation automatically."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.brightdata.com/ai/mcp-server/faqs",
+        "quote": "Every Bright Data account gets 5,000 free credits per month, and the MCP server draws from them."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.brightdata.com/introduction",
+        "quote": "Authentication, endpoints, SDKs and the CLI."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.brightdata.com/ai/mcp-server/faqs",
+        "quote": "The Bright Data MCP server only requires an API token, for both the remote (hosted) and local (self-hosted) setup."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

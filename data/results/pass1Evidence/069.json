@@ -1,0 +1,34 @@
+{
+  "id": 69,
+  "name": "Datadog",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.datadoghq.com/api/latest/authentication/",
+      "quote": "Requests that read data require full access and also require an `application key`.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.datadoghq.com/free-datadog-trial/",
+      "quote": "Try Datadog for 14 days",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.datadoghq.com/api/",
+      "quote": "The Datadog API is an HTTP REST API.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.datadoghq.com/mcp_server/setup/",
+      "quote": "Each Datadog site has its own MCP Server endpoint.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

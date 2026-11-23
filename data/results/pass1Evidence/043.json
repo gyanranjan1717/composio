@@ -1,0 +1,34 @@
+{
+  "id": 43,
+  "name": "BigCommerce",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce\u2019s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://docs.bigcommerce.com",
+      "quote": "Sign up for a free BigCommerce trial store to test API calls and build integrations without affecting live data.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.bigcommerce.com/developer/learn/courses/composable-core/configuration/lab-config",
+      "quote": "We\u2019ll be generating two types of credentials: Store-level v2/v3 API account credentials and a GraphQL Storefront API token.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+      "quote": "BigCommerce supports MCP in three ways. Each one serves a different kind of agent and acts with a different level of access.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

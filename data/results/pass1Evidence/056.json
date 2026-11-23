@@ -1,0 +1,34 @@
+{
+  "id": 56,
+  "name": "Firecrawl",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.cubic.dev/wikis/firecrawl/firecrawl?page=arch-auth",
+      "quote": "The primary method for authenticating with the Firecrawl API is through a Bearer token in the Authorization header of an HTTP request.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://hub.docker.com/r/baoduy2412/firecrawl-api",
+      "quote": "To use the API, you need to sign up on Firecrawl and get an API key.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.firecrawl.dev/quickstarts/openai-responses-api",
+      "quote": "curl -X POST https://api.firecrawl.dev/v1/scrape",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.firecrawl.dev/quickstarts/openai-responses-api",
+      "quote": "The mcp tool in the Responses API. OpenAI lists the Firecrawl tools, and the model calls them to search the web and read pages.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "name": "Front",
+  "toolkitSlug": "front",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

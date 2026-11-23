@@ -1,0 +1,34 @@
+{
+  "id": 31,
+  "name": "Google Ads",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.google.com/google-ads/api/rest/auth",
+      "quote": "Both OAuth 2.0 user authentication flow and service account flow are supported.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+      "quote": "Google may automatically upgrade your project's API access level to Basic once you submit your application.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.google.com/google-ads/api/rest/overview",
+      "quote": "The Google Ads API can be called either using gRPC or REST.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "quote": "The Google Ads MCP server provides a standardized bridge to the Google Ads API.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

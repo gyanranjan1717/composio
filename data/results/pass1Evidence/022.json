@@ -1,0 +1,41 @@
+{
+  "id": 22,
+  "name": "Twilio",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.twilio.com/docs/iam/api-keys",
+      "quote": "API keys are the preferred way to authenticate with Twilio's REST APIs.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://www.twilio.com/en-us/changelog/oauth-apis-ga",
+      "quote": "Twilio Communications APIs now support OAuth 2.0. Upgrading to OAuth 2.0 makes your applications more secure than using traditional API keys or Auth tokens.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+      "quote": "Sign up for a free trial\u2014no credit card required.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.twilio.com/docs/iam/api-keys",
+      "quote": "API keys are the preferred way to authenticate with Twilio's REST APIs.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+      "quote": "Our MCP server, hosted at mcp.twilio.com/docs , exposes two tools: twilio__search \u2013 Search Twilio's APIs and documentation using natural language.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": 92,
+  "name": "Otter AI",
+  "toolkitSlug": "otter_ai_mcp",
+  "mcpToolkitSlug": "otter_ai_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": 24,
+  "name": "Lark (Larksuite)",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://open.larksuite.com/document/ugTN1YjL4UTN24CO1UjN/uEjN1YjLxYTN24SM2UjN). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://open.larksuite.com/document/ugTN1YjL4UTN24CO1UjN/uEjN1YjLxYTN24SM2UjN). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://open.larksuite.com/document/ukTMukTMukTM/uETNz4SM1MjLxUzM/v3/guides/interface). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The page cited for existingMcp could not be opened (https://open.larksuite.com/document/mcp_open_tools/end-user-use-remote-mcp-server). Cite a page that fetchPage can open."
+    }
+  ]
+}

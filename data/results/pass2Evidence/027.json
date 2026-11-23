@@ -1,0 +1,34 @@
+{
+  "id": 27,
+  "name": "Telegram",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://core.telegram.org/bots",
+      "quote": "Each bot is given a unique authentication token when it is created.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://core.telegram.org/bots",
+      "quote": "The Telegram Bot Platform hosts more than 10 million bots and is free for both users and developers.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://core.telegram.org/bots/api",
+      "quote": "The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/TONresistor/telegram-mcp",
+      "quote": "Production-ready MCP server for the complete Telegram Bot API.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

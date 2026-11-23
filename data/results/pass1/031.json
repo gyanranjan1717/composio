@@ -1,0 +1,73 @@
+{
+  "id": 31,
+  "name": "Google Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "developers.google.com/google-ads",
+  "record": {
+    "oneLiner": "Google Ads API provides programmatic access to Google Ads campaigns, ads, reporting, and account structure using OAuth 2.0 and REST endpoints.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Google Ads offers a fully documented public REST API utilizing OAuth 2.0 authentication. Independent developers can easily obtain self-serve test credentials and access the Explorer or Test tier with free accounts, allowing complete toolkit creation without mandatory vendor review gates or paid plans.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.google.com/google-ads/api/docs/client-libs/java/authentication",
+        "quote": "Like other Google APIs, the Google Ads API uses the OAuth 2.0 protocol for authentication and authorization. OAuth 2.0 enables your Google Ads API client app to access a user's Google Ads account without having to handle or store the user's login info."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+        "quote": "Next, visit the Google Ads API Overview page. The page displays your current API access level. If your current API access level is Test, then expand the Upgrade access level section. Follow the instructions to apply for Explorer access level."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.google.com/google-ads/api/docs/oauth/service-accounts",
+        "quote": "You can use the access token in your API calls. The following example shows how to run a campaign report using the GoogleAdsService.SearchStream method to retrieve the campaigns in your account."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "quote": "MCP servers: A collection of reference implementations and community-contributed servers for the Model Context Protocol (MCP)."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.google.com/google-ads/api/docs authenticate OAuth2"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.google.com/google-ads/api/docs \"get started\" OR \"access level\" OR \"token\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol servers OR \"google-ads\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27652,
+    "outputTokens": 1135
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

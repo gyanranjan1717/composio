@@ -1,0 +1,41 @@
+{
+  "id": 88,
+  "name": "Brex",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.brex.com/docs/authentication/",
+      "quote": "generate a user token from your Brex dashboard and pass it along in your API call headers",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developer.brex.com/docs/mcp",
+      "quote": "Prefer OAuth over API keys.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.brex.com/docs/authentication/",
+      "quote": "These must be accepted to use the developer API.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.brex.com/",
+      "quote": "Brex APIs use the REST architecture, are defined using the OpenAPI specification",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developer.brex.com/docs/mcp",
+      "quote": "The server is hosted at https://api.brex.com/mcp and supports any MCP-compatible client.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

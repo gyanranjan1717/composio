@@ -1,0 +1,74 @@
+{
+  "id": 15,
+  "name": "Pylon",
+  "category": "Support and Helpdesk",
+  "hint": "usepylon.com",
+  "record": {
+    "oneLiner": "Pylon is a B2B customer support and ticketing platform featuring a REST API authenticated with API tokens and an official Model Context Protocol (MCP) server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Pylon offers a fully documented public REST API secured via API token (Bearer authentication). While a paid plan is required to use the product and its API, credentials can be generated self-serve within an active workspace and an official MCP server is provided.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+        "quote": "The Pylon API uses Bearer authentication. This means you\u2019ll need to pass your API token in the header of your request"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.usepylon.com/pylon-facts",
+        "quote": "Professional is $89 per seat/month, annual contract ... MCP, API, integrations"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts",
+        "quote": "GET /accounts/{id} HTTP/1.1\nHost: api.usepylon.com\nAuthorization: Bearer YOUR_SECRET_TOKEN"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+        "quote": "The Pylon MCP Server exposes Pylon data to AI tools that support the Model Context Protocol (e.g. Claude, ChatGPT, Cursor)."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Pylon api docs authentication usepylon.com"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.usepylon.com MCP server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:usepylon.com pricing"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 25012,
+    "outputTokens": 1068
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

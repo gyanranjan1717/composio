@@ -1,0 +1,12 @@
+{
+  "id": 51,
+  "name": "DataForSEO",
+  "toolkitSlug": "dataforseo",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "basic"
+  ],
+  "status": "agrees",
+  "missing": []
+}

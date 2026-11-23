@@ -1,0 +1,54 @@
+{
+  "id": 90,
+  "name": "PitchBook",
+  "category": "Finance and Fintech",
+  "hint": "pitchbook.com (research API)",
+  "record": {
+    "oneLiner": "PitchBook Direct Data / API: a separately contracted add-on that issues API keys or authentication tokens through the Direct Data sales team.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "partnerGated",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://premium.mcp.pitchbook.com/mcp",
+    "buildable": "partial",
+    "mainBlocker": "partnerOrSalesGate",
+    "verdictReason": "Read by hand in a browser. PitchBook runs its own hosted MCP server at premium.mcp.pitchbook.com/mcp: the endpoint answers HTTP 401 without a token and its OAuth metadata names PitchBook's own authorization server, so MCP access uses OAuth and needs an account. The REST API is sales-led (contact form, pay for what you use), so a toolkit is partly buildable but gated. The REST API's own auth method is not stated on public pages (apiKey is a best guess); no pitchbook.com help page describing the MCP was found, so MCP eligibility is unconfirmed.",
+    "evidence": [
+      {
+        "field": "apiType",
+        "url": "https://pitchbook.com/products/direct-access-data/api",
+        "quote": "Our RESTful API utilizes JSON and is system agnostic, so you can integrate it into custom applications and CRMs"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://pitchbook.com/products/direct-access-data/api",
+        "quote": "Our team of experts will work with you to ensure your organization can bridge any gap of understanding"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://pitchbook.com/products/direct-access-data",
+        "quote": "Choose the data that matters most to you and only pay for what you need."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://premium.mcp.pitchbook.com/.well-known/oauth-protected-resource",
+        "quote": "\"resource\":\"https://premium.mcp.pitchbook.com/mcp\",\"authorization_servers\":[\"https://mcp.pitchbook.com\"],\"bearer_methods_supported\":[\"header\"]"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://premium.mcp.pitchbook.com/.well-known/oauth-protected-resource",
+        "quote": "\"resource\":\"https://premium.mcp.pitchbook.com/mcp\",\"authorization_servers\":[\"https://mcp.pitchbook.com\"],\"bearer_methods_supported\":[\"header\"]"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

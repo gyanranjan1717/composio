@@ -1,0 +1,41 @@
+{
+  "id": 65,
+  "name": "Supabase",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://supabase.com/docs/guides/api",
+      "quote": "You can find the API Keys in the Settings > API Keys section of the Dashboard.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://supabase.com/docs/reference/api/introduction",
+      "quote": "OAuth2 allows your application to generate tokens on behalf of a Supabase user.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://supabase.com/pricing",
+      "quote": "Free: $0/month, including 500 MB database size.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://supabase.com/docs/guides/api",
+      "quote": "Supabase auto-generates an API directly from your database schema",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://supabase.com/docs/guides/getting-started/mcp",
+      "quote": "The hosted Supabase MCP server is available at https://mcp.supabase.com/mcp.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

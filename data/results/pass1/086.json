@@ -1,0 +1,63 @@
+{
+  "id": 86,
+  "name": "QuickBooks",
+  "category": "Finance and Fintech",
+  "hint": "developer.intuit.com",
+  "record": {
+    "oneLiner": "QuickBooks Online Accounting API, OAuth 2.0 authenticated, with sandbox app setup on the Intuit Developer Portal and an Intuit-hosted MCP server repo.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/intuit/quickbooks-online-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Verified in a real browser: OAuth 2.0 only; REST plus GraphQL; a developer account and sandbox are free. Publishing an app needs no review; only listing it on the QuickBooks App Store has a three-part review. Premium APIs (Projects, Custom Fields, Sales Tax, Payroll Compensation) are limited to Silver, Gold and Platinum partners, so the core API is buildable today but those extras are partner-gated.",
+    "evidence": [
+      {
+        "field": "accessLevel",
+        "url": "https://raw.githubusercontent.com/intuit/quickbooks-online-mcp-server/main/README.md",
+        "quote": "Go to the Intuit Developer Portal and create a new app"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://raw.githubusercontent.com/intuit/quickbooks-online-mcp-server/main/README.md",
+        "quote": "This MCP server provides complete QuickBooks Online API integration for Claude Code and other MCP-compatible clients."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+        "quote": "Use the OAuth 2.0 protocol to implement authentication and authorization."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+        "quote": "The QuickBooks Online Accounting API utilizes the REST architecture and GraphQL so you can seamlessly integrate your app with QuickBooks Online"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+        "quote": "Visit the QuickBooks Online API Explorer to see all entities, fields, and parameters"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+        "quote": "Silver, Gold, and Platinum partners have access to Premium APIs including the Projects API, Custom Fields API, Sales Tax API, and Payroll Compensation API."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.intuit.com/app/developer/qbo/docs/go-live",
+        "quote": "Publish your app after you've thoroughly tested it. This makes it live and functional."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

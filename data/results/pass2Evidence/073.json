@@ -1,0 +1,34 @@
+{
+  "id": 73,
+  "name": "Linear",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://linear.app/developers",
+      "quote": "OAuth 2.0 authentication",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://linear.app/developers",
+      "quote": "Visit Security & access settings to create and manage them.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://linear.app/developers",
+      "quote": "Linear's public API is built using GraphQL.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://linear.app/developers",
+      "quote": "connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

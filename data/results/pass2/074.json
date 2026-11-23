@@ -1,0 +1,47 @@
+{
+  "id": 74,
+  "name": "Jira",
+  "category": "Productivity and Project Management",
+  "hint": "developer.atlassian.com",
+  "record": {
+    "oneLiner": "Atlassian issue-tracking REST API with OAuth 2.0 (3LO) and API-token Basic auth, plus Atlassian's cloud-hosted Rovo MCP server.",
+    "authMethods": [
+      "oauth2",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developer.atlassian.com/cloud/rovo-mcp/",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A free Cloud Developer Bundle site lets developers create OAuth 2.0 (3LO) apps and API tokens self-serve. The official Rovo MCP server is documented. apiType and apiBreadth evidence was not captured verbatim, so those values are unverified.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+        "quote": "allows external applications and services to access Atlassian product APIs on a user's behalf."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/getting-started/",
+        "quote": "The Cloud Developer Bundle provides a free Atlassian cloud development site for building and testing apps."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+        "quote": "The Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server"
+      }
+    ]
+  },
+  "validationProblems": [
+    "evidence: nothing cited for apiType"
+  ],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

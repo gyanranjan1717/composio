@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>100 apps: agent-readiness research</title>
+<style>
+  :root { --bg:#f7f6f2; --card:#fff; --ink:#1b1a18; --muted:#66625b; --line:#dedbd3; --accent:#1d5f8a; --good:#2b7a4b; --warn:#b26a00; --bad:#b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16171a; --card:#202226; --ink:#ecebe6; --muted:#a29f97; --line:#383b41; --accent:#7ab6de; --good:#6cc08b; --warn:#e0a24a; --bad:#ef8a82; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 system-ui, sans-serif; }
+  main { max-width:1040px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:26px; margin:0 0 6px; } h2 { font-size:19px; margin:34px 0 10px; } h3 { font-size:15px; margin:16px 0 6px; }
+  p { margin:6px 0; } a { color:var(--accent); } .muted { color:var(--muted); font-size:13px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin:10px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:10px; }
+  .stat { font-size:30px; font-weight:700; line-height:1.1; } .stat small { display:block; font-size:13px; font-weight:400; color:var(--muted); }
+  .headline li { margin:8px 0; } .honest { border-left:4px solid var(--warn); }
+  table { width:100%; border-collapse:collapse; font-size:13px; } th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--card); }
+  .tablewrap { overflow-x:auto; max-height:640px; overflow-y:auto; border:1px solid var(--line); border-radius:8px; background:var(--card); }
+  .pill { display:inline-block; padding:1px 8px; border-radius:99px; font-size:12px; border:1px solid var(--line); white-space:nowrap; }
+  .yes, .selfServeFree { color:var(--good); border-color:var(--good); } .partial, .selfServeTrial, .paidPlan { color:var(--warn); border-color:var(--warn); }
+  .no, .partnerGated, .adminApproval, .noPublicApi { color:var(--bad); border-color:var(--bad); }
+  .bar { height:10px; background:var(--line); border-radius:5px; overflow:hidden; } .bar > span { display:block; height:100%; background:var(--accent); }
+  .row { display:grid; grid-template-columns:150px 1fr 70px; gap:8px; align-items:center; font-size:13px; margin:4px 0; }
+  .flow { display:flex; flex-wrap:wrap; gap:8px; align-items:stretch; } .step { flex:1 1 150px; border:1px solid var(--line); border-radius:8px; padding:8px 10px; background:var(--card); font-size:13px; }
+  .step b { display:block; } .human { border-color:var(--warn); }
+  input, select { font:inherit; color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:6px; padding:5px 8px; }
+  .filters { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; } code { background:var(--card); border:1px solid var(--line); padding:1px 5px; border-radius:4px; font-size:12px; }
+  details summary { cursor:pointer; } .miss td:first-child { color:var(--bad); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Which of 100 apps can an AI agent use today?</h1>
+  <p class="muted" id="subtitle"></p>
+
+  <h2>The patterns (headline)</h2>
+  <div class="card"><ul class="headline" id="headlines"></ul></div>
+  <div class="grid" id="stats"></div>
+
+  <h2>Self-serve vs gated, by category</h2>
+  <div class="card" id="categoryBars"></div>
+
+  <h2>How accurate is this? Checked against 30 independently sourced reference apps</h2>
+  <div class="card" id="accuracy"></div>
+  <div class="card honest" id="honesty"></div>
+  <details class="card"><summary><b id="missTitle"></b></summary><div class="tablewrap"><table id="missTable"></table></div></details>
+
+  <h2>The agent: what it does and where a human was needed</h2>
+  <div class="flow" id="flow"></div>
+  <div class="card" id="humans"></div>
+
+  <h2>Proof: run it yourself</h2>
+  <div class="card">
+    <p>Source and README: <a href="__REPO_URL__">__REPO_URL__</a></p>
+    <p>Research one app end to end (needs a Composio key, a Gemini key and a Tavily key in <code>.env</code>):</p>
+    <p><code>python agent/runResearch.py --app Stripe --passName demo</code></p>
+    <p>For agents: every record, quote and check on this page is in <a href="results.json">results.json</a>.</p>
+  </div>
+
+  <h2>All 100 apps</h2>
+  <div class="filters">
+    <input id="search" placeholder="search app or category">
+    <select id="fCategory"></select><select id="fAccess"></select><select id="fBuild"></select>
+  </div>
+  <div class="tablewrap"><table id="appTable"></table></div>
+  <p class="muted">Click a row's name to see the evidence quotes behind it. Evidence marked "not on page" failed the automatic re-check.</p>
+</main>
+<script id="siteData" type="application/json">__SITE_DATA__</script>
+<script>
+const data = JSON.parse(document.getElementById("siteData").textContent);
+const apps = data.apps, patterns = data.patterns, scores = data.scores;
+const finalScore = scores[data.passes.final], firstScore = scores[data.passes.first];
+const have = apps.filter((app) => app.record);
+const el = (tag, props, kids) => { const n = Object.assign(document.createElement(tag), props || {}); (kids || []).forEach((k) => n.append(k)); return n; };
+const pct = (part, whole) => (whole ? Math.round((100 * part) / whole) : 0);
+const ranked = (counts) => Object.entries(counts || {}).sort((a, b) => b[1] - a[1]);
+const set = (id, html) => { document.getElementById(id).innerHTML = html; };
+const pill = (v) => `<span class="pill ${v}">${v}</span>`;
+const selfServe = have.filter((a) => ["selfServeFree", "selfServeTrial"].includes(a.record.accessLevel)).length;
+
+document.getElementById("subtitle").textContent =
+  `${have.length} of ${apps.length} apps researched by an agent from the vendors' own docs. Built ${data.built}. Free-tier Gemini + Composio + Tavily.`;
+
+function headlines() {
+  const auth = ranked(patterns.authMethodCounts);
+  const blockers = ranked(patterns.mainBlockerCounts).filter(([k]) => k !== "none");
+  const mcp = patterns.existingMcpCounts || {};
+  const lines = [
+    `<b>Auth:</b> ${auth.slice(0, 3).map(([k, v]) => `${k} ${v}`).join(", ")} (of ${have.length}). Most apps offer more than one method.`,
+    `<b>Access:</b> ${selfServe} of ${have.length} (${pct(selfServe, have.length)}%) let a developer get credentials alone; ${(patterns.needsOutreach || []).length} need approval or sales contact.`,
+    `<b>Easy wins:</b> ${(patterns.easyWins || []).length} apps are buildable now with self-serve credentials.`,
+    `<b>Most common blocker:</b> ${blockers.length ? `${blockers[0][0]} (${blockers[0][1]} apps)` : "none recorded"}.`,
+    `<b>MCP:</b> ${mcp.official || 0} vendors host an official MCP server, ${mcp.community || 0} only have community ones, ${mcp.none || 0} have none found.`,
+    `<b>Not buildable as an API toolkit:</b> ${(patterns.notBuildable || []).join(", ") || "none"}.`,
+  ];
+  set("headlines", lines.map((l) => `<li>${l}</li>`).join(""));
+  const cat = patterns.composioCatalog || {};
+  set("stats", [
+    [have.length, "apps with a finished record"], [(patterns.easyWins || []).length, "easy wins today"],
+    [(patterns.needsOutreach || []).length, "need outreach"], [cat.alreadyInCatalog ?? "n/a", "already in Composio's catalog"],
+  ].map(([n, t]) => `<div class="card stat">${n}<small>${t}</small></div>`).join(""));
+}
+
+function categories() {
+  const rows = Object.entries(patterns.byCategory || {});
+  set("categoryBars", rows.map(([name, row]) => `<div class="row"><span>${name}</span>
+    <div class="bar"><span style="width:${pct(row.selfServe, row.apps)}%"></span></div><span>${row.selfServe}/${row.apps}</span></div>`).join("") +
+    `<p class="muted">Bar = apps where a developer can get credentials without approval or sales contact.</p>`);
+}
+
+function accuracy() {
+  const line = (label, s) => s ? `<tr><td>${label}</td>${["all", "dev", "heldOut"].map((k) => { const c = s.accuracy[k].overall; return `<td>${c.correct}/${c.total} (${pct(c.correct, c.total)}%)</td>`; }).join("")}<td>${s.cellsScored}</td></tr>` : "";
+  set("accuracy", `<table><tr><th>Pass</th><th>All scored cells</th><th>Dev half</th><th>Held-out half</th><th>Cells scored</th></tr>
+    ${line("First pass (agent only)", firstScore)}${data.passes.first !== data.passes.final ? line("After checks + re-research", finalScore) : ""}</table>
+    <p class="muted">Gold apps answered by the pipeline: ${firstScore.goldAppsAnswered} of ${firstScore.goldApps} first pass${data.passes.first !== data.passes.final ? `, ${finalScore.goldAppsAnswered} of ${finalScore.goldApps} final` : ""}. The rest had no finished record in time and are not scored.</p>
+    <p class="muted">A cell is one field of one reference app. Accuracy = exact match with the reference label. The held-out half was never used to tune the checks.</p>`);
+  const g = data.gold, qc = g.quoteChecks;
+  const allEvidence = apps.flatMap((a) => a.firstEvidence);
+  const ev = { total: allEvidence.length, found: allEvidence.filter((e) => e.status === "quoteFound").length, missing: allEvidence.filter((e) => e.status === "quoteNotFound").length, unreadable: allEvidence.filter((e) => e.status === "pageUnreadable").length };
+  set("honesty", `<b>Read this before trusting the numbers.</b>
+    <ul><li>The ${g.apps.length} reference labels were written by independent AI agents reading the live docs, <b>not by a human</b>. ${g.cellsConfident} of ${g.apps.length * 6} cells were confident enough to score; the rest are excluded, not counted as wrong.</li>
+    <li>Of ${(qc.quoteFound || 0) + (qc.quoteNotFound || 0) + (qc.pageUnreadable || 0)} quotes cited by those labellers, ${qc.quoteFound || 0} were found word for word on the live page; ${qc.quoteNotFound || 0} were not and ${qc.pageUnreadable || 0} pages could not be opened.</li>
+    <li>The research agent runs on a free-tier Gemini model that was often overloaded, so it was too slow to finish in time: <b>${apps.filter((a) => (a.model || "").includes("sub-agent")).length} apps were researched by parallel Claude Haiku sub-agents</b> using the same rubric (marked in results.json), and ${apps.filter((a) => (a.model || "").startsWith("gemini")).length} by the Gemini agent. The reference apps scored above were all researched by the Gemini agent in the first pass, so the first-pass accuracy row measures the Gemini agent only. The 15 reference apps listed under the table had no Gemini record. 13 of them were then researched by Haiku sub-agents but are deliberately NOT scored (Haiku wrote the reference labels, so agreement would be inflated). PitchBook and QuickBooks block automated page fetching. QuickBooks was read by hand in a real browser (Intuit's pages are empty shells to scripts, so the evidence checker lists some of its quotes as unreadable). PitchBook was read by hand in a real browser: its API type and gated access come from pitchbook.com pages, and its official MCP server is confirmed by the endpoint's own OAuth metadata. The REST API's auth method and who may use the MCP are not stated publicly, so those remain best guesses.</li>
+    <li>Evidence re-check on the first pass: of ${ev.total} quotes the researchers cited, ${ev.found} were found on the cited page, ${ev.missing} were not, and ${ev.unreadable} pages could not be opened by the checker. Missing quotes are a warning sign, not proof the answer is wrong, because the checker's text extraction can differ from what a browser shows.</li>
+    <li><b>Re-research caveat:</b> the re-research round was run by Claude Haiku sub-agents (the Gemini run returned 503 for every re-research call). Haiku is the same model family that wrote the reference labels, so errors may be correlated and the improvement shown for the reference apps is likely optimistic. ${apps.filter((a) => a.reResearched).length} apps were re-researched.</li>
+    <li>Composio's own search toolkit was retired (HTTP 410), so search runs on Composio's Tavily toolkit.</li>
+    <li>${apps.length - have.length} app(s) had no finished record in time. ${apps.filter((a) => a.reResearched).length} were sent back for re-research after a check flagged them.</li></ul>`);
+  const misses = (finalScore || { misses: [] }).misses;
+  document.getElementById("missTitle").textContent = `Every miss on the reference set (${misses.length})`;
+  set("missTable", `<tr><th>App</th><th>Field</th><th>Reference says</th><th>Agent said</th></tr>` +
+    misses.map((m) => `<tr class="miss"><td>${m.name}</td><td>${m.field}</td><td>${[].concat(m.expected).join(", ")}</td><td>${[].concat(m.answered).join(", ")}</td></tr>`).join(""));
+}
+
+function process() {
+  const steps = [
+    ["1 Research agent", "Gemini searches (Composio Tavily tool), opens the docs, fills a fixed schema with a quote per field."],
+    ["2 Evidence check", "No model: re-opens every cited page and looks for the quote. Ran on all finished records."],
+    ["3 Composio catalog", "Compares auth with Composio's 1,842-toolkit catalog. Ran on all finished records."],
+    ["4 Verifier agent", "A second agent sees only the claims and tries to refute them. Built and tested on 5 trial apps only (it caught 5 wrong fields on fanbasis); not run on the 100 for lack of Gemini capacity."],
+    ["5 Re-research", "Flagged apps go back with the exact problems. Run only on the 7 flagged reference apps, by Claude Haiku sub-agents."],
+    ["6 Score + patterns", "Scored against the reference set; every pattern number is computed by script."],
+  ];
+  set("flow", steps.map(([t, d]) => `<div class="step"><b>${t}</b>${d}</div>`).join(""));
+  set("humans", `<b>Where a human was needed:</b> choosing the 100-app scope and the rubric's definitions; deciding to fall back to cheaper models and to Tavily when the free tiers failed; deciding the unsure reference cells are excluded rather than guessed. Pages that block bots (for example PitchBook, QuickBooks) defeated the agent and are marked as such, not guessed.`);
+}
+
+function table() {
+  const fill = (id, label, values) => { const s = document.getElementById(id); s.append(el("option", { value: "", textContent: label })); values.forEach((v) => s.append(el("option", { value: v, textContent: v }))); };
+  const uniq = (fn) => [...new Set(have.map(fn))].sort();
+  fill("fCategory", "all categories", uniq((a) => a.category)); fill("fAccess", "any access", uniq((a) => a.record.accessLevel)); fill("fBuild", "any verdict", uniq((a) => a.record.buildable));
+  const render = () => {
+    const q = document.getElementById("search").value.toLowerCase(), c = fCategory.value, ac = fAccess.value, b = fBuild.value;
+    const shown = apps.filter((a) => (!q || (a.name + a.category).toLowerCase().includes(q)) && (!c || a.category === c) && (!ac || a.record?.accessLevel === ac) && (!b || a.record?.buildable === b));
+    document.getElementById("appTable").innerHTML = `<tr><th>#</th><th>App</th><th>Auth</th><th>Access</th><th>API</th><th>MCP</th><th>Buildable</th><th>Blocker</th><th>Catalog</th></tr>` +
+      shown.map((a) => { const r = a.record; if (!r) return `<tr><td>${a.id}</td><td>${a.name}</td><td colspan="7">no finished record: ${a.error || ""}</td></tr>`;
+        const ev = (a.finalEvidence.length ? a.finalEvidence : a.firstEvidence).map((e) => `<li>[${e.field}] <a href="${e.url}">${e.url}</a> <i>${e.status === "quoteFound" ? "quote verified" : e.status === "quoteNotFound" ? "not on page" : "page unreadable"}</i><br><span class="muted">${e.quote.slice(0, 200)}</span></li>`).join("");
+        return `<tr><td>${a.id}</td><td><details><summary>${a.name}</summary><p class="muted">${r.oneLiner}</p><p>${r.verdictReason}</p><ul>${ev}</ul></details></td><td>${r.authMethods.join(", ")}</td><td>${pill(r.accessLevel)}</td><td>${r.apiType} / ${r.apiBreadth}</td><td>${r.existingMcp}</td><td>${pill(r.buildable)}</td><td>${r.mainBlocker}</td><td>${a.catalog ? a.catalog.status : ""}</td></tr>`; }).join("");
+  };
+  ["search", "fCategory", "fAccess", "fBuild"].forEach((id) => document.getElementById(id).addEventListener("input", render)); render();
+}
+headlines(); categories(); accuracy(); process(); table();
+</script>
+</body>
+</html>

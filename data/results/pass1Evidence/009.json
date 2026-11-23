@@ -1,0 +1,34 @@
+{
+  "id": 9,
+  "name": "Copper",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.copper.com/introduction/authentication.html",
+      "quote": "There are two ways to access the Copper Developer API: API keys and OAuth2.0. API Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.copper.com/introduction/authentication.html",
+      "quote": "To generate an API token, in the Copper web app go to System settings > API Keys and click the 'GENERATE API KEY' button.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.youtube.com/watch?v=oQpeHzmFdrk",
+      "quote": "the Copper Development API or dev API provides a restful interface with JSON-formatted",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://www.apideck.com/mcp-server/copper",
+      "quote": "Connect Copper to Claude, Cursor and Windsurf through the Apideck MCP Server, part of the Apideck CRM API",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 100,
+  "name": "Grain",
+  "category": "AI, Research and Media-native",
+  "hint": "grain.com (meeting notes)",
+  "record": {
+    "oneLiner": "Meeting recorder and notes tool with a public API for recordings, highlights, uploads and playlists, plus an official MCP server.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://support.grain.com/en/articles/14811968-how-to-use-the-grain-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal access tokens are self-generated in Grain settings, and OAuth2 is documented for integrations; no plan or approval requirement is stated on the pages read. Coverage is strong for recordings and playlists but creation is limited for clips, stories and uploads, so breadth is medium. Official MCP server is documented in Grain's support center.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://support.grain.com/en/articles/14811968-how-to-use-the-grain-mcp-server",
+        "quote": "Grain's MCP server uses OAuth and HTTPS."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://developers.grain.com/",
+        "quote": "A Personal Access Token (PAT) authenticates requests as you, with the same access you have in Grain."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.grain.com/",
+        "quote": "A Personal Access Token (PAT) authenticates requests as you, with the same access you have in Grain."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.grain.com/",
+        "quote": "The Grain API lets you read and manage recordings, highlights, uploads, and more."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://support.grain.com/en/articles/14811968-how-to-use-the-grain-mcp-server",
+        "quote": "For technical setup and the full tool reference, see the Grain MCP developer docs."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

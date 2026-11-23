@@ -1,0 +1,16 @@
+{
+  "id": 38,
+  "name": "Pinterest",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The quote cited for authMethods is not on the page https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://developers.pinterest.com/docs/api/v5/introduction). Cite a page that fetchPage can open."
+    }
+  ]
+}

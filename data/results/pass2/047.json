@@ -1,0 +1,96 @@
+{
+  "id": 47,
+  "name": "Ecwid",
+  "category": "Ecommerce",
+  "hint": "api-docs.ecwid.com",
+  "record": {
+    "oneLiner": "Ecwid is an ecommerce platform providing a comprehensive REST API secured via OAuth 2.0 and token authentication for managing store catalogs, customers, orders, and settings.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Ecwid provides fully self-serve free developer access with well-documented REST APIs and OAuth authentication methods, making it straightforward to build integrations without partner gates.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://api-docs.ecwid.com/reference/get-started-with-rest-api",
+        "quote": "We use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, and a clear structure."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://api-docs.ecwid.com/reference/get-started-with-building-public-applications",
+        "quote": "Start with the dev version of your app in the free dev environment and test it with us before publishing the app."
+      },
+      {
+        "field": "apiType",
+        "url": "https://api-docs.ecwid.com/reference/get-started-with-rest-api",
+        "quote": "Ecwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://api-docs.ecwid.com/reference/community-libraries",
+        "quote": "For the complete documentation index, see llms.txt. This page is also available as Markdown."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api-docs.ecwid.com authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api-docs.ecwid.com authentication basics"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api-docs.ecwid.com authentication OR token OR oauth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api-docs.ecwid.com \"Get access token\" OR \"Authentication basics\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api-docs.ecwid.com mcp OR \"model context protocol\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api-docs.ecwid.com pricing OR free OR plans"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 43363,
+    "outputTokens": 1137
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

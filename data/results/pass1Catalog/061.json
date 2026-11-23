@@ -1,0 +1,12 @@
+{
+  "id": 61,
+  "name": "GitHub",
+  "toolkitSlug": "github",
+  "mcpToolkitSlug": "github_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

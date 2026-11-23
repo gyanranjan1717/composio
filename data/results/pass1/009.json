@@ -1,0 +1,88 @@
+{
+  "id": 9,
+  "name": "Copper",
+  "category": "CRM and Sales",
+  "hint": "copper.com",
+  "record": {
+    "oneLiner": "Copper is a G Suite-native CRM with a RESTful Developer API authenticated via API keys and OAuth 2.0, available via self-serve and integrated via community MCP servers.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://www.apideck.com/mcp-server/copper",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Copper provides a documented REST API supporting API keys and OAuth 2.0 authentication, obtainable self-serve without review gates or paid plans required for developer testing.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.copper.com/introduction/authentication.html",
+        "quote": "There are two ways to access the Copper Developer API: API keys and OAuth2.0. API Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.copper.com/introduction/authentication.html",
+        "quote": "To generate an API token, in the Copper web app go to System settings > API Keys and click the 'GENERATE API KEY' button."
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.youtube.com/watch?v=oQpeHzmFdrk",
+        "quote": "the Copper Development API or dev API provides a restful interface with JSON-formatted"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.apideck.com/mcp-server/copper",
+        "quote": "Connect Copper to Claude, Cursor and Windsurf through the Apideck MCP Server, part of the Apideck CRM API"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Copper CRM developer documentation API auth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.copper.com \"pricing\" OR \"plans\" OR \"trial\" OR \"signup\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:copper.com pricing API developer access"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:apitracker.io \"Copper\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"Apideck\" MCP server copper crm"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 36858,
+    "outputTokens": 1047
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

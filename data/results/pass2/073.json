@@ -1,0 +1,50 @@
+{
+  "id": 73,
+  "name": "Linear",
+  "category": "Productivity and Project Management",
+  "hint": "developers.linear.app",
+  "record": {
+    "oneLiner": "Issue tracking and project management with a public GraphQL API.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "graphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.linear.app/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal API keys are created in account security settings with no sales step, and OAuth 2.0 is documented with no review requirement. Breadth was judged from the GraphQL API and the MCP description, not from a full object-by-object audit.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://linear.app/developers",
+        "quote": "OAuth 2.0 authentication"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://linear.app/developers",
+        "quote": "Visit Security & access settings to create and manage them."
+      },
+      {
+        "field": "apiType",
+        "url": "https://linear.app/developers",
+        "quote": "Linear's public API is built using GraphQL."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://linear.app/developers",
+        "quote": "connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

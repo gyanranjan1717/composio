@@ -1,0 +1,12 @@
+{
+  "id": 76,
+  "name": "Monday.com",
+  "toolkitSlug": "monday",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

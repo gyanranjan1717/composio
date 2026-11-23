@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_using_oauth.html). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_connecting.html). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "verifierAgent",
+      "field": "existingMcp",
+      "message": "A reviewer disagrees on existingMcp and says it should be 'official'. Reason: The vendor explicitly publishes official MCP servers rather than relying on the community. (source: https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-mcp.html)"
+    }
+  ]
+}

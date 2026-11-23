@@ -1,0 +1,34 @@
+{
+  "id": 45,
+  "name": "Magento (Adobe Commerce)",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.adobe.com/commerce/webapi/rest",
+      "quote": "Adobe Commerce REST APIs support multiple authentication methods, including: Third-party applications authenticate with OAuth 1.0a. Mobile applications authenticate using tokens. Administrators and customers are authenticated with login credentials.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks",
+      "quote": "In a production environment, you would typically create an integration and use OAuth to provide authentication for any REST call that requires admin privileges.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.adobe.com/commerce/webapi/rest",
+      "quote": "Adobe Commerce REST APIs support multiple authentication methods",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/magendooro/magemcp",
+      "quote": "MageMCP \u2014 MCP server connecting AI agents to Magento 2 / Adobe Commerce. Exposes catalog, orders, customers, and inventory as MCP tools via REST and GraphQL APIs",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

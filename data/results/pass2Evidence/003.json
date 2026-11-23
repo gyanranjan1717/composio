@@ -1,0 +1,41 @@
+{
+  "id": 3,
+  "name": "Pipedrive",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+      "quote": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developers.pipedrive.com/tutorials/create-a-deal-pipedrive-api?step=7",
+      "quote": "// Pipedrive API token $api_token = 'YOUR_API_TOKEN';",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://blog.coupler.io/pipedrive-api-guide/",
+      "quote": "To generate and/or copy your API token, open the Pipedrive web app. Click on your profile icon in the top-right corner and choose Company settings. Then, select Personal preferences and switch to the API tab.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.pipedrive.com/en/features/crm-api",
+      "quote": "Our stable API lets you make API calls in a safe and secure environment, while receiving outputs in a JSON format, enabling you to fully customize your CRM system and create integrations that work for you!",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/ckalima/pipedrive-mcp-server",
+      "quote": "An MCP (Model Context Protocol) server for Pipedrive CRM integration with Claude Code and Claude Desktop. Query, create, and update CRM data directly from your AI assistant.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

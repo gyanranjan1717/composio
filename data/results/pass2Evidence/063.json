@@ -1,0 +1,34 @@
+{
+  "id": 63,
+  "name": "Netlify",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.netlify.com/api/get-started/",
+      "quote": "Netlify uses OAuth2 for authentication.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://docs.netlify.com/api/get-started/",
+      "quote": "Go to Applications > Personal access tokens.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.netlify.com/api/get-started/",
+      "quote": "https://api.netlify.com/api/v1/sites",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.netlify.com/welcome/build-with-ai/netlify-mcp-server",
+      "quote": "Netlify offers an [MCP server](https://github.com/netlify/netlify-mcp), which you can connect to through a connector, plugin, or your agent.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

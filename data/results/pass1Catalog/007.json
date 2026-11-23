@@ -1,0 +1,12 @@
+{
+  "id": 7,
+  "name": "Zoho CRM",
+  "toolkitSlug": "zoho",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

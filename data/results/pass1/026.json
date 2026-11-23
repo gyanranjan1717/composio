@@ -1,0 +1,75 @@
+{
+  "id": 26,
+  "name": "Discord",
+  "category": "Communications and Messaging",
+  "hint": "discord.com",
+  "record": {
+    "oneLiner": "Discord provides a rich REST and Gateway API authenticated via bot tokens, OAuth2, or basic auth for building applications and chat bots.",
+    "authMethods": [
+      "apiKey",
+      "oauth2",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Discord has a comprehensive, publicly accessible REST API that allows developers to create applications and bots via a self-serve developer portal.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "Authenticating with the Discord API can be done in one of three ways: Using a bot token found on the Bot page within your app\u2019s settings. For more information on bots see bots vs user accounts . Using an OAuth2 bearer token gained through the OAuth2 API . Using basic authentication with credentials as the client ID and client secret found on the OAuth2 page of your app\u2019s settings in the format client_id:client_secret as a Base64 encoded string."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "The Discord API is a REST API that allows you to interact with Discord data from your own applications. It\u2019s the primary way to interact with Discord from your own code."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "The Discord API is a REST API that allows you to interact with Discord data from your own applications."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "The Discord API is a REST API that allows you to interact with Discord data from your own applications."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Discord developer docs authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.discord.com MCP server model context protocol"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://docs.discord.com/developers/reference"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 30648,
+    "outputTokens": 997
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

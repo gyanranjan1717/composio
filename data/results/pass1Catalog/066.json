@@ -1,0 +1,17 @@
+{
+  "id": 66,
+  "name": "Neo4j",
+  "toolkitSlug": "neo4j",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "basic",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "apiKey",
+    "basic"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 21,
+  "name": "Slack",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://docs.slack.dev/app-management/quickstart-app-settings."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 70,
+  "name": "Sentry",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "docs.sentry.io/api",
+  "record": {
+    "oneLiner": "Sentry web API for organizations, teams, issues and events, authenticated with internal-integration tokens or OAuth, with a hosted official MCP server.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.sentry.dev/mcp",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "Tokens come from internal integrations or OAuth, but the free Developer plan's feature table marks API as No. Team, which includes API, is a paid plan. The API covers many core resources.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.sentry.io/api/auth/",
+        "quote": "You can create authentication tokens within Sentry by creating an internal integration."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://sentry.io/pricing/",
+        "quote": "API | No | Yes | Yes | Yes"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.sentry.io/api/requests/",
+        "quote": "All API requests should be made to the `/api/0/` prefix, and will return JSON as the response"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://mcp.sentry.dev/",
+        "quote": "The base MCP server address is: `https://mcp.sentry.dev/mcp`"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

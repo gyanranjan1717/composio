@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.venv/
+.agents/
+data/cache/
+data/*.log
+data/*.err
+site/
+.claude/
+data/results/trial*/

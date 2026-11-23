@@ -1,0 +1,85 @@
+{
+  "id": 4,
+  "name": "Attio",
+  "category": "CRM and Sales",
+  "hint": "attio.com",
+  "verdicts": [
+    {
+      "field": "authMethods",
+      "verdict": "agree",
+      "correctedValue": "[\"oauth2\", \"apiKey\", \"basic\"]",
+      "reason": "The documentation supports OAuth 2.0, API keys (workspace tokens), and explicitly mentions HTTP Basic Auth.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "quote": "We also support HTTP Basic Authentication, where the username is the token and the password is left blank."
+    },
+    {
+      "field": "accessLevel",
+      "verdict": "agree",
+      "correctedValue": "selfServeFree",
+      "reason": "API access is available on the Free plan without vendor approval.",
+      "url": "https://attio.com/pricing",
+      "quote": "API and webhook access... Free... Plus... Pro... Enterprise"
+    },
+    {
+      "field": "apiType",
+      "verdict": "agree",
+      "correctedValue": "rest",
+      "reason": "The vendor explicitly identifies its interface as a REST API.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "quote": "In order to make requests to the Attio REST API, you need to generate an access token."
+    },
+    {
+      "field": "existingMcp",
+      "verdict": "agree",
+      "correctedValue": "official",
+      "reason": "The vendor provides an official MCP server for the product.",
+      "url": "https://apigene.ai/mcp/official/attio",
+      "quote": "Yes, this MCP server is officially provided and maintained by Attio."
+    },
+    {
+      "field": "buildable",
+      "verdict": "agree",
+      "correctedValue": "yes",
+      "reason": "The API is public, documented, and accessible on a self-serve basis.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "quote": "In order to make requests to the Attio REST API, you need to generate an access token."
+    },
+    {
+      "field": "mainBlocker",
+      "verdict": "agree",
+      "correctedValue": "none",
+      "reason": "No blockers exist for developers getting started with the API.",
+      "url": "https://attio.com/pricing",
+      "quote": "API and webhook access... Free... Plus... Pro... Enterprise"
+    }
+  ],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Attio API documentation authentication auth methods"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Attio MCP server documentation"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Attio API access levels developer account pricing"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 23996,
+    "outputTokens": 1294
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.1-flash-lite"
+}

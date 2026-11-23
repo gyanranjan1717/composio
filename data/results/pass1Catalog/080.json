@@ -1,0 +1,12 @@
+{
+  "id": 80,
+  "name": "Harvest",
+  "toolkitSlug": "harvest",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

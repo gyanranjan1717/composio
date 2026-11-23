@@ -1,0 +1,34 @@
+{
+  "id": 16,
+  "name": "LiveAgent",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://support.liveagent.com/802463-REST-API",
+      "quote": "What is an API key API key is an identity of your LiveAgent (like your username and password) which you can use to build your own custom integration solutions.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://support.liveagent.com/567924-Documentation",
+      "quote": "1. Consider registering a new free Trial account for testing purposes, before using API with your live account.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://support.liveagent.com/567924-Documentation",
+      "quote": "LiveAgent API v3 REST API",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://support.liveagent.com/150554-AI-features",
+      "quote": "LiveAgent exposes a built-in MCP server (Model Context Protocol) that lets you connect external AI tools \u2014 such as Claude Desktop, Cursor, claude.ai, FlowHunt, or any other MCP-compatible client \u2014 directly to your LiveAgent account.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "hint": "hubspot.com",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "hint": "pipedrive.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "hint": "copper.com",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "hint": "intercom.com",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "hint": "front.com",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "hint": "helpscout.com",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "hint": "core.telegram.org",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "hint": "aircall.io",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "hint": "developer.vonage.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "developers.google.com/google-ads",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "mailchimp.com/developer",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "sendgrid.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "hint": "shopify.dev",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "hint": "woocommerce.com/document/woocommerce-rest-api",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "hint": "developer.adobe.com/commerce",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "hint": "docs.dataforseo.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "hint": "seranking.com/api",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "hint": "ahrefs.com/api",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "vercel.com/docs/rest-api",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "supabase.com/docs",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "docs.snowflake.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "hint": "developers.notion.com",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "hint": "developer.atlassian.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "hint": "coda.io/developers",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "hint": "developer.intuit.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "hint": "developer.brex.com",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "hint": "pitchbook.com (research API)",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "hint": "fathom.video",
+    "split": "dev",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "hint": "github.com/mermaid-js/mermaid-cli",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "hint": "grain.com (meeting notes)",
+    "split": "heldOut",
+    "label": {
+      "authMethods": [],
+      "evidenceUrl": "",
+      "notes": ""
+    },
+    "complete": false
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": 66,
+  "name": "Neo4j",
+  "issues": [
+    {
+      "source": "composioCatalog",
+      "field": "authMethods",
+      "message": "Composio's existing toolkit for this app authenticates with ['apiKey', 'basic', 'oauth2'], but authMethods does not include ['apiKey', 'basic']. Check the vendor's auth docs for those methods."
+    }
+  ]
+}

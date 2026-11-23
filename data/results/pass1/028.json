@@ -1,0 +1,87 @@
+{
+  "id": 28,
+  "name": "WhatsApp Business",
+  "category": "Communications and Messaging",
+  "hint": "developers.facebook.com/docs/whatsapp",
+  "record": {
+    "oneLiner": "The official WhatsApp Business Cloud API lets developers send messages, manage templates, and handle customer communication programmatically using bearer tokens.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/panghy/whatsapp-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "WhatsApp Business Platform provides a comprehensive Cloud API that developers can access self-serve through Meta for Developers using standard bearer tokens.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/authentication-templates",
+        "quote": "curl ' \\\n -H 'Content-Type: application/json' \\\n -H 'Authorization: Bearer EAAJB...' \\"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.facebook.com/docs/whatsapp/cloud-vs-onprem",
+        "quote": "Cloud API is our newest API, launched in April of 2022. Cloud API is the preferred solution, as it significantly simplifies the operational and infrastructure requirements to integrate with the WhatsApp Business Platform."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/guides",
+        "quote": "Use the WhatsApp Business Management API to create new message templates, media message templates, or interactive message templates."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/panghy/whatsapp-mcp-server",
+        "quote": "WhatsApp MCP Server - Electron app exposing WhatsApp messaging via Model Context Protocol"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.facebook.com/docs/whatsapp authentication API type"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.facebook.com/docs/whatsapp get started access token"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.facebook.com/docs/whatsapp/cloud-api/get-started"
+      },
+      "failed": true
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"Cloud API\" get started site:developers.facebook.com/docs/whatsapp"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com \"model context protocol\" OR \"mcp\" whatsapp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 37902,
+    "outputTokens": 1086
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

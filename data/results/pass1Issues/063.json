@@ -1,0 +1,11 @@
+{
+  "id": 63,
+  "name": "Netlify",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://docs.netlify.com/welcome/build-with-ai/netlify-mcp-server."
+    }
+  ]
+}

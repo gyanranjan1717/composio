@@ -1,0 +1,41 @@
+{
+  "id": 30,
+  "name": "Vonage",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.vonage.com/en/verify/concepts/authentication",
+      "quote": "Basic Authentication sends your API Key and API Secret Base64-encoded in the Authorization header. You can find these credentials in your API settings in the Vonage Dashboard.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developer.vonage.com/en/verify/concepts/authentication",
+      "quote": "Generate a JWT signed with your Application ID and private key. You can use the JWT Generator, the Vonage CLI, or any Vonage SDK.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://github.com/vonage/vonage-node-sdk",
+      "quote": "To use it you will need a Vonage account. Sign up for free at vonage.com.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.vonage.com/en/verify/overview",
+      "quote": "The Verify API is our next generation two-factor authentication (2FA) product. Authenticate your users and prevent fraud with our simple, easy-to-use API...",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developer.vonage.com/en/mcp-server/overview",
+      "quote": "The Vonage MCP Server enables AI agents and developer tools to discover, describe, and use Vonage capabilities via the Model Context Protocol.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

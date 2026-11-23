@@ -1,0 +1,16 @@
+{
+  "id": 20,
+  "name": "Gladly",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://developer.gladly.com/rest."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://developer.gladly.com/rest."
+    }
+  ]
+}

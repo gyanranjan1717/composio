@@ -1,0 +1,72 @@
+{
+  "id": 55,
+  "name": "Apify",
+  "category": "Data, SEO and Scraping",
+  "hint": "docs.apify.com",
+  "record": {
+    "oneLiner": "A cloud platform for web scraping and browser automation with a comprehensive REST API and an official MCP server.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.apify.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Apify provides a fully functional, self-serve public REST API and offers an official MCP server. Credentials are easily obtained via the developer console for free, and there are no restrictive gated access requirements.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.apify.com/integrations/api",
+        "quote": "To access the Apify API in your integrations, you need to authenticate using your secret API token."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://docs.apify.com/mcp",
+        "quote": "The recommended remote connection signs you in with OAuth instead."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://apify.com/pricing",
+        "quote": "Free $0 $5 to spend in Infinitely customizable $0.2 per compute unit Community support No Apify Store discount Start for free No credit card required."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.apify.com/api/v2/getting-started",
+        "quote": "Most requests need to be authenticated with the Apify API token passed via the Authorization HTTP header."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.apify.com/mcp",
+        "quote": "Apify MCP server | Platform | Apify Documentation"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Apify API authentication documentation"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Apify pricing free tier plans"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 16824,
+    "outputTokens": 1040
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.1-flash-lite"
+}

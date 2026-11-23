@@ -1,0 +1,11 @@
+{
+  "id": 77,
+  "name": "ClickUp",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://developer.clickup.com/reference/getauthorizedteams."
+    }
+  ]
+}

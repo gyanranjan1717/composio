@@ -1,0 +1,96 @@
+{
+  "id": 19,
+  "name": "Gorgias",
+  "category": "Support and Helpdesk",
+  "hint": "gorgias.com",
+  "record": {
+    "oneLiner": "Gorgias is an e-commerce helpdesk platform offering a broad REST API authenticated via API keys or OAuth 2.0.",
+    "authMethods": [
+      "apiKey",
+      "oauth2",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/mattcoatsworth/Gorgias-MCP-Server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Gorgias provides a comprehensive, self-service REST API with clear documentation and credential generation available directly in the user dashboard on all plans.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+        "quote": "To authenticate API requests, Gorgias uses HTTP Basic Authentication with three pieces of information: your base API URL, your email address, and an API key."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+        "quote": "Available on all Helpdesk plans\n- The account owner and admins can access the API credentials and create API keys"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+        "quote": "The Gorgias REST API lets you read and write data in your helpdesk programmatically."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/mattcoatsworth/Gorgias-MCP-Server",
+        "quote": "An MCP server for interacting with the Gorgias helpdesk API. This server provides tools and resources for managing tickets, customers, and other Gorgias functionality."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Gorgias API documentation authentication credentials"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.gorgias.com developer documentation rest api"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.gorgias.com developer documentation rest api endpoint breadth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.gorgias.com \"Model\" \"tickets\" OR \"customers\" OR \"messages\" rest api"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com mcp gorgias OR model-context-protocol gorgias"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com/gorgias mcp-cookbook"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 60158,
+    "outputTokens": 1092
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

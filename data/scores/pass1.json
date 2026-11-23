@@ -1,0 +1,379 @@
+{
+  "passName": "pass1",
+  "goldApps": 30,
+  "goldAppsAnswered": 15,
+  "cellsScored": 61,
+  "cellsExcluded": 119,
+  "accuracy": {
+    "all": {
+      "overall": {
+        "correct": 33,
+        "total": 61
+      },
+      "authMethods": {
+        "correct": 8,
+        "total": 13
+      },
+      "accessLevel": {
+        "correct": 2,
+        "total": 5
+      },
+      "apiType": {
+        "correct": 3,
+        "total": 5
+      },
+      "existingMcp": {
+        "correct": 6,
+        "total": 10
+      },
+      "buildable": {
+        "correct": 7,
+        "total": 15
+      },
+      "mainBlocker": {
+        "correct": 7,
+        "total": 13
+      }
+    },
+    "dev": {
+      "overall": {
+        "correct": 14,
+        "total": 29
+      },
+      "authMethods": {
+        "correct": 4,
+        "total": 6
+      },
+      "accessLevel": {
+        "correct": 1,
+        "total": 2
+      },
+      "apiType": {
+        "correct": 1,
+        "total": 1
+      },
+      "existingMcp": {
+        "correct": 4,
+        "total": 6
+      },
+      "buildable": {
+        "correct": 2,
+        "total": 7
+      },
+      "mainBlocker": {
+        "correct": 2,
+        "total": 7
+      }
+    },
+    "heldOut": {
+      "overall": {
+        "correct": 19,
+        "total": 32
+      },
+      "authMethods": {
+        "correct": 4,
+        "total": 7
+      },
+      "accessLevel": {
+        "correct": 1,
+        "total": 3
+      },
+      "apiType": {
+        "correct": 2,
+        "total": 4
+      },
+      "existingMcp": {
+        "correct": 2,
+        "total": 4
+      },
+      "buildable": {
+        "correct": 5,
+        "total": 8
+      },
+      "mainBlocker": {
+        "correct": 5,
+        "total": 6
+      }
+    }
+  },
+  "misses": [
+    {
+      "id": 3,
+      "name": "Pipedrive",
+      "split": "heldOut",
+      "field": "existingMcp",
+      "expected": "official",
+      "answered": "community",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "name": "Copper",
+      "split": "dev",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 9,
+      "name": "Copper",
+      "split": "dev",
+      "field": "mainBlocker",
+      "expected": "paidPlanRequired",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 12,
+      "name": "Intercom",
+      "split": "dev",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 12,
+      "name": "Intercom",
+      "split": "dev",
+      "field": "mainBlocker",
+      "expected": "paidPlanRequired",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "split": "dev",
+      "field": "authMethods",
+      "expected": [
+        "oauth2"
+      ],
+      "answered": [
+        "oauth2",
+        "apiKey"
+      ],
+      "correct": false
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "split": "dev",
+      "field": "accessLevel",
+      "expected": "paidPlan",
+      "answered": "selfServeFree",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "split": "dev",
+      "field": "existingMcp",
+      "expected": "official",
+      "answered": "community",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "split": "dev",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "split": "dev",
+      "field": "mainBlocker",
+      "expected": "paidPlanRequired",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 29,
+      "name": "Aircall",
+      "split": "heldOut",
+      "field": "authMethods",
+      "expected": [
+        "basic",
+        "oauth2"
+      ],
+      "answered": [
+        "apiKey",
+        "oauth2"
+      ],
+      "correct": false
+    },
+    {
+      "id": 29,
+      "name": "Aircall",
+      "split": "heldOut",
+      "field": "accessLevel",
+      "expected": "selfServeTrial",
+      "answered": "selfServeFree",
+      "correct": false
+    },
+    {
+      "id": 29,
+      "name": "Aircall",
+      "split": "heldOut",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "split": "dev",
+      "field": "authMethods",
+      "expected": [
+        "oauth2",
+        "jwt"
+      ],
+      "answered": [
+        "oauth2"
+      ],
+      "correct": false
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "split": "dev",
+      "field": "existingMcp",
+      "expected": "official",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "split": "dev",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "split": "dev",
+      "field": "mainBlocker",
+      "expected": "appReviewRequired",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "split": "heldOut",
+      "field": "authMethods",
+      "expected": [
+        "apiKey"
+      ],
+      "answered": [
+        "apiKey",
+        "basic"
+      ],
+      "correct": false
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "split": "heldOut",
+      "field": "accessLevel",
+      "expected": "selfServeTrial",
+      "answered": "selfServeFree",
+      "correct": false
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "split": "heldOut",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "split": "heldOut",
+      "field": "mainBlocker",
+      "expected": "paidPlanRequired",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "split": "heldOut",
+      "field": "authMethods",
+      "expected": [
+        "oauth2"
+      ],
+      "answered": [
+        "oauth2",
+        "apiKey"
+      ],
+      "correct": false
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "split": "heldOut",
+      "field": "apiType",
+      "expected": "graphql",
+      "answered": "restAndGraphql",
+      "correct": false
+    },
+    {
+      "id": 45,
+      "name": "Magento (Adobe Commerce)",
+      "split": "heldOut",
+      "field": "apiType",
+      "expected": "rest",
+      "answered": "restAndGraphql",
+      "correct": false
+    },
+    {
+      "id": 45,
+      "name": "Magento (Adobe Commerce)",
+      "split": "heldOut",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 51,
+      "name": "DataForSEO",
+      "split": "heldOut",
+      "field": "existingMcp",
+      "expected": "official",
+      "answered": "none",
+      "correct": false
+    },
+    {
+      "id": 52,
+      "name": "SE Ranking",
+      "split": "dev",
+      "field": "buildable",
+      "expected": "partial",
+      "answered": "yes",
+      "correct": false
+    },
+    {
+      "id": 52,
+      "name": "SE Ranking",
+      "split": "dev",
+      "field": "mainBlocker",
+      "expected": "paidPlanRequired",
+      "answered": "none",
+      "correct": false
+    }
+  ]
+}

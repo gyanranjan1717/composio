@@ -1,0 +1,74 @@
+{
+  "id": 7,
+  "name": "Zoho CRM",
+  "category": "CRM and Sales",
+  "hint": "zoho.com/crm",
+  "record": {
+    "oneLiner": "Zoho CRM provides a broad REST API authenticated via OAuth 2.0, accessible self-serve on free accounts with community MCP support.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/LokiMCPUniverse/zoho-crm-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Zoho CRM features comprehensive REST endpoints covering all core modules, robust OAuth 2.0 authentication obtainable self-serve on free developer accounts, and community-built MCP servers.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+        "quote": "To use the Zoho CRM APIs, the users must authenticate the application to make API calls on their behalf with an access token."
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8",
+        "quote": "Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/LokiMCPUniverse/zoho-crm-mcp-server",
+        "quote": "A Model Context Protocol (MCP) server that exposes the Zoho CRM v6 REST API as structured tools for LLM agents."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Zoho CRM developer documentation authentication API guide"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:zoho.com/crm/developer/docs/api/v8/ rest api endpoints overview"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol or mcp server zoho"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 25124,
+    "outputTokens": 1055
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

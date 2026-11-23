@@ -1,0 +1,48 @@
+{
+  "id": 62,
+  "name": "Vercel",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "vercel.com/docs/rest-api",
+  "record": {
+    "oneLiner": "REST API for managing Vercel teams, projects, deployments and domains, authenticated with bearer access tokens.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://vercel.com/docs/agent-resources/vercel-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Access tokens are created through the API or dashboard on the free Hobby plan with no approval, and the REST reference covers a broad set of resources. Vercel also publishes an official MCP server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token.md",
+        "quote": "**bearerToken**: HTTP bearer"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://vercel.com/docs/plans/hobby",
+        "quote": "The Hobby plan is **free** and includes a generous set of features on a **per month** basis:"
+      },
+      {
+        "field": "apiType",
+        "url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token.md",
+        "quote": "POST /v3/user/tokens"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+        "quote": "Vercel MCP is Vercel's official MCP server."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

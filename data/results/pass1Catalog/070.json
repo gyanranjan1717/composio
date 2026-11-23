@@ -1,0 +1,12 @@
+{
+  "id": 70,
+  "name": "Sentry",
+  "toolkitSlug": "sentry",
+  "mcpToolkitSlug": "sentry_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

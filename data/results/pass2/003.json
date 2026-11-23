@@ -1,0 +1,80 @@
+{
+  "id": 3,
+  "name": "Pipedrive",
+  "category": "CRM and Sales",
+  "hint": "pipedrive.com",
+  "record": {
+    "oneLiner": "Sales CRM with a robust REST API supporting both personal API tokens and OAuth 2.0.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/ckalima/pipedrive-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Pipedrive offers a fully documented REST API with broad coverage over CRM entities like deals, persons, and leads. Credentials are easily obtained self-serve via personal API tokens or OAuth apps, and community MCP servers are readily available.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "quote": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://developers.pipedrive.com/tutorials/create-a-deal-pipedrive-api?step=7",
+        "quote": "// Pipedrive API token $api_token = 'YOUR_API_TOKEN';"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://blog.coupler.io/pipedrive-api-guide/",
+        "quote": "To generate and/or copy your API token, open the Pipedrive web app. Click on your profile icon in the top-right corner and choose Company settings. Then, select Personal preferences and switch to the API tab."
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.pipedrive.com/en/features/crm-api",
+        "quote": "Our stable API lets you make API calls in a safe and secure environment, while receiving outputs in a JSON format, enabling you to fully customize your CRM system and create integrations that work for you!"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/ckalima/pipedrive-mcp-server",
+        "quote": "An MCP (Model Context Protocol) server for Pipedrive CRM integration with Claude Code and Claude Desktop. Query, create, and update CRM data directly from your AI assistant."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Pipedrive API documentation authentication OAuth API key"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.pipedrive.com API token authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Model Context Protocol Pipedrive MCP server github"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27663,
+    "outputTokens": 1136
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

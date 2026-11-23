@@ -1,0 +1,12 @@
+{
+  "id": 18,
+  "name": "Help Scout",
+  "toolkitSlug": "help_scout",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

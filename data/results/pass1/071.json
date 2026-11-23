@@ -1,0 +1,46 @@
+{
+  "id": 71,
+  "name": "Notion",
+  "category": "Productivity and Project Management",
+  "hint": "developers.notion.com",
+  "record": {
+    "oneLiner": "Workspace docs and database platform with a REST API authenticated by internal connection tokens or OAuth 2.0, plus an official Notion MCP server.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developers.notion.com/guides/mcp/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Internal connection tokens and personal access tokens are created self-serve in the Notion developer portal, and the docs say marketplace review is not required for OAuth. The official MCP server is documented. apiType and apiBreadth evidence was not captured verbatim, so those values are unverified.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.notion.com/guides/get-started/authorization",
+        "quote": "use a static credential called an internal connection API token"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.notion.com/guides/get-started/authorization",
+        "quote": "Personal access tokens (PATs) are created directly by a Notion user in the Developer portal."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.notion.com/guides/mcp/mcp",
+        "quote": "Notion MCP lets your AI assistant search your workspace, create and edit pages, and manage databases."
+      }
+    ]
+  },
+  "validationProblems": [
+    "evidence: nothing cited for apiType"
+  ],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

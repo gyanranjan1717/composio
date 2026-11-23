@@ -1,0 +1,12 @@
+{
+  "id": 6,
+  "name": "Podio",
+  "toolkitSlug": "podio",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

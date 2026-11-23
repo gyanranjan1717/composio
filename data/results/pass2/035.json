@@ -1,0 +1,50 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "mailchimp.com/developer",
+  "record": {
+    "oneLiner": "Mailchimp Marketing API manages audiences, campaigns and automations for email marketing.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mailchimp.com/developer/_mcp/server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Mailchimp documents API keys (created from the account's Profile > Extras > API keys) and OAuth 2 for third-party access, both sent with Basic or Bearer auth. API key creation is self-serve, but the help page does not state whether a free plan includes API access, so the free-tier part is unverified. Mailchimp hosts an MCP server, but its docs say it only searches documentation and does not act on accounts, so an agent would still call the API directly.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+        "quote": "An API key authenticates against the account that created it."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://mailchimp.com/help/about-api-keys/",
+        "quote": "Click Generate Key."
+      },
+      {
+        "field": "apiType",
+        "url": "https://mailchimp.com/developer/marketing/api/",
+        "quote": "The HTTP method that should be used when accessing the URL defined in 'href'."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server",
+        "quote": "This documentation site is itself an MCP server."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "reResearchedFrom": "pass1"
+}

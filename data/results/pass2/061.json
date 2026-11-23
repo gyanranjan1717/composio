@@ -1,0 +1,50 @@
+{
+  "id": 61,
+  "name": "GitHub",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "docs.github.com/rest",
+  "record": {
+    "oneLiner": "Developer platform whose REST API lets scripts and applications automate and extend GitHub, with each endpoint documented individually.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://api.githubcopilot.com/mcp/",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal access tokens and OAuth apps are self-serve, and the docs state no review step for OAuth apps. GitHub publishes an official MCP server with a hosted remote endpoint.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.github.com/en/rest/overview/authenticating-to-the-rest-api",
+        "quote": "You can also create an OAuth token with an OAuth app to access the REST API."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.github.com/en/rest/overview/authenticating-to-the-rest-api",
+        "quote": "If you want to use the GitHub REST API for personal use, you can create a personal access token."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.github.com/en/rest/about-the-rest-api/about-the-rest-api",
+        "quote": "Each REST API endpoint is documented individually"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/github/github-mcp-server",
+        "quote": "GitHub's official MCP Server"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

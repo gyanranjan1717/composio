@@ -1,0 +1,34 @@
+{
+  "id": 10,
+  "name": "DealCloud",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://api.docs.dealcloud.com/sdk/intapp-rest-client/configuration/authentication",
+      "quote": "OAuth2 | Most REST APIs | OAuth2Config",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://apitracker.io/a/dealcloud",
+      "quote": "The preeminent CRM, deal management and business development software for principal investing and M&A advisory professionals. Schedule a demo.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://api.docs.dealcloud.com/docs",
+      "quote": "Authentication \u2013 Provides tokens for use with all other APIs. User Management \u2013 Endpoints for managing users. Schema \u2013 Endpoints to help you understand your site's structure. Data \u2013 Endpoints for manipulating site data.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://api.docs.dealcloud.com/mcp",
+      "quote": "DealCloud now provides a Model Context Protocol (MCP) server which gives AI agents read access to your DealCloud data.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

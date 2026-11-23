@@ -1,0 +1,16 @@
+{
+  "id": 87,
+  "name": "Xero",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://developer.xero.com/faq/custom-integration."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://developer.xero.com/documentation/api/accounting/overview). Cite a page that fetchPage can open."
+    }
+  ]
+}

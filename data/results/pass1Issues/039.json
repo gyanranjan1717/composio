@@ -1,0 +1,21 @@
+{
+  "id": 39,
+  "name": "Threads (Meta)",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://developers.facebook.com/docs/threads/get-started). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://developers.facebook.com/docs/threads/get-started/create-an-app). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://developers.facebook.com/docs/threads/reference/publishing). Cite a page that fetchPage can open."
+    }
+  ]
+}

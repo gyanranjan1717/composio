@@ -1,0 +1,15 @@
+{
+  "id": 74,
+  "name": "Jira",
+  "toolkitSlug": "jira",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "apiKey"
+  ]
+}

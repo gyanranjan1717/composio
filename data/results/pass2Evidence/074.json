@@ -1,0 +1,27 @@
+{
+  "id": 74,
+  "name": "Jira",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+      "quote": "allows external applications and services to access Atlassian product APIs on a user's behalf.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.atlassian.com/cloud/jira/platform/getting-started/",
+      "quote": "The Cloud Developer Bundle provides a free Atlassian cloud development site for building and testing apps.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+      "quote": "The Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

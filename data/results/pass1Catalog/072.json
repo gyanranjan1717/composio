@@ -1,0 +1,13 @@
+{
+  "id": 72,
+  "name": "Airtable",
+  "toolkitSlug": "airtable",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

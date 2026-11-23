@@ -1,0 +1,12 @@
+{
+  "id": 17,
+  "name": "Plain",
+  "toolkitSlug": "plain",
+  "mcpToolkitSlug": "plain_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

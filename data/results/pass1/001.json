@@ -1,0 +1,96 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "category": "CRM and Sales",
+  "hint": "salesforce.com",
+  "record": {
+    "oneLiner": "Salesforce provides a robust, comprehensive set of REST, SOAP, and GraphQL APIs authenticated via OAuth 2.0 and API keys/tokens, with self-serve developer access and community MCP servers.",
+    "authMethods": [
+      "oauth2",
+      "apiKey",
+      "jwt"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/modelcontextprotocol/servers/diffs/0?base_sha=0603044adaba5da2f93f372aedf264be05e0be10&head_user=atototo&name=main&pull_number=2737&qualified_name=refs%2Fheads%2Fmain&sha1=0603044adaba5da2f93f372aedf264be05e0be10&sha2=2e77f702bcc3a3326293b48fadc097094bd2c497&short_path=b335630&unchanged=expanded&w=false",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Salesforce fully supports broad REST/GraphQL APIs and OAuth/JWT authentication, with self-serve developer accounts available and community MCP integrations.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_using_oauth.html",
+        "quote": "A user must be authenticated before accessing Salesforce. OAuth has multiple authentication flows. There are several steps in each authentication flow, as dictated by the OAuth standard and the type of application trying to access Salesforce."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_connecting.html",
+        "quote": "This example uses the OAuth 2.0 Client Credentials Flow for Server-to-Server Integration, so the grant type is client_credentials. The response includes the server instance and the access token."
+      },
+      {
+        "field": "apiType",
+        "url": "https://github.com/jctissier/salesforce-oauth2-REST-Metadata-API-Examples/blob/master/README.md",
+        "quote": "Salesforce OAuth2, REST API and Metadata API Examples (Python 3+). Python implementations of Salesforce Oauth2 Flows, as well as authenticated REST API and Metadata API requests."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/modelcontextprotocol/servers/diffs/0?base_sha=0603044adaba5da2f93f372aedf264be05e0be10&head_user=atototo&name=main&pull_number=2737&qualified_name=refs%2Fheads%2Fmain&sha1=0603044adaba5da2f93f372aedf264be05e0be10&sha2=2e77f702bcc3a3326293b48fadc097094bd2c497&short_path=b335630&unchanged=expanded&w=false",
+        "quote": "Salesforce MCP - Interact with Salesforce Data and Metadata"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Salesforce REST API documentation authentication OAuth2"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com OAuth authentication API"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com \"JWT Bearer Flow\" OR \"Client Credentials Flow\" OR \"OAuth 2.0\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com \"REST API\" overview guide"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol servers salesforce OR \"mcp-server\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com/modelcontextprotocol/servers \"salesforce\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 67001,
+    "outputTokens": 2541
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

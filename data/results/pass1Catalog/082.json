@@ -1,0 +1,12 @@
+{
+  "id": 82,
+  "name": "Plaid",
+  "toolkitSlug": "plaid",
+  "mcpToolkitSlug": "plaid_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

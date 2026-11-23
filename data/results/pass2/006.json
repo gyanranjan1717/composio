@@ -1,0 +1,82 @@
+{
+  "id": 6,
+  "name": "Podio",
+  "category": "CRM and Sales",
+  "hint": "podio.com",
+  "record": {
+    "oneLiner": "Podio provides a REST API supporting multiple OAuth 2.0 flows and API keys, accessible self-serve on free or paid accounts with community MCP integrations.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://zapier.com/mcp/podio",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Podio features a comprehensive REST API authenticated via OAuth 2.0 and API keys which developers can generate directly from their account settings on a self-serve basis. While Podio does not publish an official MCP server, community MCP servers are available.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.podio.com/authentication",
+        "quote": "This API uses OAuth 2.0 for authentication. You'll need to set up an OAuth flow with client credentials."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.podio.com/index/faq",
+        "quote": "The Podio API is available to use for both paid and free Podio accounts. Both have full access to the API... You have to sign in or sign up with Podio. Then you find your API keys as a tab under your account settings."
+      },
+      {
+        "field": "apiType",
+        "url": "https://apispine.com/podio/getting-started",
+        "quote": "The Podio API uses OAuth 2.0 for authentication and provides a RESTful interface for interacting with workspaces, applications, items, and other Podio resources."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://zapier.com/mcp/podio",
+        "quote": "Zapier PodioMCP lets you connect Podio's actions with any AI tool that supports MCP, all without managing integrations or writing glue code."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Podio API documentation authentication credentials"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.podio.com pricing or sign up developer account"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com Model Context Protocol server podio"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"mcp-server-for-podio\" github"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 35448,
+    "outputTokens": 1369
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

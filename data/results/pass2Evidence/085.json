@@ -1,0 +1,34 @@
+{
+  "id": 85,
+  "name": "iPayX",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.ipayx.ai/docs/api",
+      "quote": "Every request requires a Bearer token in the `Authorization` header.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://ipayx.ai/",
+      "quote": "Upgrade to the 100-audit Credit Pack or Unlimited for API access, white-label embedding, and forensic PDF exports.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "apiType",
+      "url": "https://ipayx.ai/",
+      "quote": "REST API + SDKs for FX audit automation.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://www.ipayx.ai/mcp-config",
+      "quote": "Server URL: https://mcp.ipayx.ai/mcp",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": 64,
+  "name": "Cloudflare",
+  "toolkitSlug": "cloudflare",
+  "mcpToolkitSlug": "cloudflare_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

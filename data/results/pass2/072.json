@@ -1,0 +1,50 @@
+{
+  "id": 72,
+  "name": "Airtable",
+  "category": "Productivity and Project Management",
+  "hint": "airtable.com/developers",
+  "record": {
+    "oneLiner": "REST Web API for reading and writing Airtable bases, tables and records, with an official hosted MCP server.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://airtable.com/developers/agents/mcp/getting-started",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal access tokens are created at /create/tokens with no plan requirement stated, and OAuth integrations are registered at /create/oauth with no vendor review step described. The Web API covers records and base metadata, so breadth is broad.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://airtable.com/developers/web/api/authentication",
+        "quote": "Personal access tokens act as your user account, and should not be shared with third-party services or integrations."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://airtable.com/developers/web/guides/personal-access-tokens",
+        "quote": "From /create/tokens, click the \u201cCreate new token\u201d button to create a new personal access token."
+      },
+      {
+        "field": "apiType",
+        "url": "https://airtable.com/developers/web/api/introduction",
+        "quote": "The API closely follows REST semantics"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://airtable.com/developers/agents/mcp/getting-started",
+        "quote": "Server URL: https://mcp.airtable.com/mcp"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5,
+  "name": "Twenty",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "quote": "Create an API key in Settings \u2192 Developers \u2192 API \u2192 + Create key. Copy it immediately \u2014 it\u2019s shown once.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://docs.twenty.com/developers/extend/oauth",
+      "quote": "| External app acting on behalf of a user | OAuth \u2014 Authorization Code |",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://docs.twenty.com/user-guide/billing/overview",
+      "quote": "| Free (Self-Hosted) | All Pro CRM features plus custom roles, AI on your own provider keys, community support |",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "quote": "Each workspace has its own schema \u2014 when you add a custom object (say Invoice), it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/twentyhq/twenty/issues/20296",
+      "quote": "I was ultimately able to connect my self-hosted Twenty instance to ChatGPT through /mcp using OAuth successfully, without patching or modifying Twenty's OAuth implementation.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

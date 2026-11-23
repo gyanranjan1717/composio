@@ -1,0 +1,11 @@
+{
+  "id": 46,
+  "name": "Squarespace",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The quote cited for authMethods is not on the page https://developers.squarespace.com/commerce-apis/authentication-and-permissions."
+    }
+  ]
+}

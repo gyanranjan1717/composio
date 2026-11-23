@@ -1,0 +1,16 @@
+{
+  "id": 56,
+  "name": "Firecrawl",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://docs.firecrawl.dev/quickstarts/openai-responses-api."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://docs.firecrawl.dev/quickstarts/openai-responses-api."
+    }
+  ]
+}

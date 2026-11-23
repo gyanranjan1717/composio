@@ -1,0 +1,12 @@
+{
+  "id": 27,
+  "name": "Telegram",
+  "toolkitSlug": "telegram",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": 68,
+  "name": "MongoDB Atlas",
+  "toolkitSlug": "mongodb",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": 5,
+  "name": "Twenty",
+  "category": "CRM and Sales",
+  "hint": "twenty.com (open-source CRM)",
+  "record": {
+    "oneLiner": "Twenty is an open-source CRM with dynamic REST and GraphQL APIs, API key/OAuth2 authentication, and an official Model Context Protocol (MCP) server built into the platform.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/twentyhq/twenty",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Twenty offers comprehensive REST and GraphQL APIs with self-serve API keys and OAuth2 authentication, plus an official built-in MCP server, making it fully buildable for AI toolkits.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "quote": "Create an API key in Settings \u2192 Developers \u2192 API \u2192 + Create key. Copy it immediately \u2014 it\u2019s shown once."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://docs.twenty.com/developers/extend/oauth",
+        "quote": "| External app acting on behalf of a user | OAuth \u2014 Authorization Code |"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.twenty.com/user-guide/billing/overview",
+        "quote": "| Free (Self-Hosted) | All Pro CRM features plus custom roles, AI on your own provider keys, community support |"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "quote": "Each workspace has its own schema \u2014 when you add a custom object (say Invoice), it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/twentyhq/twenty/issues/20296",
+        "quote": "I was ultimately able to connect my self-hosted Twenty instance to ChatGPT through /mcp using OAuth successfully, without patching or modifying Twenty's OAuth implementation."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Twenty CRM API documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.twenty.com pricing or cloud pricing"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com twentyhq twenty MCP model context protocol"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 26354,
+    "outputTokens": 1101
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

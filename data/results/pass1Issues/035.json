@@ -1,0 +1,11 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The quote cited for authMethods is not on the page https://mailchimp.com/developer/marketing/api-concepts/authentication."
+    }
+  ]
+}

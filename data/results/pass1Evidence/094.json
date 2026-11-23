@@ -1,0 +1,34 @@
+{
+  "id": 94,
+  "name": "Consensus",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://consensus.app/home/mcp/",
+      "quote": "-H \"x-api-key: $CONSENSUS_API_KEY\"",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://consensus.app/llms.txt",
+      "quote": "with caps by plan (Pro and Team 300, Deep 750, Enterprise 1000)",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://consensus.app/home/mcp/",
+      "quote": "curl -G \"https://api.consensus.app/v1/search\"",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://consensus.app/home/mcp/",
+      "quote": "Connect Claude, ChatGPT, Copilot, Perplexity or any MCP client to 400M+ scholarly works",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

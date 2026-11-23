@@ -1,0 +1,49 @@
+{
+  "id": 99,
+  "name": "YouTube Transcript",
+  "category": "AI, Research and Media-native",
+  "hint": "transcriptapi.com",
+  "record": {
+    "oneLiner": "REST API that returns YouTube video transcripts, metadata, search and channel data, with an MCP integration.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://transcriptapi.com/docs/mcp/",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A free API key gives 100 credits with no card, and the API is read-only GET endpoints covering transcripts, search, channels and playlists. The vendor documents its own MCP integration with a Claude setup guide.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://transcriptapi.com/docs/api/",
+        "quote": "The API uses Bearer token authentication."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://transcriptapi.com/pricing",
+        "quote": "100 free credits to try the API \u2014 no card required."
+      },
+      {
+        "field": "apiType",
+        "url": "https://transcriptapi.com/docs/api/",
+        "quote": "The API provides the following endpoints:"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://transcriptapi.com/docs/",
+        "quote": "Use TranscriptAPI with Model Context Protocol for seamless integration with AI tools."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

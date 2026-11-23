@@ -1,0 +1,81 @@
+{
+  "id": 34,
+  "name": "GoHighLevel",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "highlevel.stoplight.io",
+  "record": {
+    "oneLiner": "GoHighLevel is a CRM and marketing automation platform offering a broad REST API authenticated via OAuth 2.0 and Private Integration Tokens, with an official Model Context Protocol (MCP) server.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://marketplace.gohighlevel.com/docs/other/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "GoHighLevel provides comprehensive public REST API documentation on its developer portal supporting OAuth 2.0 and API integration tokens, accessible on self-serve plans, and even offers an official MCP server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "quote": "HighLevel supports: Private Integration Tokens for internal or single-location integrations, OAuth 2.0 for public integrations and Marketplace apps requiring user authorization"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "quote": "Q. Is API access available on all HighLevel plans? API access varies by plan: Starter & Unlimited: Basic API access"
+      },
+      {
+        "field": "apiType",
+        "url": "https://marketplace.gohighlevel.com/docs",
+        "quote": "Complete REST API documentation for the HighLevel CRM platform.Build powerful integrations with our comprehensive developer resources."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp",
+        "quote": "The LeadConnector MCP (Model Context Protocol) server securely connects MCP-compatible AI assistants to your CRM."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "GoHighLevel API documentation highlevel stoplight io authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:marketplace.gohighlevel.com authentication oauth 2.0 OR \"private integration token\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"HighLevel API Documentation\" marketplace.gohighlevel.com docs"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"site:marketplace.gohighlevel.com\" mcp server OR \"model context protocol\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 29274,
+    "outputTokens": 1111
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

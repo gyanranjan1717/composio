@@ -1,0 +1,50 @@
+{
+  "id": 31,
+  "name": "Google Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "developers.google.com/google-ads",
+  "record": {
+    "oneLiner": "Google Ads API provides programmatic access to Google Ads accounts, campaigns and reporting.",
+    "authMethods": [
+      "oauth2",
+      "jwt"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "adminApproval",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/googleads/google-ads-mcp",
+    "buildable": "partial",
+    "mainBlocker": "adminApprovalRequired",
+    "verdictReason": "Google's docs list OAuth 2.0 user flow and service account flow. Test access is granted on enabling the API, but production calls need an access-level application (Basic, then Standard for larger use); Google says Basic may be upgraded automatically on submission, so the approval step is light for Basic but a manual audit applies to Standard. Developer tokens were sunset on September 9, 2026 per Google's page. Google publishes an official Google Ads MCP server on GitHub.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.google.com/google-ads/api/rest/auth",
+        "quote": "Both OAuth 2.0 user authentication flow and service account flow are supported."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+        "quote": "Google may automatically upgrade your project's API access level to Basic once you submit your application."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.google.com/google-ads/api/rest/overview",
+        "quote": "The Google Ads API can be called either using gRPC or REST."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "quote": "The Google Ads MCP server provides a standardized bridge to the Google Ads API."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "reResearchedFrom": "pass1"
+}

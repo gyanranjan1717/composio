@@ -1,0 +1,49 @@
+{
+  "id": 98,
+  "name": "Mermaid CLI",
+  "category": "AI, Research and Media-native",
+  "hint": "github.com/mermaid-js/mermaid-cli",
+  "record": {
+    "oneLiner": "Command-line tool that renders Mermaid diagram definition files to SVG, PNG or PDF.",
+    "authMethods": [
+      "none"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "noPublicApi",
+    "apiType": "cliOnly",
+    "apiBreadth": "none",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/peng-shawn/mermaid-mcp-server",
+    "buildable": "no",
+    "mainBlocker": "notAnApi",
+    "verdictReason": "A local CLI with no hosted API and no credentials, so there is nothing for an agent toolkit to authenticate against. Only third-party MCP servers exist (peng-shawn, not mermaid-js); the mermaid-cli README documents a Node.js API that is not covered by semver.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "quote": "This is a command-line interface (CLI) for mermaid."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "quote": "This is a command-line interface (CLI) for mermaid."
+      },
+      {
+        "field": "apiType",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "quote": "It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/peng-shawn/mermaid-mcp-server",
+        "quote": "A Model Context Protocol (MCP) server that converts Mermaid diagrams to PNG images or SVG files."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

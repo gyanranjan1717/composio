@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gold sample labeller</title>
+<style>
+  :root { --bg:#f6f5f1; --card:#fff; --ink:#1c1b19; --muted:#6b6862; --line:#dcd9d2; --accent:#1f5f8b; --done:#2e7d4f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17181a; --card:#212327; --ink:#ecebe7; --muted:#a09d96; --line:#383b41; --accent:#7db8e0; --done:#6cc08b; }
+  }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui, sans-serif; }
+  main { max-width:920px; margin:0 auto; padding:24px 16px 96px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  p.lead { color:var(--muted); margin:0 0 20px; }
+  details { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:20px; }
+  pre { white-space:pre-wrap; font:13px/1.5 ui-monospace, monospace; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; margin-bottom:14px; }
+  .card.complete { border-left:4px solid var(--done); }
+  .card h2 { font-size:17px; margin:0; }
+  .meta { color:var(--muted); font-size:13px; margin-bottom:10px; }
+  a { color:var(--accent); }
+  .fields { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:10px 16px; }
+  label.field { display:flex; flex-direction:column; font-size:13px; color:var(--muted); gap:3px; }
+  select, input[type=text] { font:inherit; color:var(--ink); background:var(--bg); border:1px solid var(--line); border-radius:6px; padding:6px; }
+  .checks { display:flex; flex-wrap:wrap; gap:4px 12px; color:var(--ink); }
+  .bar { position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); padding:10px 16px; display:flex; gap:16px; align-items:center; justify-content:center; }
+  button { font:inherit; padding:8px 16px; border-radius:6px; border:1px solid var(--accent); background:var(--accent); color:var(--bg); cursor:pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gold sample labeller</h1>
+  <p class="lead">Label each app from the vendor's own docs, without looking at the agent's answers. Your work is saved in this browser as you go. When all are done, download the file and save it as <code>data/goldSample.json</code>.</p>
+  <details><summary>Rubric (the same definitions the agent uses)</summary><pre id="rubric"></pre></details>
+  <div id="cards"></div>
+</main>
+<div class="bar"><span id="progress"></span><button id="download">Download goldSample.json</button></div>
+<script id="labellerData" type="application/json">{"apps": [{"id": 2, "name": "HubSpot", "category": "CRM and Sales", "hint": "hubspot.com", "split": "dev"}, {"id": 3, "name": "Pipedrive", "category": "CRM and Sales", "hint": "pipedrive.com", "split": "heldOut"}, {"id": 9, "name": "Copper", "category": "CRM and Sales", "hint": "copper.com", "split": "dev"}, {"id": 12, "name": "Intercom", "category": "Support and Helpdesk", "hint": "intercom.com", "split": "dev"}, {"id": 14, "name": "Front", "category": "Support and Helpdesk", "hint": "front.com", "split": "dev"}, {"id": 18, "name": "Help Scout", "category": "Support and Helpdesk", "hint": "helpscout.com", "split": "dev"}, {"id": 27, "name": "Telegram", "category": "Communications and Messaging", "hint": "core.telegram.org", "split": "dev"}, {"id": 29, "name": "Aircall", "category": "Communications and Messaging", "hint": "aircall.io", "split": "heldOut"}, {"id": 30, "name": "Vonage", "category": "Communications and Messaging", "hint": "developer.vonage.com", "split": "heldOut"}, {"id": 31, "name": "Google Ads", "category": "Marketing, Ads, Email and Social", "hint": "developers.google.com/google-ads", "split": "dev"}, {"id": 35, "name": "Mailchimp", "category": "Marketing, Ads, Email and Social", "hint": "mailchimp.com/developer", "split": "heldOut"}, {"id": 40, "name": "SendGrid", "category": "Marketing, Ads, Email and Social", "hint": "sendgrid.com", "split": "heldOut"}, {"id": 41, "name": "Shopify", "category": "Ecommerce", "hint": "shopify.dev", "split": "heldOut"}, {"id": 42, "name": "WooCommerce", "category": "Ecommerce", "hint": "woocommerce.com/document/woocommerce-rest-api", "split": "dev"}, {"id": 45, "name": "Magento (Adobe Commerce)", "category": "Ecommerce", "hint": "developer.adobe.com/commerce", "split": "heldOut"}, {"id": 51, "name": "DataForSEO", "category": "Data, SEO and Scraping", "hint": "docs.dataforseo.com", "split": "heldOut"}, {"id": 52, "name": "SE Ranking", "category": "Data, SEO and Scraping", "hint": "seranking.com/api", "split": "dev"}, {"id": 53, "name": "Ahrefs", "category": "Data, SEO and Scraping", "hint": "ahrefs.com/api", "split": "dev"}, {"id": 62, "name": "Vercel", "category": "Developer, Infra and Data platforms", "hint": "vercel.com/docs/rest-api", "split": "dev"}, {"id": 65, "name": "Supabase", "category": "Developer, Infra and Data platforms", "hint": "supabase.com/docs", "split": "heldOut"}, {"id": 67, "name": "Snowflake", "category": "Developer, Infra and Data platforms", "hint": "docs.snowflake.com", "split": "heldOut"}, {"id": 71, "name": "Notion", "category": "Productivity and Project Management", "hint": "developers.notion.com", "split": "dev"}, {"id": 74, "name": "Jira", "category": "Productivity and Project Management", "hint": "developer.atlassian.com", "split": "heldOut"}, {"id": 78, "name": "Coda", "category": "Productivity and Project Management", "hint": "coda.io/developers", "split": "dev"}, {"id": 86, "name": "QuickBooks", "category": "Finance and Fintech", "hint": "developer.intuit.com", "split": "heldOut"}, {"id": 88, "name": "Brex", "category": "Finance and Fintech", "hint": "developer.brex.com", "split": "heldOut"}, {"id": 90, "name": "PitchBook", "category": "Finance and Fintech", "hint": "pitchbook.com (research API)", "split": "dev"}, {"id": 93, "name": "Fathom", "category": "AI, Research and Media-native", "hint": "fathom.video", "split": "dev"}, {"id": 98, "name": "Mermaid CLI", "category": "AI, Research and Media-native", "hint": "github.com/mermaid-js/mermaid-cli", "split": "heldOut"}, {"id": 100, "name": "Grain", "category": "AI, Research and Media-native", "hint": "grain.com (meeting notes)", "split": "heldOut"}], "rubric": "# Labelling rubric\n\nThis is the single definition of every field. The research agent, the verifier agent and the\nhuman labelling the gold sample all read this same file, so an answer means the same thing\nwhoever produced it.\n\nJudge every field from the vendor's own documentation or official pages. Blog posts, forum\nanswers and third-party directories are not evidence, except for `existingMcp = community`.\n\n## authMethods (list, every method the vendor documents for its public API)\n\n- `oauth2`: any OAuth 2.0 flow (authorization code, client credentials, PKCE).\n- `apiKey`: any static secret a user or admin generates in a dashboard and sends with each\n  request. This includes API keys, personal access tokens, bot tokens, and key + secret pairs.\n- `basic`: HTTP Basic auth, including \"email + API token\" sent as Basic.\n- `jwt`: the caller signs its own JWT (service account, key-pair auth).\n- `other`: a documented scheme that fits none of the above (for example AWS SigV4).\n- `none`: there is no authentication because there is no hosted API (local CLI tools).\n\n## oauthAppReviewRequired (true / false)\n\nTrue only if the docs say an OAuth app or API access must pass a vendor review or approval\nbefore it can be used with other customers' production data.\n\n## accessLevel (one value: the cheapest route for an independent developer to get working credentials)\n\n- `selfServeFree`: sign up and get credentials on a free account, free tier or free developer\n  sandbox, with no human approval.\n- `selfServeTrial`: possible only through a time-limited free trial of a paid product.\n- `paidPlan`: API access needs a paid plan, but it can be bought online without talking to sales.\n- `adminApproval`: sign-up is open, but usable credentials need a vendor review or approval\n  step (app review, developer-token application, access request form).\n- `partnerGated`: you must contact sales, be an existing enterprise customer, or join a partner\n  programme.\n- `noPublicApi`: no public API exists.\n\n## apiType\n\n`rest`, `graphql`, `restAndGraphql`, `cliOnly` (a command-line tool or library, no hosted API),\n`other` (for example SOAP or SQL-only), `none`.\n\n## apiBreadth\n\n- `broad`: read and write across most of the product's core objects.\n- `medium`: several resources, but clear gaps (read-only, or major objects missing).\n- `narrow`: one resource or a handful of endpoints.\n- `none`: no API.\n\n## existingMcp\n\n- `official`: the vendor publishes or hosts an MCP server. Put its docs or repo URL in `mcpUrl`.\n- `community`: only third-party MCP servers exist. Put one URL in `mcpUrl`.\n- `none`: no MCP server found. `mcpUrl` is an empty string.\n\n## buildable (could Composio ship an agent toolkit for this today?)\n\n- `yes`: documented API and credentials are obtainable self-serve.\n- `partial`: it can be built, but something limits it (review step, paid plan, narrow API).\n- `no`: it cannot be built from public information.\n\n## mainBlocker (the single biggest obstacle; `none` when buildable is `yes`)\n\n`none`, `partnerOrSalesGate`, `paidPlanRequired`, `appReviewRequired`, `adminApprovalRequired`,\n`noPublicApi`, `notAnApi` (a CLI or library, not a service), `thinOrMissingDocs`, `narrowApi`,\n`other`.\n\n## evidence\n\nAt least one entry for each of `authMethods`, `accessLevel`, `apiType`, `existingMcp`. Each entry\nhas the `url` of the page and a `quote` copied word for word from that page (under 300\ncharacters) that supports the answer. Never paraphrase a quote. If a page could not be opened,\ndo not cite it.\n\nFor `existingMcp = none` and `accessLevel = noPublicApi`, cite the page that was checked and\nquote the nearest relevant sentence; absence cannot be quoted directly.\n", "enums": {"authMethods": ["oauth2", "apiKey", "basic", "jwt", "other", "none"], "accessLevel": ["selfServeFree", "selfServeTrial", "paidPlan", "adminApproval", "partnerGated", "noPublicApi"], "apiType": ["rest", "graphql", "restAndGraphql", "cliOnly", "other", "none"], "existingMcp": ["official", "community", "none"], "buildable": ["yes", "partial", "no"], "mainBlocker": ["none", "partnerOrSalesGate", "paidPlanRequired", "appReviewRequired", "adminApprovalRequired", "noPublicApi", "notAnApi", "thinOrMissingDocs", "narrowApi", "other"]}}</script>
+<script>
+const labellerData = JSON.parse(document.getElementById("labellerData").textContent);
+const storageKey = "goldSampleLabels";
+const singleChoiceFields = ["accessLevel", "apiType", "existingMcp", "buildable", "mainBlocker"];
+let labels = {};
+try { labels = JSON.parse(localStorage.getItem(storageKey)) || {}; } catch (error) { labels = {}; }
+
+function labelFor(appId) {
+  if (!labels[appId]) labels[appId] = { authMethods: [], evidenceUrl: "", notes: "" };
+  return labels[appId];
+}
+function isComplete(appId) {
+  const label = labelFor(appId);
+  return label.authMethods.length > 0 && singleChoiceFields.every((field) => label[field]) && label.evidenceUrl.trim() !== "";
+}
+function save() {
+  try { localStorage.setItem(storageKey, JSON.stringify(labels)); } catch (error) { /* storage unavailable: labels stay in memory */ }
+  refreshStatus();
+}
+function refreshStatus() {
+  let completeCount = 0;
+  for (const app of labellerData.apps) {
+    const complete = isComplete(app.id);
+    document.getElementById("card" + app.id).classList.toggle("complete", complete);
+    if (complete) completeCount += 1;
+  }
+  document.getElementById("progress").textContent = completeCount + " of " + labellerData.apps.length + " apps fully labelled";
+}
+function element(tag, properties, children) {
+  const node = Object.assign(document.createElement(tag), properties || {});
+  for (const child of children || []) node.append(child);
+  return node;
+}
+function buildSelect(app, field) {
+  const select = element("select", {}, [element("option", { value: "", textContent: "choose" })]);
+  for (const value of labellerData.enums[field]) select.append(element("option", { value, textContent: value }));
+  select.value = labelFor(app.id)[field] || "";
+  select.onchange = () => { labelFor(app.id)[field] = select.value; save(); };
+  return element("label", { className: "field" }, [field, select]);
+}
+function buildAuthChecks(app) {
+  const box = element("div", { className: "checks" });
+  for (const method of labellerData.enums.authMethods) {
+    const input = element("input", { type: "checkbox", checked: labelFor(app.id).authMethods.includes(method) });
+    input.onchange = () => {
+      const chosen = new Set(labelFor(app.id).authMethods);
+      if (input.checked) chosen.add(method); else chosen.delete(method);
+      labelFor(app.id).authMethods = [...chosen].sort();
+      save();
+    };
+    box.append(element("label", {}, [input, " " + method]));
+  }
+  return element("label", { className: "field" }, ["authMethods (tick all documented)", box]);
+}
+function buildText(app, field, placeholder) {
+  const input = element("input", { type: "text", placeholder, value: labelFor(app.id)[field] });
+  input.oninput = () => { labelFor(app.id)[field] = input.value; save(); };
+  return element("label", { className: "field" }, [field, input]);
+}
+function buildCard(app) {
+  const search = "https://www.google.com/search?q=" + encodeURIComponent(app.name + " API authentication documentation");
+  const meta = element("div", { className: "meta" }, [
+    "#" + app.id + " · " + app.category + " · hint: " + app.hint + " · ",
+    element("a", { href: search, target: "_blank", rel: "noopener", textContent: "search docs" }),
+  ]);
+  const fields = element("div", { className: "fields" }, [
+    buildAuthChecks(app),
+    ...singleChoiceFields.map((field) => buildSelect(app, field)),
+    buildText(app, "evidenceUrl", "docs page you checked"),
+    buildText(app, "notes", "optional"),
+  ]);
+  return element("div", { className: "card", id: "card" + app.id }, [element("h2", { textContent: app.name }), meta, fields]);
+}
+document.getElementById("rubric").textContent = labellerData.rubric;
+for (const app of labellerData.apps) document.getElementById("cards").append(buildCard(app));
+refreshStatus();
+document.getElementById("download").onclick = () => {
+  const output = labellerData.apps.map((app) => ({ ...app, label: labelFor(app.id), complete: isComplete(app.id) }));
+  const blob = new Blob([JSON.stringify(output, null, 2)], { type: "application/json" });
+  const link = element("a", { href: URL.createObjectURL(blob), download: "goldSample.json" });
+  link.click();
+};
+</script>
+</body>
+</html>

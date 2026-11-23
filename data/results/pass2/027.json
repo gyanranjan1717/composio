@@ -1,0 +1,49 @@
+{
+  "id": 27,
+  "name": "Telegram",
+  "category": "Communications and Messaging",
+  "hint": "core.telegram.org",
+  "record": {
+    "oneLiner": "Bot API for building bots that send and receive Telegram messages over HTTPS, authenticated with a bot token from @BotFather.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/TONresistor/telegram-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A free bot token is created self-serve through @BotFather and the Bot API covers messages, updates, chats and settings. Only community MCP servers exist, which Composio could replace with its own toolkit.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://core.telegram.org/bots",
+        "quote": "Each bot is given a unique authentication token when it is created."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://core.telegram.org/bots",
+        "quote": "The Telegram Bot Platform hosts more than 10 million bots and is free for both users and developers."
+      },
+      {
+        "field": "apiType",
+        "url": "https://core.telegram.org/bots/api",
+        "quote": "The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/TONresistor/telegram-mcp",
+        "quote": "Production-ready MCP server for the complete Telegram Bot API."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

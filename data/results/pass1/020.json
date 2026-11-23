@@ -1,0 +1,73 @@
+{
+  "id": 20,
+  "name": "Gladly",
+  "category": "Support and Helpdesk",
+  "hint": "gladly.com",
+  "record": {
+    "oneLiner": "Gladly is a customer service platform with a REST API authenticated via token-based Basic Authentication.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Gladly offers a well-documented REST API that supports broad operations across customer profiles, conversations, and interaction history. Credentials are obtained via an API Token generated from a user account having API permissions.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.gladly.com/rest",
+        "quote": "Gladly API uses token-based Basic Authentication. API tokens are associated with designated Gladly users. To create and use an API token, your user must have the API User permission."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.gladly.com/rest",
+        "quote": "You must create an API token to access Gladly API resources (see above Permissions). If your profile already has access to the API User permission, you'll see a menu item titled More settings. Click More settings:"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.gladly.com/rest",
+        "quote": "The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. You can integrate easily with Gladly by calling Gladly's REST API"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.gladly.com/rest",
+        "quote": "The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. You can integrate easily with Gladly by calling Gladly's REST API"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Gladly API documentation developer authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.gladly.com REST API endpoints resources conversations customers"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol servers OR mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 24761,
+    "outputTokens": 1079
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

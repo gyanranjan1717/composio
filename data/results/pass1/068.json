@@ -1,0 +1,49 @@
+{
+  "id": 68,
+  "name": "MongoDB Atlas",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "mongodb.com/docs/atlas/api",
+  "record": {
+    "oneLiner": "Atlas Administration API for managing Atlas projects, clusters and access, with an official MongoDB MCP Server that can also run Atlas tools.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://www.mongodb.com/docs/mcp-server/overview/",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Service account OAuth tokens and HTTP Digest API keys are both documented, and an Atlas account is the only stated prerequisite beyond Organization Owner role. The API lists many resource endpoints, so breadth is broad.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+        "quote": "To use the Atlas Administration API to manage your Atlas clusters, you must authenticate your API requests with one of the following authentication methods:"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+        "quote": "To create a service account or API keys for an organization, you must have `Organization Owner` access to that organization."
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2",
+        "quote": "Return All Clusters in One Project GET"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.mongodb.com/docs/mcp-server/overview/",
+        "quote": "The MongoDB MCP Server is our official MCP server implementation that gives your AI client a set of tools that can be used to interact with your MongoDB data and deployments."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

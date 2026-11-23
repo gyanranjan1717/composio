@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "name": "HubSpot",
+  "toolkitSlug": "hubspot",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

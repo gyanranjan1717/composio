@@ -1,0 +1,55 @@
+{
+  "id": 86,
+  "name": "QuickBooks",
+  "checks": [
+    {
+      "field": "accessLevel",
+      "url": "https://raw.githubusercontent.com/intuit/quickbooks-online-mcp-server/main/README.md",
+      "quote": "Go to the Intuit Developer Portal and create a new app",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://raw.githubusercontent.com/intuit/quickbooks-online-mcp-server/main/README.md",
+      "quote": "This MCP server provides complete QuickBooks Online API integration for Claude Code and other MCP-compatible clients.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+      "quote": "Use the OAuth 2.0 protocol to implement authentication and authorization.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "quote": "The QuickBooks Online Accounting API utilizes the REST architecture and GraphQL so you can seamlessly integrate your app with QuickBooks Online",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "quote": "Visit the QuickBooks Online API Explorer to see all entities, fields, and parameters",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "quote": "Silver, Gold, and Platinum partners have access to Premium APIs including the Projects API, Custom Fields API, Sales Tax API, and Payroll Compensation API.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/go-live",
+      "quote": "Publish your app after you've thoroughly tested it. This makes it live and functional.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    }
+  ]
+}

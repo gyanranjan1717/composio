@@ -1,0 +1,75 @@
+{
+  "id": 45,
+  "name": "Magento (Adobe Commerce)",
+  "category": "Ecommerce",
+  "hint": "developer.adobe.com/commerce",
+  "record": {
+    "oneLiner": "Adobe Commerce (Magento) is a popular open-source and enterprise e-commerce platform offering extensive REST and GraphQL APIs for managing catalogs, customers, orders, and inventory.",
+    "authMethods": [
+      "oauth2",
+      "apiKey",
+      "jwt"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/magendooro/magemcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Adobe Commerce provides comprehensive REST and GraphQL APIs that support robust token and key-based authentication, allowing developers to fully build out e-commerce integrations and toolkits self-serve.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.adobe.com/commerce/webapi/rest",
+        "quote": "Adobe Commerce REST APIs support multiple authentication methods, including: Third-party applications authenticate with OAuth 1.0a. Mobile applications authenticate using tokens. Administrators and customers are authenticated with login credentials."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.adobe.com/commerce/webapi/rest/tutorials/prerequisite-tasks",
+        "quote": "In a production environment, you would typically create an integration and use OAuth to provide authentication for any REST call that requires admin privileges."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.adobe.com/commerce/webapi/rest",
+        "quote": "Adobe Commerce REST APIs support multiple authentication methods"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/magendooro/magemcp",
+        "quote": "MageMCP \u2014 MCP server connecting AI agents to Magento 2 / Adobe Commerce. Exposes catalog, orders, customers, and inventory as MCP tools via REST and GraphQL APIs"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Adobe Commerce Magento REST API authentication developer documentation"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.adobe.com/commerce/webapi/rest authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol servers magento OR \"adobe commerce\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 23444,
+    "outputTokens": 1006
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

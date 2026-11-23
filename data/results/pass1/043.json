@@ -1,0 +1,74 @@
+{
+  "id": 43,
+  "name": "BigCommerce",
+  "category": "Ecommerce",
+  "hint": "developer.bigcommerce.com",
+  "record": {
+    "oneLiner": "BigCommerce is a leading ecommerce platform offering robust REST and GraphQL APIs authenticated via API keys and OAuth 2.0, along with official Model Context Protocol (MCP) server capabilities for AI agents.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "BigCommerce provides comprehensive REST and GraphQL APIs with self-serve sandbox accounts, standard API token/OAuth authentication, and natively hosts official MCP servers for agents to query docs and manage stores.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce\u2019s REST APIs: store-level credentials, app-level credentials, and account-level credentials."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.bigcommerce.com",
+        "quote": "Sign up for a free BigCommerce trial store to test API calls and build integrations without affecting live data."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.bigcommerce.com/developer/learn/courses/composable-core/configuration/lab-config",
+        "quote": "We\u2019ll be generating two types of credentials: Store-level v2/v3 API account credentials and a GraphQL Storefront API token."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+        "quote": "BigCommerce supports MCP in three ways. Each one serves a different kind of agent and acts with a different level of access."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "BigCommerce developer docs authentication API credentials"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:docs.bigcommerce.com \"mcp\" OR \"Model Context Protocol\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27895,
+    "outputTokens": 1071
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

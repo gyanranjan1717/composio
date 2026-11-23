@@ -1,0 +1,34 @@
+{
+  "id": 13,
+  "name": "Freshdesk",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.freshdesk.com/api",
+      "quote": "You can use your personal API key to authenticate the request. If you use the API key, there is no need for a password. You can use any set of characters as a dummy password.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key",
+      "quote": "To find your API key:. 2. Click on your profile picture on the top right and select Profile Settings. 3. On the right pane, click on the View API key option and complete the captcha verification.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.freshdesk.com/api",
+      "quote": "+ Create a Ticket  /api/v2/tickets. + Create an Outbound Email  /api/v2/tickets/outbound_email.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/Gotelz/freshdesk-mcp",
+      "quote": "MCP (Model Context Protocol) server for the Freshdesk API. Designed for use with Claude Code, Claude Desktop, and other MCP clients.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

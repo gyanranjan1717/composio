@@ -1,0 +1,16 @@
+{
+  "id": 89,
+  "name": "Ramp",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The quote cited for authMethods is not on the page https://docs.ramp.com/llms-guides.txt."
+    },
+    {
+      "source": "composioCatalog",
+      "field": "existingMcp",
+      "message": "Composio's catalog has an MCP toolkit for this app (ramp_mcp), which suggests the vendor has an MCP server, but existingMcp says none. Check."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 10,
+  "name": "DealCloud",
+  "category": "CRM and Sales",
+  "hint": "api.docs.dealcloud.com",
+  "record": {
+    "oneLiner": "DealCloud is a CRM and deal management platform providing comprehensive REST and GraphQL APIs, API keys, OAuth, and an official MCP server for AI integrations.",
+    "authMethods": [
+      "oauth2",
+      "apiKey",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://api.docs.dealcloud.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "DealCloud provides well-documented REST and GraphQL APIs, supports API keys and OAuth authentication, and offers an official Model Context Protocol (MCP) server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://api.docs.dealcloud.com/sdk/intapp-rest-client/configuration/authentication",
+        "quote": "OAuth2 | Most REST APIs | OAuth2Config"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://apitracker.io/a/dealcloud",
+        "quote": "The preeminent CRM, deal management and business development software for principal investing and M&A advisory professionals. Schedule a demo."
+      },
+      {
+        "field": "apiType",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "quote": "Authentication \u2013 Provides tokens for use with all other APIs. User Management \u2013 Endpoints for managing users. Schema \u2013 Endpoints to help you understand your site's structure. Data \u2013 Endpoints for manipulating site data."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "quote": "DealCloud now provides a Model Context Protocol (MCP) server which gives AI agents read access to your DealCloud data."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "DealCloud API docs api.docs.dealcloud.com"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://api.docs.dealcloud.com/docs"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "find": "MCP"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api.docs.dealcloud.com MCP"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://api.docs.dealcloud.com/mcp/getting-started"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "find": "Authorization Token"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api.docs.dealcloud.com \"API Keys\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "find": "Authorization Token",
+        "url": "https://api.docs.dealcloud.com/docs"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:api.docs.dealcloud.com/docs \"Authorization Token\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 99919,
+    "outputTokens": 1455
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

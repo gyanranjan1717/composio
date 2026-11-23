@@ -1,0 +1,26 @@
+{
+  "id": 84,
+  "name": "Paygent Connect",
+  "issues": [
+    {
+      "source": "schema",
+      "field": "authMethods",
+      "message": "Schema problem: authMethods: empty list"
+    },
+    {
+      "source": "schema",
+      "field": "evidence",
+      "message": "Schema problem: evidence: nothing cited for authMethods"
+    },
+    {
+      "source": "schema",
+      "field": "evidence",
+      "message": "Schema problem: evidence: nothing cited for apiType"
+    },
+    {
+      "source": "schema",
+      "field": "evidence",
+      "message": "Schema problem: evidence: nothing cited for existingMcp"
+    }
+  ]
+}

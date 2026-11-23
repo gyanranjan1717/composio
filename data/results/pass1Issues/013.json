@@ -1,0 +1,11 @@
+{
+  "id": 13,
+  "name": "Freshdesk",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key."
+    }
+  ]
+}

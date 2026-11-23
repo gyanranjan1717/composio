@@ -1,0 +1,41 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://seranking.com/api/data/getting-started/",
+      "quote": "Include an `Authorization` header in your request, with the value `Token YOUR_API_KEY`.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://seranking.com/api/integrations/mcp/",
+      "quote": "This transport uses OAuth 2.1 with dynamic client registration for authentication at the following address:",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://seranking.com/api/integrations/mcp/",
+      "quote": "Start with 100K free credits",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://seranking.com/api.html",
+      "quote": "integration is done via the REST API reference and a Postman collection for endpoint testing.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://seranking.com/api/integrations/mcp/",
+      "quote": "Add the official SE Ranking connector and click Connect.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

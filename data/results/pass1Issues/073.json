@@ -1,0 +1,26 @@
+{
+  "id": 73,
+  "name": "Linear",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The quote cited for authMethods is not on the page https://linear.app/developers."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://linear.app/developers."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://linear.app/developers."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://linear.app/developers."
+    }
+  ]
+}

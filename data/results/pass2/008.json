@@ -1,0 +1,82 @@
+{
+  "id": 8,
+  "name": "Close",
+  "category": "CRM and Sales",
+  "hint": "close.com",
+  "record": {
+    "oneLiner": "Close is a CRM and sales communication platform providing a comprehensive REST API and an official MCP server with self-serve API keys and OAuth 2.0.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.close.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Close provides a robust, self-serve REST API authenticated via API keys or OAuth 2.0, along with an official Model Context Protocol (MCP) server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.close.com/api/overview",
+        "quote": "API Keys \u2014 Best for scripts, internal tools, and server-side integrations. Use HTTP Basic Auth with your API key as the username and an empty password.\n- OAuth 2.0 \u2014 Best for user-facing integrations."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.close.com/api/overview/api-key-authentication",
+        "quote": "API keys can be created and managed in your Close account under Settings \u2192 Developer \u2192 API Keys."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.close.com/api/overview",
+        "quote": "Base URL: https://api.close.com/api/v1\n\nClose uses industry-standard REST conventions with predictable URL structures, standard HTTP methods, and JSON request/response bodies."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.close.com/mcp",
+        "quote": "The MCP server URL is https://mcp.close.com/mcp and has \u201cHTTP Streamable\u201d and \u201cOAuth 2.0 Dynamic Client Registration (DCR)\u201d support."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Close CRM api documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://developer.close.com/api/overview"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.close.com MCP"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://developer.close.com/mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 37126,
+    "outputTokens": 1049
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

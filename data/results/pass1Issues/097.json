@@ -1,0 +1,11 @@
+{
+  "id": 97,
+  "name": "higgsfield",
+  "issues": [
+    {
+      "source": "composioCatalog",
+      "field": "existingMcp",
+      "message": "Composio's catalog has an MCP toolkit for this app (higgsfield_mcp), which suggests the vendor has an MCP server, but existingMcp says none. Check."
+    }
+  ]
+}

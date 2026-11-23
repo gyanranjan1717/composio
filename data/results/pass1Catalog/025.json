@@ -1,0 +1,12 @@
+{
+  "id": 25,
+  "name": "Pumble",
+  "toolkitSlug": "pumble",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": 49,
+  "name": "Amazon Selling Partner",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://github.com/amzn/selling-partner-api-samples."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The page cited for existingMcp could not be opened (https://github.com/amzn/selling-partner-api-samples/tree/main/use-cases/sp-api-mcp-server). Cite a page that fetchPage can open."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 77,
+  "name": "ClickUp",
+  "category": "Productivity and Project Management",
+  "hint": "clickup.com/api",
+  "record": {
+    "oneLiner": "Project management and docs platform with a v2/v3 HTTP API for tasks, lists and spaces.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.clickup.com/mcp",
+    "buildable": "partial",
+    "mainBlocker": "none",
+    "verdictReason": "A personal API token is generated in Settings with no sales step. Several endpoints (guests, users, audit logs) are Enterprise-only, which limits breadth, but the core API is available self-serve. The MCP endpoint is on ClickUp's own domain, but the page never uses the word official.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "quote": "Under API Token, click Generate or Regenerate."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.clickup.com/reference/getauthorizedteams",
+        "quote": "\"url\": \"https://api.clickup.com/api\","
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server.md",
+        "quote": "Our MCP server URL is `https://mcp.clickup.com/mcp`."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

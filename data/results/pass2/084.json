@@ -1,0 +1,37 @@
+{
+  "id": 84,
+  "name": "Paygent Connect",
+  "category": "Finance and Fintech",
+  "hint": "paygent (NMI-powered)",
+  "record": {
+    "oneLiner": "Payment connectivity product described as NMI-powered; no vendor API documentation could be retrieved.",
+    "authMethods": [],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "noPublicApi",
+    "apiType": "none",
+    "apiBreadth": "none",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "no",
+    "mainBlocker": "thinOrMissingDocs",
+    "verdictReason": "No official Paygent Connect documentation was found or fetched. Searches returned only unrelated Paygent products and NMI's general developer portal, whose fetched pages did not describe API keys for Paygent. The NMI quote below is about NMI's sandbox, not Paygent, and the authMethods evidence rule could not be met from a fetched page.",
+    "evidence": [
+      {
+        "field": "accessLevel",
+        "url": "https://docs.nmi.com/docs/quick-start",
+        "quote": "Throughout the guide we point at our sandbox domain, <https://sandbox.nmi.com>."
+      }
+    ]
+  },
+  "validationProblems": [
+    "authMethods: empty list",
+    "evidence: nothing cited for authMethods",
+    "evidence: nothing cited for apiType",
+    "evidence: nothing cited for existingMcp"
+  ],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

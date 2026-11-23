@@ -1,0 +1,81 @@
+{
+  "id": 49,
+  "name": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "hint": "developer-docs.amazon.com/sp-api",
+  "record": {
+    "oneLiner": "Amazon Selling Partner API lets developers and sellers access orders, inventory, pricing, and reports via REST APIs secured by Login with Amazon OAuth 2.0 and AWS IAM.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": true,
+    "accessLevel": "adminApproval",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/amzn/selling-partner-api-samples/tree/main/use-cases/sp-api-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Amazon Selling Partner API is fully buildable, providing open developer registration, robust REST APIs, Login with Amazon OAuth 2.0, and an official MCP server sample.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer-docs-amazon-shipping.readme.io/apis/docs/authorizing-selling-partner-api-applications",
+        "quote": "The authorization model for the Selling Partner API is based on Login with Amazon, Amazon's implementation of OAuth 2.0."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.amazonservices.com/start",
+        "quote": "In accordance with the Amazon Services API Developer Agreement, public developers must list their app in the Amazon Selling Partner Appstore."
+      },
+      {
+        "field": "apiType",
+        "url": "https://github.com/amzn/selling-partner-api-samples",
+        "quote": "Selling Partner API REST API allowing Amazon sellers to programmatically access their data"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/amzn/selling-partner-api-samples/tree/main/use-cases/sp-api-mcp-server",
+        "quote": "SP-API MCP Server connects Large Language Models to Amazon\u2019s Selling Partner API ecosystem through the Model Context Protocol (MCP)."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Amazon Selling Partner API developer documentation authentication api type"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Amazon Selling Partner API Model Context Protocol MCP server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com/amzn/selling-partner-api-samples sp-api-dev-mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 43316,
+    "outputTokens": 1101
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

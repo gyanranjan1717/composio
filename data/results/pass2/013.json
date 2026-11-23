@@ -1,0 +1,81 @@
+{
+  "id": 13,
+  "name": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "hint": "freshdesk.com",
+  "record": {
+    "oneLiner": "Freshdesk is a cloud-based customer support software and helpdesk platform featuring a robust REST API for ticketing, contacts, and knowledge base management.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/Gotelz/freshdesk-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Freshdesk provides a comprehensive REST API that can be accessed immediately using an API key obtained on a self-serve basis via profile settings on any active plan. Community MCP servers are also available.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.freshdesk.com/api",
+        "quote": "You can use your personal API key to authenticate the request. If you use the API key, there is no need for a password. You can use any set of characters as a dummy password."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key",
+        "quote": "To find your API key:. 2. Click on your profile picture on the top right and select Profile Settings. 3. On the right pane, click on the View API key option and complete the captcha verification."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.freshdesk.com/api",
+        "quote": "+ Create a Ticket  /api/v2/tickets. + Create an Outbound Email  /api/v2/tickets/outbound_email."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/Gotelz/freshdesk-mcp",
+        "quote": "MCP (Model Context Protocol) server for the Freshdesk API. Designed for use with Claude Code, Claude Desktop, and other MCP clients."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "freshdesk api documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.freshdesk.com authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.freshdesk.com \"api key\" OR \"authentication\" OR \"basic\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com \"freshdesk\" mcp server"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 31342,
+    "outputTokens": 1563
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 23,
+  "name": "Zoho Cliq",
+  "toolkitSlug": "zoho_cliq",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

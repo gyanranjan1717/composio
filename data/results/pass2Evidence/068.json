@@ -1,0 +1,34 @@
+{
+  "id": 68,
+  "name": "MongoDB Atlas",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+      "quote": "To use the Atlas Administration API to manage your Atlas clusters, you must authenticate your API requests with one of the following authentication methods:",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+      "quote": "To create a service account or API keys for an organization, you must have `Organization Owner` access to that organization.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2",
+      "quote": "Return All Clusters in One Project GET",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://www.mongodb.com/docs/mcp-server/overview/",
+      "quote": "The MongoDB MCP Server is our official MCP server implementation that gives your AI client a set of tools that can be used to interact with your MongoDB data and deployments.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

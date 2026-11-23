@@ -1,0 +1,12 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "toolkitSlug": "mailchimp",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

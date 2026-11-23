@@ -1,0 +1,11 @@
+{
+  "id": 31,
+  "name": "Google Ads",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://github.com/modelcontextprotocol/servers."
+    }
+  ]
+}

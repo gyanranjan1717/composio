@@ -1,0 +1,48 @@
+{
+  "id": 82,
+  "name": "Plaid",
+  "category": "Finance and Fintech",
+  "hint": "plaid.com/docs",
+  "record": {
+    "oneLiner": "Bank account linking and financial data API (transactions, identity, balances, payments).",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://plaid.com/docs/resources/mcp/",
+    "buildable": "partial",
+    "mainBlocker": "adminApprovalRequired",
+    "verdictReason": "Sandbox credentials (client_id plus per-environment secret) are self-serve from the Dashboard. Production use requires approval; the approval requirement was only confirmed on the Dashboard MCP page, and I could not find the general production-access process on the fetched pages, so the blocker is partly unverified. Plaid documents an official Dashboard MCP server, which covers production diagnostics rather than the core data API. apiType rest and breadth are inferred and not explicitly quoted.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://plaid.com/docs/quickstart/",
+        "quote": "Private key, one for each of the two environments"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://plaid.com/docs/quickstart/",
+        "quote": "You'll need API keys, which you can receive by signing up in the Dashboard."
+      },
+      {
+        "field": "apiType",
+        "url": "https://plaid.com/docs/",
+        "quote": "Explore server-side API libraries and integrate with API endpoints."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://plaid.com/docs/resources/mcp/",
+        "quote": "The Dashboard MCP server is a remote MCP server hosted by Plaid."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

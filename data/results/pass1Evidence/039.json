@@ -1,0 +1,34 @@
+{
+  "id": 39,
+  "name": "Threads (Meta)",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.facebook.com/docs/threads/get-started",
+      "quote": "API authentication is handled by Threads user access tokens that conform to the OAuth 2.0 protocol.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 400"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.facebook.com/docs/threads/get-started/create-an-app",
+      "quote": "Click the chevron next to each requirement listed under Prepare and submit for App Review. You must complete each requirement before publishing your app.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 400"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.facebook.com/docs/threads/reference/publishing",
+      "quote": "Upload media and create media containers. See Posts for more information.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 400"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/quinnjr/threads-mcp",
+      "quote": "GitHub - quinnjr/threads-mcp: Production-ready Model Context Protocol server for Threads.com API.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

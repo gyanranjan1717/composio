@@ -1,0 +1,85 @@
+{
+  "id": 3,
+  "name": "Pipedrive",
+  "category": "CRM and Sales",
+  "hint": "pipedrive.com",
+  "verdicts": [
+    {
+      "field": "authMethods",
+      "verdict": "agree",
+      "correctedValue": "[\"apiKey\", \"oauth2\"]",
+      "reason": "Official documentation confirms both API token and OAuth 2.0 are supported.",
+      "url": "https://developers.pipedrive.com/tutorials/adding-leads-to-pipedrive",
+      "quote": "First, you need to think about how you authenticate your request to our API. You can use either an API token (see the code snippet below) or OAuth."
+    },
+    {
+      "field": "accessLevel",
+      "verdict": "agree",
+      "correctedValue": "selfServeFree",
+      "reason": "Developers can sign up for a Pipedrive account and immediately access API tokens in their personal settings without external approval.",
+      "url": "https://blog.coupler.io/pipedrive-api-guide",
+      "quote": "To generate and/or copy your API token, open the Pipedrive web app. Click on your profile icon in the top-right corner and choose Company settings. Then, select Personal preferences and switch to the API tab."
+    },
+    {
+      "field": "apiType",
+      "verdict": "agree",
+      "correctedValue": "rest",
+      "reason": "The official documentation describes the interface as RESTful.",
+      "url": "https://www.pipedrive.com/en/features/crm-api",
+      "quote": "Pipedrive is a RESTful interface for engineers to programmatically manage deals, persons, and activities through standard HTTP methods."
+    },
+    {
+      "field": "existingMcp",
+      "verdict": "agree",
+      "correctedValue": "community",
+      "reason": "There are multiple community-maintained MCP servers, but no official server provided by Pipedrive.",
+      "url": "https://github.com/nubiia-dev/mcp-pipedrive",
+      "quote": "Pipedrive CRM MCP server for AI assistants like Claude \u2014 300+ tools covering the full Pipedrive API. Built by Nubiia."
+    },
+    {
+      "field": "buildable",
+      "verdict": "agree",
+      "correctedValue": "yes",
+      "reason": "The API is well-documented and self-serve access to keys allows for immediate development.",
+      "url": "https://developers.pipedrive.com/tutorials/create-a-deal-pipedrive-api",
+      "quote": "Once you have your API token and company domain, you can start building the code to create a new deal."
+    },
+    {
+      "field": "mainBlocker",
+      "verdict": "agree",
+      "correctedValue": "none",
+      "reason": "No major blockers prevent the creation of a standard integration or MCP server.",
+      "url": "https://www.pipedrive.com/en/features/crm-api",
+      "quote": "Our stable API lets you make API calls in a safe and secure environment, while receiving outputs in a JSON format, enabling you to fully customize your CRM system and create integrations that work for you!"
+    }
+  ],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Pipedrive API documentation authentication OAuth API key"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.pipedrive.com personal api token authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com pipedrive mcp server"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27574,
+    "outputTokens": 979
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.1-flash-lite"
+}

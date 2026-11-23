@@ -1,0 +1,48 @@
+{
+  "id": 97,
+  "name": "higgsfield",
+  "category": "AI, Research and Media-native",
+  "hint": "higgsfield.ai/cli (content suite)",
+  "record": {
+    "oneLiner": "Terminal CLI for generating images, video, 3D and audio with 40+ Higgsfield models, backed by a hosted REST API.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "API credentials are key ID and secret pairs, but usage is billed from a prepaid dollar balance with a $5 minimum top-up, separate from any higgsfield.ai subscription. The CLI page itself documents login rather than an API key. No official or community MCP was found in the checked pages.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.higgsfield.ai/docs/authentication",
+        "quote": "Each credential consists of a key ID and a secret."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-the-higgsfield-api",
+        "quote": "Billing is pay-as-you-go from a US dollar balance, and the minimum top-up is $5."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.higgsfield.ai/docs/authentication",
+        "quote": "Authorization: Key YOUR_KEY_ID:YOUR_KEY_SECRET"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/higgsfield-ai/cli",
+        "quote": "Generate images, videos, 3D assets, audio, and finished-video analysis from the terminal using 40+"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

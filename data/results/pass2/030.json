@@ -1,0 +1,81 @@
+{
+  "id": 30,
+  "name": "Vonage",
+  "category": "Communications and Messaging",
+  "hint": "developer.vonage.com",
+  "record": {
+    "oneLiner": "Vonage provides communications and messaging APIs (SMS, Voice, Video, Verify) authenticated via API keys and JWTs, with an official Model Context Protocol (MCP) server.",
+    "authMethods": [
+      "apiKey",
+      "jwt",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developer.vonage.com/en/mcp-server/overview",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Vonage offers a comprehensive, broad set of programmable communications and messaging REST APIs that can be accessed via a self-serve free sign-up account. APIs use API key/secret pairs or application-signed JWTs, and Vonage even provides an official Model Context Protocol (MCP) server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.vonage.com/en/verify/concepts/authentication",
+        "quote": "Basic Authentication sends your API Key and API Secret Base64-encoded in the Authorization header. You can find these credentials in your API settings in the Vonage Dashboard."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://developer.vonage.com/en/verify/concepts/authentication",
+        "quote": "Generate a JWT signed with your Application ID and private key. You can use the JWT Generator, the Vonage CLI, or any Vonage SDK."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://github.com/vonage/vonage-node-sdk",
+        "quote": "To use it you will need a Vonage account. Sign up for free at vonage.com."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.vonage.com/en/verify/overview",
+        "quote": "The Verify API is our next generation two-factor authentication (2FA) product. Authenticate your users and prevent fraud with our simple, easy-to-use API..."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.vonage.com/en/mcp-server/overview",
+        "quote": "The Vonage MCP Server enables AI agents and developer tools to discover, describe, and use Vonage capabilities via the Model Context Protocol."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Vonage API documentation authentication developer.vonage.com"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.vonage.com MCP server OR \"Model Context Protocol\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.vonage.com pricing OR free tier OR sign up"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 23990,
+    "outputTokens": 1185
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

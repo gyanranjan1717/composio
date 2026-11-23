@@ -1,0 +1,99 @@
+{
+  "id": 2,
+  "name": "HubSpot",
+  "category": "CRM and Sales",
+  "hint": "hubspot.com",
+  "verdicts": [
+    {
+      "field": "authMethods",
+      "verdict": "agree",
+      "correctedValue": "['oauth2', 'apiKey']",
+      "reason": "HubSpot's documentation confirms support for both OAuth 2.0 and API keys (private app access tokens and service keys).",
+      "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "quote": "- Private access tokens used to authenticate requests in a private app."
+    },
+    {
+      "field": "accessLevel",
+      "verdict": "agree",
+      "correctedValue": "selfServeFree",
+      "reason": "Developer accounts and test/sandbox accounts can be signed up for and created self-serve for free without sales or human approval.",
+      "url": "https://developers.hubspot.com/docs/getting-started/account-types",
+      "quote": "You can create up to 10 test accounts to test apps and integrations without affecting any real HubSpot data. Developer test accounts are free HubSpot accounts with access to a 90-day trial of many enterprise features"
+    },
+    {
+      "field": "apiType",
+      "verdict": "agree",
+      "correctedValue": "rest",
+      "reason": "HubSpot provides extensive REST APIs across its CRM and other core products.",
+      "url": "https://developers.hubspot.com/docs/api-reference/latest/conversations/guide",
+      "quote": "The conversations REST APIs let you read and manage inbox data: inboxes, channels, threads, messages, and actors."
+    },
+    {
+      "field": "existingMcp",
+      "verdict": "agree",
+      "correctedValue": "official",
+      "reason": "HubSpot officially publishes and hosts official Model Context Protocol (MCP) servers.",
+      "url": "https://developers.hubspot.com/mcp",
+      "quote": "HubSpot offers two distinct MCP (Model Context Protocol) servers \u2014 one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform."
+    },
+    {
+      "field": "buildable",
+      "verdict": "agree",
+      "correctedValue": "yes",
+      "reason": "Because credentials are self-serve, documentation is comprehensive, and official MCP/APIs exist, an agent toolkit can be built.",
+      "url": "https://developers.hubspot.com",
+      "quote": "Explore our docs to learn more about our APIs, Apps, Developer Tooling, and CMS"
+    },
+    {
+      "field": "mainBlocker",
+      "verdict": "agree",
+      "correctedValue": "none",
+      "reason": "There are no blockers since the API is fully accessible via self-serve credentials.",
+      "url": "https://developers.hubspot.com/docs/getting-started/account-types",
+      "quote": "You can create up to 10 test accounts to test apps and integrations without affecting any real HubSpot data."
+    }
+  ],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "HubSpot developer documentation authentication api keys oauth2"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.hubspot.com \"Authentication methods\" OR \"private app access tokens\" OR \"OAuth\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.hubspot.com Model Context Protocol OR MCP"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.hubspot.com/docs/api \"REST\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.hubspot.com \"Developer Account\" OR \"Create an account\" free tier"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 46600,
+    "outputTokens": 1024
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

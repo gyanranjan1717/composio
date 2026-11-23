@@ -1,0 +1,74 @@
+{
+  "id": 38,
+  "name": "Pinterest",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "developers.pinterest.com",
+  "record": {
+    "oneLiner": "Pinterest provides a broad REST API for managing pins, boards, and ads, but requires developer application review and approval before producing usable production credentials.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": true,
+    "accessLevel": "adminApproval",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "no",
+    "mainBlocker": "adminApprovalRequired",
+    "verdictReason": "Pinterest offers a comprehensive REST API covering content, ads, and catalogs using OAuth 2.0 and test tokens. However, developer signup requires a mandatory manual application review and approval process by Pinterest before production app credentials and standard access are granted, making fully automated self-serve development impossible.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization",
+        "quote": "Access to Pinterest APIs via User Authorization requires following a flow based on OAuth 2.0."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.pinterest.com/docs/getting-started/connect-app",
+        "quote": "Application requests are reviewed by Pinterest. You will receive an email notification after your app has been reviewed, letting you know whether it was approved or denied access."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.pinterest.com/docs/api/v5/introduction",
+        "quote": "One API to seamlessly integrate with Pinterest. Securely plan content, manage ads, upload product feeds, and more."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.pinterest.com/about-pinterest-mcp",
+        "quote": "When will the MCP server be publicly available?"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Pinterest developers documentation authentication API key OAuth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.pinterest.com app review approval production access"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.pinterest.com mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 22436,
+    "outputTokens": 891
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

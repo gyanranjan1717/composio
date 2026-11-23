@@ -1,0 +1,48 @@
+{
+  "id": 85,
+  "name": "iPayX",
+  "category": "Finance and Fintech",
+  "hint": "ipayx.ai/docs",
+  "record": {
+    "oneLiner": "FX audit REST API and MCP server that scores bank or card-network FX rates against live mid-market rates.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "narrow",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.ipayx.ai/mcp",
+    "buildable": "partial",
+    "mainBlocker": "narrowApi",
+    "verdictReason": "The REST API exposes three endpoints (POST /audit, GET /rates, POST /audit/document) authenticated by a Bearer key with the ipx_live_ prefix. Key-based API access is gated behind a paid credit pack or subscription, and the vendor's own MCP server needs no key but has a 3-audit-per-IP monthly free quota.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.ipayx.ai/docs/api",
+        "quote": "Every request requires a Bearer token in the `Authorization` header."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://ipayx.ai/",
+        "quote": "Upgrade to the 100-audit Credit Pack or Unlimited for API access, white-label embedding, and forensic PDF exports."
+      },
+      {
+        "field": "apiType",
+        "url": "https://ipayx.ai/",
+        "quote": "REST API + SDKs for FX audit automation."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.ipayx.ai/mcp-config",
+        "quote": "Server URL: https://mcp.ipayx.ai/mcp"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

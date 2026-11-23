@@ -1,0 +1,34 @@
+{
+  "id": 83,
+  "name": "Binance",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.binance.com/docs/binance-spot-api-docs/faqs/api_key_types",
+      "quote": "We support several types of API keys:",
+      "status": "pageUnreadable",
+      "detail": "HTTP 202"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.binance.com/en/docs/introduction",
+      "quote": "Create an API key if your integration requires authenticated access,",
+      "status": "pageUnreadable",
+      "detail": "HTTP 202"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.binance.com/docs/binance-spot-api-docs",
+      "quote": "REST and WebSocket API:",
+      "status": "pageUnreadable",
+      "detail": "HTTP 202"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+      "quote": "Make sure the endpoint is exactly `https://agent.binance.com/mcp/agentic`.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 202"
+    }
+  ]
+}

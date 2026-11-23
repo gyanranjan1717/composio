@@ -1,0 +1,15 @@
+{
+  "id": 69,
+  "name": "Datadog",
+  "toolkitSlug": "datadog",
+  "mcpToolkitSlug": "datadog_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "oauth2"
+  ]
+}

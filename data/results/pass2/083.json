@@ -1,0 +1,49 @@
+{
+  "id": 83,
+  "name": "Binance",
+  "category": "Finance and Fintech",
+  "hint": "binance-docs.github.io",
+  "record": {
+    "oneLiner": "Cryptocurrency exchange REST and WebSocket trading and market-data API for Spot and other products.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "API keys are created by the user and sign requests (Ed25519, HMAC or RSA), with the Spot REST and WebSocket APIs documented on the official site. Binance also documents an official MCP server at a fixed endpoint, but it is built around a funded Agentic sub-account with per-trade confirmation. The docs fetched do not show how keys are created, so accessLevel is inferred from the introduction sentence. apiType is rest (REST and WebSocket confirmed; no GraphQL seen).",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.binance.com/docs/binance-spot-api-docs/faqs/api_key_types",
+        "quote": "We support several types of API keys:"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.binance.com/en/docs/introduction",
+        "quote": "Create an API key if your integration requires authenticated access,"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.binance.com/docs/binance-spot-api-docs",
+        "quote": "REST and WebSocket API:"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+        "quote": "Make sure the endpoint is exactly `https://agent.binance.com/mcp/agentic`."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

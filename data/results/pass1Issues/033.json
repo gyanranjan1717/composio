@@ -1,0 +1,11 @@
+{
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://registry.modelcontextprotocol.io?q=io.github.Trusty-Squire%2Fmcp."
+    }
+  ]
+}

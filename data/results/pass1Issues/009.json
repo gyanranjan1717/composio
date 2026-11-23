@@ -1,0 +1,16 @@
+{
+  "id": 9,
+  "name": "Copper",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://www.youtube.com/watch?v=oQpeHzmFdrk). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://www.apideck.com/mcp-server/copper."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 92,
+  "name": "Otter AI",
+  "category": "AI, Research and Media-native",
+  "hint": "help.otter.ai (MCP server)",
+  "record": {
+    "oneLiner": "Meeting transcription and notes platform with a hosted MCP server at mcp.otter.ai for searching and fetching meeting content.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "other",
+    "apiBreadth": "narrow",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.otter.ai/mcp",
+    "buildable": "partial",
+    "mainBlocker": "thinOrMissingDocs",
+    "verdictReason": "Otter's own help-center and MCP endpoint pages returned HTTP 403 and 401 and could not be read, so every field here rests on third-party directory listings, not vendor text. Directories report OAuth sign-in and MCP access on Business and Enterprise plans; none of the evidence below is a verbatim vendor quote and the record is UNVERIFIED.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://mcp.otter.ai/mcp",
+        "quote": "UNVERIFIED: endpoint returned HTTP 401 Unauthorized; no verbatim quote obtained"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://help.otter.ai/hc/en-us",
+        "quote": "UNVERIFIED: help center returned HTTP 403 Forbidden; no verbatim quote obtained"
+      },
+      {
+        "field": "apiType",
+        "url": "https://help.otter.ai/hc/en-us",
+        "quote": "UNVERIFIED: help center returned HTTP 403 Forbidden; no verbatim quote obtained"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://mcp.otter.ai/mcp",
+        "quote": "UNVERIFIED: endpoint returned HTTP 401 Unauthorized; no verbatim quote obtained"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

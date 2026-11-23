@@ -1,0 +1,15 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "toolkitSlug": "aircall",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "basic",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "basic"
+  ]
+}

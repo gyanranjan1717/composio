@@ -1,0 +1,48 @@
+{
+  "id": 87,
+  "name": "Xero",
+  "category": "Finance and Fintech",
+  "hint": "developer.xero.com",
+  "record": {
+    "oneLiner": "Accounting platform with a REST API (contacts, invoices, payments, bank transactions, payroll) and an official open-source MCP server.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/XeroAPI/xero-mcp-server",
+    "buildable": "partial",
+    "mainBlocker": "thinOrMissingDocs",
+    "verdictReason": "Custom Connections use client-credentials OAuth with only a client ID and secret, but the FAQ calls them a premium option. The Xero developer pages returned title-only text, so the free authorization-code route, app-review rules and the REST apiType claim could not be confirmed from vendor text; the apiType evidence below is UNVERIFIED.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.xero.com/faq/custom-integration",
+        "quote": "An access token can be requested using only the client_id and client_secret."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.xero.com/faq/custom-integration",
+        "quote": "premium integration option"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.xero.com/documentation/api/accounting/overview",
+        "quote": "UNVERIFIED: page returned title only ('Accounting API Overview \u2014 Xero Developer'); no verbatim quote obtained"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://raw.githubusercontent.com/XeroAPI/xero-mcp-server/HEAD/README.md",
+        "quote": "This is a Model Context Protocol (MCP) server implementation for Xero."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

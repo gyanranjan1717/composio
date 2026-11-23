@@ -1,0 +1,15 @@
+{
+  "id": 81,
+  "name": "Stripe",
+  "toolkitSlug": "stripe",
+  "mcpToolkitSlug": "stripe_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "oauth2"
+  ]
+}

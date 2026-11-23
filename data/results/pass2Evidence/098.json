@@ -1,0 +1,34 @@
+{
+  "id": 98,
+  "name": "Mermaid CLI",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "quote": "This is a command-line interface (CLI) for mermaid.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "quote": "This is a command-line interface (CLI) for mermaid.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "quote": "It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/peng-shawn/mermaid-mcp-server",
+      "quote": "A Model Context Protocol (MCP) server that converts Mermaid diagrams to PNG images or SVG files.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

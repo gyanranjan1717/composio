@@ -1,0 +1,11 @@
+{
+  "id": 54,
+  "name": "MrScraper",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://mrscraper.com/pricing."
+    }
+  ]
+}

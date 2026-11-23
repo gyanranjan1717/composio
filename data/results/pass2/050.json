@@ -1,0 +1,95 @@
+{
+  "id": 50,
+  "name": "fanbasis",
+  "category": "Ecommerce",
+  "hint": "fanbasis.com",
+  "record": {
+    "oneLiner": "FanBasis (rebranded to Commas) is an e-commerce and payment infrastructure platform providing a REST API and official MCP server for embedded checkouts, payouts, and subscription management.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://www.commas.com",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "FanBasis (now Commas) provides a public REST API accessible via API keys and bearer tokens, offers free self-serve account creation, features broad API breadth for merchant tools, and provides an official MCP integration.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://devdocs.work/solutions/developer-experience",
+        "quote": "Every API call requires a bearer token in the\nAuthorization header. Tokens are issued per\nworkspace and scoped to a set of permissions."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://finance.yahoo.com/small-business/articles/commas-platform-quietly-powering-billions-130000295.html",
+        "quote": "Anyone can now create a free account at commas.com and sell on the same infrastructure that runs businesses at nine-figure scale."
+      },
+      {
+        "field": "apiType",
+        "url": "https://demo.embedded.fanbasis.io/docs/how-it-works",
+        "quote": "- API: Use our REST API to programmatically create and manage products"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.commas.com",
+        "quote": "MCP beta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "fanbasis api documentation developer"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchUrl",
+      "arguments": {
+        "url": "https://fanbasis.com"
+      },
+      "failed": true
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:fanbasis.com api docs developer"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:commas.com api documentation developer"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"dev-docs.fanbasis.com\" OR \"commas\" mcp server docs"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "\"commas.com\" mcp server OR \"fanbasis\" mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 43461,
+    "outputTokens": 1116
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 58,
+  "name": "Sherlock",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "quote": "sherlock user123",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "quote": "Hunt down social media accounts by username across social networks",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "quote": "pipx install sherlock-project",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/Burnsedia/sherlock-mcp",
+      "quote": "Seamlessly search social media accounts across 400+ platforms using the Model Context Protocol.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

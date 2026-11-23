@@ -1,0 +1,49 @@
+{
+  "id": 81,
+  "name": "Stripe",
+  "category": "Finance and Fintech",
+  "hint": "stripe.com/docs/api",
+  "record": {
+    "oneLiner": "Payments, billing, invoicing and account API for accepting and managing payments (REST).",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.stripe.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Sandbox test keys are created self-serve in the Dashboard with no approval. The REST API covers payments, customers, subscriptions, invoices, refunds and more. Stripe ships an official hosted MCP server. Live-mode agent keys are subject to approval rules, which is a live-data governance feature and not a build blocker for sandbox use.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.stripe.com/api/authentication",
+        "quote": "The Stripe API authenticates requests using HTTP Basic Auth."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.stripe.com/keys",
+        "quote": "Create or select a sandbox and use its test keys."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.stripe.com/api",
+        "quote": "Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.stripe.com/mcp",
+        "quote": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

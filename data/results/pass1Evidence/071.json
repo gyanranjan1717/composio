@@ -1,0 +1,27 @@
+{
+  "id": 71,
+  "name": "Notion",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.notion.com/guides/get-started/authorization",
+      "quote": "use a static credential called an internal connection API token",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.notion.com/guides/get-started/authorization",
+      "quote": "Personal access tokens (PATs) are created directly by a Notion user in the Developer portal.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.notion.com/guides/mcp/mcp",
+      "quote": "Notion MCP lets your AI assistant search your workspace, create and edit pages, and manage databases.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": 7,
+  "name": "Zoho CRM",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+      "quote": "To use the Zoho CRM APIs, the users must authenticate the application to make API calls on their behalf with an access token.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8",
+      "quote": "Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/LokiMCPUniverse/zoho-crm-mcp-server",
+      "quote": "A Model Context Protocol (MCP) server that exposes the Zoho CRM v6 REST API as structured tools for LLM agents.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

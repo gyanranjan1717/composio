@@ -1,0 +1,48 @@
+{
+  "id": 53,
+  "name": "Ahrefs",
+  "category": "Data, SEO and Scraping",
+  "hint": "ahrefs.com/api",
+  "record": {
+    "oneLiner": "SEO data API (Site Explorer, Keywords Explorer, Rank Tracker and more) that uses API keys and consumes monthly API units.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.ahrefs.com/mcp/docs/introduction",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "API v3 access requires a Lite or higher paid subscription and consumes API units, so it cannot be used on a free account. Keys are self-serve once a paid plan is held, and Ahrefs publishes a hosted MCP server on paid plans.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.ahrefs.com/",
+        "quote": "Create and manage your API keys"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://help.ahrefs.com/en/articles/6559232-about-api-v3",
+        "quote": "Using API v3 from any of the above methods is possible for Lite and higher subscription plans."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.ahrefs.com/",
+        "quote": "Browse all available API endpoints"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.ahrefs.com/mcp/docs/introduction",
+        "quote": "The remote MCP server is available on paid plans starting from Lite."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

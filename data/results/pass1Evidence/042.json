@@ -1,0 +1,41 @@
+{
+  "id": 42,
+  "name": "WooCommerce",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "quote": "by providing the REST API Consumer Key as the username and the REST API Consumer Secret as the password.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "quote": "You must use OAuth 1.0a \"one-legged\" authentication to ensure REST API credentials cannot be intercepted by an attacker.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "quote": "Go to WooCommerce > Settings > Advanced > REST API.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "quote": "By default, the API provides information about all available endpoints on the site.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developer.woocommerce.com/docs/features/mcp/",
+      "quote": "The MCP implementation in WooCommerce is currently in developer preview.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

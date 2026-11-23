@@ -1,0 +1,12 @@
+{
+  "id": 97,
+  "name": "higgsfield",
+  "toolkitSlug": "higgsfield",
+  "mcpToolkitSlug": "higgsfield_mcp",
+  "mcpContradiction": true,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

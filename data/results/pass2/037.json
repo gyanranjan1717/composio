@@ -1,0 +1,74 @@
+{
+  "id": 37,
+  "name": "systeme.io",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "systeme.io (funnel builder)",
+  "record": {
+    "oneLiner": "Marketing automation and sales funnel platform offering a public REST API and official MCP server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Systeme.io provides a self-serve API and official MCP server with clear documentation and easy API key generation.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+        "quote": "As a security measure, we will send you an email notification whenever a new public API key is created in your systeme.io account."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+        "quote": "You can create up to 3 API keys per account."
+      },
+      {
+        "field": "apiType",
+        "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+        "quote": "Our API exposes a carefully selected set of features, enabling developers to interact with our platform transparently and efficiently."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+        "quote": "The new MCP server feature gives users, partners, and developers a powerful new way to interact with systeme.io using AI tools."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "systeme io api documentation"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:help.systeme.io api documentation"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27881,
+    "outputTokens": 1038
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

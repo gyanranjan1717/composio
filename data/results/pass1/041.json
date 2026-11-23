@@ -1,0 +1,86 @@
+{
+  "id": 41,
+  "name": "Shopify",
+  "category": "Ecommerce",
+  "hint": "shopify.dev",
+  "record": {
+    "oneLiner": "Shopify is an ecommerce platform providing comprehensive REST and GraphQL APIs for managing storefronts, products, orders, and merchant operations.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "restAndGraphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://shopify.dev/docs/api/ai-toolkit",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Shopify provides comprehensive GraphQL and REST APIs with self-serve developer access via the Dev Dashboard, standard OAuth and API token authentication, and official Model Context Protocol (MCP) server support.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "quote": "GraphQL Admin API | Your app, on behalf of a merchant | OAuth, usually token exchange | X-Shopify-Access-Token"
+      },
+      {
+        "field": "authMethods",
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "quote": "Partner API | Your app, scoped to your Partner organization | Create a Partner API client in Organization settings, and use its access token | X-Shopify-Access-Token"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+        "quote": "You've created an app in the Dev Dashboard."
+      },
+      {
+        "field": "apiType",
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "quote": "GraphQL Admin API to read and write store data, including products, orders, customers, and inventory."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://shopify.dev/docs/api/ai-toolkit",
+        "quote": "If you prefer MCP, you can connect to Shopify's developer resources through the Dev MCP server. The server runs locally and doesn't require authentication."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "shopify dev api authentication access tokens"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://shopify.dev/docs/api/usage/authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:shopify.dev/docs/apps/build/agents \"AI Toolkit\" OR \"MCP\" OR \"Model Context Protocol\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:shopify.dev \"Shopify MCP\" OR \"Model Context Protocol\" OR \"AI Toolkit\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27268,
+    "outputTokens": 1135
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

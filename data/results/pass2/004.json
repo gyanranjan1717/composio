@@ -1,0 +1,76 @@
+{
+  "id": 4,
+  "name": "Attio",
+  "category": "CRM and Sales",
+  "hint": "attio.com",
+  "record": {
+    "oneLiner": "Attio is a modern, customizable CRM with a comprehensive REST API and an official hosted Model Context Protocol (MCP) server available on all tiers including Free.",
+    "authMethods": [
+      "oauth2",
+      "apiKey",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://docs.attio.com/mcp/overview",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Attio provides self-serve API access and an official MCP server on its free plan without requiring human approval.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "quote": "In order to make requests to the Attio REST API, you need to generate an access token. There are two ways to generate an access token:\n\n1. By implementing an OAuth 2.0 flow\n2. By generating an API key for your workspace"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://attio.com/pricing",
+        "quote": "Free $0 Per user/month, billed monthlyannually For individuals to explore Attio on their own. Real-time contact syncing Automatic data enrichment Up to 3 seats Start for free"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "quote": "In order to make requests to the Attio REST API, you need to generate an access token."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.attio.com/mcp/overview",
+        "quote": "Attio MCP is Attio\u2019s hosted MCP server that gives AI tools secure access to your Attio workspace. It\u2019s designed to work seamlessly with popular AI assistants like Claude, ChatGPT, Cursor, and more."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Attio API documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Attio pricing api access self serve free paid plans"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:attio.com \"mcp\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 25229,
+    "outputTokens": 1140
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

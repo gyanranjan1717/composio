@@ -1,0 +1,34 @@
+{
+  "id": 92,
+  "name": "Otter AI",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://mcp.otter.ai/mcp",
+      "quote": "UNVERIFIED: endpoint returned HTTP 401 Unauthorized; no verbatim quote obtained",
+      "status": "pageUnreadable",
+      "detail": "HTTP 401"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://help.otter.ai/hc/en-us",
+      "quote": "UNVERIFIED: help center returned HTTP 403 Forbidden; no verbatim quote obtained",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://help.otter.ai/hc/en-us",
+      "quote": "UNVERIFIED: help center returned HTTP 403 Forbidden; no verbatim quote obtained",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://mcp.otter.ai/mcp",
+      "quote": "UNVERIFIED: endpoint returned HTTP 401 Unauthorized; no verbatim quote obtained",
+      "status": "pageUnreadable",
+      "detail": "HTTP 401"
+    }
+  ]
+}

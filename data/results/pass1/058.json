@@ -1,0 +1,48 @@
+{
+  "id": 58,
+  "name": "Sherlock",
+  "category": "Data, SEO and Scraping",
+  "hint": "github.com/sherlock-project/sherlock",
+  "record": {
+    "oneLiner": "Command-line tool that checks whether a username exists across hundreds of social networks.",
+    "authMethods": [
+      "none"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "noPublicApi",
+    "apiType": "cliOnly",
+    "apiBreadth": "none",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/Burnsedia/sherlock-mcp",
+    "buildable": "no",
+    "mainBlocker": "notAnApi",
+    "verdictReason": "Sherlock is a local CLI installed with pipx and has no hosted API or login. Only third-party MCP wrappers exist, and they are not a service Composio can toolkit. The fields reflect the rubric's CLI and no-API cases, with the nearest quotes used because absence cannot be quoted.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "sherlock user123"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Hunt down social media accounts by username across social networks"
+      },
+      {
+        "field": "apiType",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "pipx install sherlock-project"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/Burnsedia/sherlock-mcp",
+        "quote": "Seamlessly search social media accounts across 400+ platforms using the Model Context Protocol."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

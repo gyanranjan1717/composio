@@ -1,0 +1,12 @@
+{
+  "id": 11,
+  "name": "Zendesk",
+  "toolkitSlug": "zendesk",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "toolkitSlug": "linkedin_ads",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

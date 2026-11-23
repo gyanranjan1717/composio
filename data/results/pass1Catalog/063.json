@@ -1,0 +1,12 @@
+{
+  "id": 63,
+  "name": "Netlify",
+  "toolkitSlug": "netlify_mcp",
+  "mcpToolkitSlug": "netlify_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

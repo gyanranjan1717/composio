@@ -1,0 +1,56 @@
+{
+  "id": 42,
+  "name": "WooCommerce",
+  "category": "Ecommerce",
+  "hint": "woocommerce.com/document/woocommerce-rest-api",
+  "record": {
+    "oneLiner": "REST API for reading and writing WooCommerce store data such as products, orders, customers and coupons, authenticated with store-generated consumer keys.",
+    "authMethods": [
+      "apiKey",
+      "basic",
+      "other"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developer.woocommerce.com/docs/features/mcp/",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Consumer keys are generated in the store admin with no approval, and the REST API documents most core resources. The official MCP support is a developer preview that needs the WordPress MCP Adapter, so the REST API is the more stable route.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "quote": "by providing the REST API Consumer Key as the username and the REST API Consumer Secret as the password."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "quote": "You must use OAuth 1.0a \"one-legged\" authentication to ensure REST API credentials cannot be intercepted by an attacker."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "quote": "Go to WooCommerce > Settings > Advanced > REST API."
+      },
+      {
+        "field": "apiType",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "quote": "By default, the API provides information about all available endpoints on the site."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developer.woocommerce.com/docs/features/mcp/",
+        "quote": "The MCP implementation in WooCommerce is currently in developer preview."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

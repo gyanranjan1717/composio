@@ -1,0 +1,12 @@
+{
+  "id": 78,
+  "name": "Coda",
+  "toolkitSlug": "coda",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

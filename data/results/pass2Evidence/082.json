@@ -1,0 +1,34 @@
+{
+  "id": 82,
+  "name": "Plaid",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://plaid.com/docs/quickstart/",
+      "quote": "Private key, one for each of the two environments",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://plaid.com/docs/quickstart/",
+      "quote": "You'll need API keys, which you can receive by signing up in the Dashboard.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://plaid.com/docs/",
+      "quote": "Explore server-side API libraries and integrate with API endpoints.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://plaid.com/docs/resources/mcp/",
+      "quote": "The Dashboard MCP server is a remote MCP server hosted by Plaid.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

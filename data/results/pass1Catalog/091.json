@@ -1,0 +1,12 @@
+{
+  "id": 91,
+  "name": "NotebookLM",
+  "toolkitSlug": "notebook_lm",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

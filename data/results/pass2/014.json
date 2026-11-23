@@ -1,0 +1,87 @@
+{
+  "id": 14,
+  "name": "Front",
+  "category": "Support and Helpdesk",
+  "hint": "front.com",
+  "record": {
+    "oneLiner": "Front provides a comprehensive Core REST API and an official MCP server for its customer communication and support hub.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.frontapp.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Front provides a self-serve developer environment with API tokens and OAuth2 authentication, a broad REST API covering core support entities, and a fully hosted official MCP server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "quote": "The Core API uses Bearer tokens to authenticate its user. You MUST send the token for each request in the Authorization header. The token MUST be preceded by Bearer ."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "quote": "There are two ways to get a Bearer token \u2014 through API tokens in your settings or through an OAuth implementation."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+        "quote": "API tokens allow you to test the Front Core API or implement integrations or scripts that make programmatic updates to Front via the API."
+      },
+      {
+        "field": "apiType",
+        "url": "https://dev.frontapp.com/reference/introduction",
+        "quote": "Here is Front's Core API, a backend API that gives comprehensive control over all entities in Front from Contacts to Comments."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://dev.frontapp.com/docs/mcp-server",
+        "quote": "Front's MCP server ( mcp.frontapp.com/mcp ) lets AI agents act on Front conversation data using a single OAuth-authenticated endpoint."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Front API documentation authentication credentials"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://dev.frontapp.com/docs/authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://dev.frontapp.com/docs/front-ai-mcp-server"
+      },
+      "failed": true
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://dev.frontapp.com/docs/mcp-server"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 30268,
+    "outputTokens": 1150
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

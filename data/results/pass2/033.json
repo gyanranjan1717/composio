@@ -1,0 +1,74 @@
+{
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "learn.microsoft.com/linkedin/marketing",
+  "record": {
+    "oneLiner": "LinkedIn Marketing API for managing ads, campaigns, and reporting via OAuth 2.0 with developer access approval.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": true,
+    "accessLevel": "adminApproval",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "partial",
+    "mainBlocker": "adminApprovalRequired",
+    "verdictReason": "LinkedIn Ads provides a comprehensive REST API authenticated via OAuth 2.0, but developer applications must apply for and be approved for Advertising API access.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://learn.microsoft.com/linkedin/marketing/authentication/lms-generate-an-access-token?view=li-lms-2025-06",
+        "quote": "Grant Type: Authorization Code"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://learn.microsoft.com/linkedin/marketing/integrations/marketing-tiers?view=li-lms-2025-05",
+        "quote": "Visit your app's Product tab in the Developer Portal to apply for the Advertising API product."
+      },
+      {
+        "field": "apiType",
+        "url": "https://learn.microsoft.com/linkedin/marketing/sample-apps-lms?view=li-lms-2025-11",
+        "quote": "The Marketing Sample Application provides ready-to-use code that you can use to try out RESTful API calls to LinkedIn's OAuth and marketing APIs."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://registry.modelcontextprotocol.io?q=io.github.Trusty-Squire%2Fmcp",
+        "quote": "Official MCP Registry"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:learn.microsoft.com/linkedin/marketing authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:learn.microsoft.com/linkedin/marketing advertising api products access requirements partnerGated"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:modelcontextprotocol.io linkedin"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 27413,
+    "outputTokens": 770
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

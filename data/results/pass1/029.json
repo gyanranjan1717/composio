@@ -1,0 +1,81 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "category": "Communications and Messaging",
+  "hint": "aircall.io",
+  "record": {
+    "oneLiner": "Aircall is a cloud-based phone system and call center software platform providing a public REST API for managing calls, contacts, users, teams, and SMS integrations.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/themobilefirstco/aircall-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Aircall provides a comprehensive REST API and allows independent developers to generate self-serve API keys directly from the dashboard. Community MCP servers are also available.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.aircall.io/docs/authentication",
+        "quote": "Aircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.aircall.io/docs/your-first-api-call",
+        "quote": "1. Open your Aircall Dashboard. 2. Go to Integrations > API Keys page. 3. Under API Keys, click Generate API key. 4. Copy your API ID and API Token."
+      },
+      {
+        "field": "apiType",
+        "url": "https://apitracker.io/a/aircall",
+        "quote": "API styles\n:   REST"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/themobilefirstco/aircall-mcp-server",
+        "quote": "MCP Server for Aircall API \u2014 73 tools for calls, contacts, SMS, users, teams, transcripts, AI summaries, and more."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Aircall developer documentation authentication API keys oauth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.aircall.io pricing OR plan OR free tier OR trial OR developer account"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:aircall.io pricing"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com mcp OR \"model context protocol\" aircall"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 34703,
+    "outputTokens": 1252
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

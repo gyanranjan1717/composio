@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "category": "CRM and Sales",
+  "hint": "salesforce.com",
+  "verdicts": [
+    {
+      "field": "authMethods",
+      "verdict": "agree",
+      "correctedValue": "['oauth2', 'apiKey', 'jwt']",
+      "reason": "The vendor documents support for OAuth 2.0 flows, JWT bearer flows, and API keys/tokens.",
+      "url": "https://developer.salesforce.com/docs/service/messaging-partner/guide/generate-token.html",
+      "quote": "The signed JWT can\u2019t be tampered with. This method is based on the JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants."
+    },
+    {
+      "field": "accessLevel",
+      "verdict": "agree",
+      "correctedValue": "selfServeFree",
+      "reason": "Salesforce provides free Developer Edition orgs that can be signed up for immediately.",
+      "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-dev-org.html",
+      "quote": "Step One: Sign up for Salesforce Developer Edition. Developer Edition provides a free and easy solution so that you can use Salesforce for testing and development."
+    },
+    {
+      "field": "apiType",
+      "verdict": "agree",
+      "correctedValue": "restAndGraphql",
+      "reason": "The vendor explicitly provides documentation for both REST and GraphQL APIs.",
+      "url": "https://developer.salesforce.com/docs/platform/graphql/guide/intro-graphql-api.html",
+      "quote": "GraphQL API is an alternative to a traditional REST API, but operates similarly."
+    },
+    {
+      "field": "existingMcp",
+      "verdict": "disagree",
+      "correctedValue": "official",
+      "reason": "The vendor explicitly publishes official MCP servers rather than relying on the community.",
+      "url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-mcp.html",
+      "quote": "The Salesforce DX MCP Server is a specialized Model Context Protocol (MCP) implementation designed to facilitate seamless interaction between LLMs and Salesforce orgs."
+    },
+    {
+      "field": "buildable",
+      "verdict": "agree",
+      "correctedValue": "yes",
+      "reason": "The API is mature, supports standard auth, and is freely accessible for developers.",
+      "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-dev-org.html",
+      "quote": "Developer Edition provides a free and easy solution so that you can use Salesforce for testing and development."
+    },
+    {
+      "field": "mainBlocker",
+      "verdict": "agree",
+      "correctedValue": "none",
+      "reason": "There is no significant gate to building an integration for a developer.",
+      "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-dev-org.html",
+      "quote": "To sign up for a Developer Edition account, go to developer.salesforce.com/signup."
+    }
+  ],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "salesforce rest api documentation authentication oauth jwt"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com free developer edition account sign up"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com GraphQL API guide"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.salesforce.com \"MCP server\" OR \"Model Context Protocol\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 32924,
+    "outputTokens": 1102
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.1-flash-lite"
+}

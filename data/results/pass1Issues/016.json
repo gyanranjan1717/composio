@@ -1,0 +1,21 @@
+{
+  "id": 16,
+  "name": "LiveAgent",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://support.liveagent.com/567924-Documentation."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://support.liveagent.com/567924-Documentation."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://support.liveagent.com/150554-AI-features."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.aircall.io/api-references",
+      "quote": "Public API requests must be authenticated using HTTP Basic Authentication.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.aircall.io/docs/sms",
+      "quote": "Direct API access requires the Professional plan.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.aircall.io/api-references",
+      "quote": "Aircall Public API is a classic REST API.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://composio.dev/toolkits/aircall",
+      "quote": "Securely connect your AI agents and chatbots (Claude, ChatGPT, Cursor, etc) with Aircall MCP or direct API",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

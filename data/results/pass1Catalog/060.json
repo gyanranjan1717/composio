@@ -1,0 +1,12 @@
+{
+  "id": 60,
+  "name": "Clay",
+  "toolkitSlug": "clay",
+  "mcpToolkitSlug": "clay_mcp",
+  "mcpContradiction": true,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

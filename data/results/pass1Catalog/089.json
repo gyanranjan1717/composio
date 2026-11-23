@@ -1,0 +1,12 @@
+{
+  "id": 89,
+  "name": "Ramp",
+  "toolkitSlug": "ramp",
+  "mcpToolkitSlug": "ramp_mcp",
+  "mcpContradiction": true,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

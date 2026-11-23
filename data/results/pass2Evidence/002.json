@@ -1,0 +1,41 @@
+{
+  "id": 2,
+  "name": "HubSpot",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "quote": "Once you\u2019ve set up an OAuth backend, you can make API requests using the OAuth access token that corresponds to a user who installed your app. This access token is provided using the `Bearer` HTTP authorization header.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "quote": "- Developer API keys created within your app developer account.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.hubspot.com/docs/getting-started/account-types",
+      "quote": "You can create up to 10 test accounts to test apps and integrations without affecting any real HubSpot data. Developer test accounts are free HubSpot accounts with access to a 90-day trial of many enterprise features",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys",
+      "quote": "You cannot use service keys to authenticate webhooks, make calls within a UI extension, or leverage other developer platform functionality other than making REST API requests.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.hubspot.com/ai-tools/mcp",
+      "quote": "HubSpot offers two distinct MCP (Model Context Protocol) servers \u2014 one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

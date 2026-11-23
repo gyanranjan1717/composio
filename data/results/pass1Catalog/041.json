@@ -1,0 +1,12 @@
+{
+  "id": 41,
+  "name": "Shopify",
+  "toolkitSlug": "shopify",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

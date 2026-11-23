@@ -1,0 +1,34 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+      "quote": "An API key authenticates against the account that created it.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://mailchimp.com/help/about-api-keys/",
+      "quote": "Click Generate Key.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://mailchimp.com/developer/marketing/api/",
+      "quote": "The HTTP method that should be used when accessing the URL defined in 'href'.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server",
+      "quote": "This documentation site is itself an MCP server.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

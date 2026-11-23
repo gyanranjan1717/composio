@@ -1,0 +1,34 @@
+{
+  "id": 47,
+  "name": "Ecwid",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://api-docs.ecwid.com/reference/get-started-with-rest-api",
+      "quote": "We use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, and a clear structure.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://api-docs.ecwid.com/reference/get-started-with-building-public-applications",
+      "quote": "Start with the dev version of your app in the free dev environment and test it with us before publishing the app.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://api-docs.ecwid.com/reference/get-started-with-rest-api",
+      "quote": "Ecwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://api-docs.ecwid.com/reference/community-libraries",
+      "quote": "For the complete documentation index, see llms.txt. This page is also available as Markdown.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

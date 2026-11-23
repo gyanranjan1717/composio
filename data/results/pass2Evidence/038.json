@@ -1,0 +1,34 @@
+{
+  "id": 38,
+  "name": "Pinterest",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization",
+      "quote": "Access to Pinterest APIs via User Authorization requires following a flow based on OAuth 2.0.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.pinterest.com/docs/getting-started/connect-app",
+      "quote": "Application requests are reviewed by Pinterest. You will receive an email notification after your app has been reviewed, letting you know whether it was approved or denied access.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.pinterest.com/docs/api/v5/introduction",
+      "quote": "One API to seamlessly integrate with Pinterest. Securely plan content, manage ads, upload product feeds, and more.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.pinterest.com/about-pinterest-mcp",
+      "quote": "When will the MCP server be publicly available?",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

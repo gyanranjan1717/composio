@@ -1,0 +1,55 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "category": "Data, SEO and Scraping",
+  "hint": "seranking.com/api",
+  "record": {
+    "oneLiner": "SE Ranking's API provides SEO data (keyword research, rank tracking, backlinks, domain analysis, site audits) over REST.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://seranking.com/api/integrations/mcp/",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "A trial starts with 100K free credits; ongoing Data API use needs a subscription because credits are tied to subscription plans and sold as annual packages. SE Ranking publishes an official hosted MCP server (OAuth 2.1 or API key) that covers the Data and Project APIs but not every endpoint.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://seranking.com/api/data/getting-started/",
+        "quote": "Include an `Authorization` header in your request, with the value `Token YOUR_API_KEY`."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://seranking.com/api/integrations/mcp/",
+        "quote": "This transport uses OAuth 2.1 with dynamic client registration for authentication at the following address:"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://seranking.com/api/integrations/mcp/",
+        "quote": "Start with 100K free credits"
+      },
+      {
+        "field": "apiType",
+        "url": "https://seranking.com/api.html",
+        "quote": "integration is done via the REST API reference and a Postman collection for endpoint testing."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://seranking.com/api/integrations/mcp/",
+        "quote": "Add the official SE Ranking connector and click Connect."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "reResearchedFrom": "pass1"
+}

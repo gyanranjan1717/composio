@@ -1,0 +1,49 @@
+{
+  "id": 63,
+  "name": "Netlify",
+  "category": "Developer, Infra and Data platforms",
+  "hint": "docs.netlify.com/api",
+  "record": {
+    "oneLiner": "Hosting and deployment platform with a REST API for sites and related resources, authenticated by OAuth2 or personal access tokens.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.netlify.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal access tokens are generated in the user's own settings and OAuth apps are registered there too, with no approval step described in the docs. Netlify publishes an official MCP server with a remote endpoint. API breadth was judged from the REST paths seen, not from a full resource index.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.netlify.com/api/get-started/",
+        "quote": "Netlify uses OAuth2 for authentication."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.netlify.com/api/get-started/",
+        "quote": "Go to Applications > Personal access tokens."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.netlify.com/api/get-started/",
+        "quote": "https://api.netlify.com/api/v1/sites"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.netlify.com/welcome/build-with-ai/netlify-mcp-server",
+        "quote": "Netlify offers an [MCP server](https://github.com/netlify/netlify-mcp), which you can connect to through a connector, plugin, or your agent."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

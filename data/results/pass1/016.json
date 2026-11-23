@@ -1,0 +1,87 @@
+{
+  "id": 16,
+  "name": "LiveAgent",
+  "category": "Support and Helpdesk",
+  "hint": "liveagent.com",
+  "record": {
+    "oneLiner": "LiveAgent is a helpdesk and live chat software featuring a comprehensive REST API (v3) authenticated via API keys, and an official built-in MCP server for AI tool integrations.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://support.liveagent.com/150554-AI-features",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "LiveAgent provides public API v3 documentation along with self-serve free trial registration and API key generation. Furthermore, the vendor officially provides a built-in MCP server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://support.liveagent.com/802463-REST-API",
+        "quote": "What is an API key API key is an identity of your LiveAgent (like your username and password) which you can use to build your own custom integration solutions."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://support.liveagent.com/567924-Documentation",
+        "quote": "1. Consider registering a new free Trial account for testing purposes, before using API with your live account."
+      },
+      {
+        "field": "apiType",
+        "url": "https://support.liveagent.com/567924-Documentation",
+        "quote": "LiveAgent API v3 REST API"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://support.liveagent.com/150554-AI-features",
+        "quote": "LiveAgent exposes a built-in MCP server (Model Context Protocol) that lets you connect external AI tools \u2014 such as Claude Desktop, Cursor, claude.ai, FlowHunt, or any other MCP-compatible client \u2014 directly to your LiveAgent account."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "LiveAgent REST API documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com \"LiveAgent\" MCP server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com/QualityUnit/liveagent-mcp-server"
+      },
+      "failed": true
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "QualityUnit liveagent-mcp-server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:liveagent.com pricing plans"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 39275,
+    "outputTokens": 1070
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

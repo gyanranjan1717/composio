@@ -1,0 +1,31 @@
+{
+  "id": 79,
+  "name": "Smartsheet",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://developers.smartsheet.com/api/smartsheet/openapi). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://developers.smartsheet.com/api/smartsheet/openapi). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://developers.smartsheet.com/api/smartsheet/openapi). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page http://developers.smartsheet.com/."
+    },
+    {
+      "source": "composioCatalog",
+      "field": "authMethods",
+      "message": "Composio's existing toolkit for this app authenticates with ['apiKey', 'oauth2'], but authMethods does not include ['apiKey']. Check the vendor's auth docs for those methods."
+    }
+  ]
+}

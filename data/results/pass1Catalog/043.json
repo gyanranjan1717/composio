@@ -1,0 +1,13 @@
+{
+  "id": 43,
+  "name": "BigCommerce",
+  "toolkitSlug": "bigcommerce",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

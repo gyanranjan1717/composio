@@ -1,0 +1,41 @@
+{
+  "id": 55,
+  "name": "Apify",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.apify.com/integrations/api",
+      "quote": "To access the Apify API in your integrations, you need to authenticate using your secret API token.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://docs.apify.com/mcp",
+      "quote": "The recommended remote connection signs you in with OAuth instead.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://apify.com/pricing",
+      "quote": "Free $0 $5 to spend in Infinitely customizable $0.2 per compute unit Community support No Apify Store discount Start for free No credit card required.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.apify.com/api/v2/getting-started",
+      "quote": "Most requests need to be authenticated with the Apify API token passed via the Authorization HTTP header.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.apify.com/mcp",
+      "quote": "Apify MCP server | Platform | Apify Documentation",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

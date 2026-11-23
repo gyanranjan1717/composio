@@ -1,0 +1,12 @@
+{
+  "id": 99,
+  "name": "YouTube Transcript",
+  "toolkitSlug": "youtube_transcript",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

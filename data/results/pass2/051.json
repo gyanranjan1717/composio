@@ -1,0 +1,49 @@
+{
+  "id": 51,
+  "name": "DataForSEO",
+  "category": "Data, SEO and Scraping",
+  "hint": "docs.dataforseo.com",
+  "record": {
+    "oneLiner": "DataForSEO provides SEO and search data (SERP, keywords, backlinks, domain analytics, labs) through REST APIs.",
+    "authMethods": [
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/dataforseo/mcp-server-typescript",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A developer creates a free account and gets an API login and password from the API Access tab, with a free Sandbox and a $1 trial credit for limited real calls; production use is paid by balance. DataForSEO publishes an official MCP server (dataforseo org on GitHub) that is hosted and also runs locally.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "quote": "Basic authentication is the only way to access DataForSEO API; credentials should always be passed in the header of the request."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "quote": "Create a free account with DataForSEO, then go to the API Access tab"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.dataforseo.com/v3/",
+        "quote": "DataForSEO API is using the REST technology for interchanging data between your application and our service."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/dataforseo/mcp-server-typescript",
+        "quote": "MCP server and CLI for LLM agents to browse DataForSEO API documentation and make authenticated API requests."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "reResearchedFrom": "pass1"
+}

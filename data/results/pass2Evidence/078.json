@@ -1,0 +1,27 @@
+{
+  "id": 78,
+  "name": "Coda",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.superhuman.com/developers/apis/v1",
+      "quote": "headers = {'Authorization': 'Bearer <your API token>'}",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.superhuman.com/developers/apis/v1",
+      "quote": "a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda):",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiBreadth",
+      "url": "https://docs.superhuman.com/developers/apis/v1",
+      "quote": "Read, insert, upsert, update, and delete rows",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

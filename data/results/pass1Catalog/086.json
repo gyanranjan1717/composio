@@ -1,0 +1,12 @@
+{
+  "id": 86,
+  "name": "QuickBooks",
+  "toolkitSlug": "quickbooks",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": 80,
+  "name": "Harvest",
+  "category": "Productivity and Project Management",
+  "hint": "harvestapp.com (help.getharvest.com/api-v2)",
+  "record": {
+    "oneLiner": "Time tracking, invoicing and expenses API for the Harvest product (v2 REST API).",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Personal access tokens and OAuth2 app registration are both self-serve from Harvest ID with no review step stated in the docs. The API covers most core objects (clients, invoices, time, expenses, projects, users). The official MCP was reported by search but its support page returned 403 on fetch, so existingMcp=official is UNVERIFIED and needs a re-check.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "quote": "Implementing a full OAuth2 Authentication flow which allows other people to use your Harvest integrations."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "quote": "The API can be accessed by creating a Personal Access Token from the Developers section of Harvest ID."
+      },
+      {
+        "field": "apiType",
+        "url": "https://help.getharvest.com/api-v2/",
+        "quote": "This is the current API V2 documentation."
+      }
+    ]
+  },
+  "validationProblems": [
+    "evidence: nothing cited for existingMcp"
+  ],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

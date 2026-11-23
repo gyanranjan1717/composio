@@ -1,0 +1,81 @@
+{
+  "id": 12,
+  "name": "Intercom",
+  "category": "Support and Helpdesk",
+  "hint": "intercom.com",
+  "record": {
+    "oneLiner": "Intercom is a customer messaging platform that provides comprehensive REST APIs and official Model Context Protocol (MCP) servers for support, helpdesk, contacts, and conversations.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://developers.intercom.com/docs/guides/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Intercom provides fully public, well-documented REST APIs accessible self-serve via Access Tokens and OAuth, and also hosts an official Model Context Protocol (MCP) server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "quote": "We provide you with an Access Token as soon as you create an app on your workspace. You can find your Access Token in the Configure > Authentication section in your app within the Developer Hub ."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "quote": "Once you have a token, whether an access token or a token via the OAuth process, simply provide it as an Authorization:Bearer header in your requests, as shown below."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.intercom.com/docs/guides/mcp",
+        "quote": "Intercom hosts a remote MCP server that follows the authenticated remote MCP specification ( docs ). This server handles requests from AI tools and provides access to Intercom data through a secure interface."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "intercom api documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.intercom.com Model Context Protocol MCP"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://developers.intercom.com/docs/guides/mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 35549,
+    "outputTokens": 1216
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

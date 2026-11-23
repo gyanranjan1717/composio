@@ -1,0 +1,12 @@
+{
+  "id": 26,
+  "name": "Discord",
+  "toolkitSlug": "discord",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

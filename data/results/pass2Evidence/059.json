@@ -1,0 +1,34 @@
+{
+  "id": 59,
+  "name": "Waterfall.io",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.waterfall.io/v1/authentication",
+      "quote": "Authenticate data and account API requests with your Waterfall API key in the `x-api-key` header.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://waterfall.io/pricing",
+      "quote": "Talk to our team (most likely one of the founders)",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://waterfall.io",
+      "quote": "Waterfall Enrichment api, powered by 30+ data vendors",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.waterfall.io/v1/introduction",
+      "quote": "Use Waterfall with an agent",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

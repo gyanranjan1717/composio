@@ -1,0 +1,67 @@
+{
+  "id": 24,
+  "name": "Lark (Larksuite)",
+  "category": "Communications and Messaging",
+  "hint": "open.larksuite.com",
+  "record": {
+    "oneLiner": "Lark provides a broad REST API and official MCP server for communications, docs, and calendar integration.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://open.larksuite.com/document/mcp_open_tools/end-user-use-remote-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Lark provides a comprehensive public REST API with self-serve free developer credential generation (App ID and App Secret, or OAuth) and an official Model Context Protocol server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://open.larksuite.com/document/ugTN1YjL4UTN24CO1UjN/uEjN1YjLxYTN24SM2UjN",
+        "quote": "credential tenant_access_token is requested based on the AppID and App Secret"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://open.larksuite.com/document/ugTN1YjL4UTN24CO1UjN/uEjN1YjLxYTN24SM2UjN",
+        "quote": "First, obtain the custom app credential tenant_access_token, and then use it to obtain jsapi_ticket."
+      },
+      {
+        "field": "apiType",
+        "url": "https://open.larksuite.com/document/ukTMukTMukTM/uETNz4SM1MjLxUzM/v3/guides/interface",
+        "quote": "Currently, most address book APIs only accept Content-Type: application/json requests"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://open.larksuite.com/document/mcp_open_tools/end-user-use-remote-mcp-server",
+        "quote": "Lark MCP (Model Context Protocol) bridges AI Agents and Lark's open capabilities."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:open.larksuite.com authentication developer credential"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:open.larksuite.com MCP server Model Context Protocol"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 15950,
+    "outputTokens": 1000
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

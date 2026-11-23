@@ -1,0 +1,49 @@
+{
+  "id": 76,
+  "name": "Monday.com",
+  "category": "Productivity and Project Management",
+  "hint": "developer.monday.com",
+  "record": {
+    "oneLiner": "Work management platform with a GraphQL API for boards, items and columns.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "graphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/mondaycom/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "A free developer account yields a personal V2 API token, and OAuth setup is documented with no review step stated. The official MCP server is maintained by the vendor's AI team.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.monday.com/api-reference/docs/authentication",
+        "quote": "The monday.com platform API utilizes personal V2 API tokens to authenticate requests."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.monday.com/api-reference/docs/authentication",
+        "quote": "create a free developer account to get an API token and start testing."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.monday.com/api-reference/docs/basics",
+        "quote": "The monday.com API is built with GraphQL, a flexible query language"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/mondaycom/mcp",
+        "quote": "This repository, maintained by the monday.com AI team, provides a comprehensive set of tools"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

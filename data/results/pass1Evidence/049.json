@@ -1,0 +1,34 @@
+{
+  "id": 49,
+  "name": "Amazon Selling Partner",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer-docs-amazon-shipping.readme.io/apis/docs/authorizing-selling-partner-api-applications",
+      "quote": "The authorization model for the Selling Partner API is based on Login with Amazon, Amazon's implementation of OAuth 2.0.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.amazonservices.com/start",
+      "quote": "In accordance with the Amazon Services API Developer Agreement, public developers must list their app in the Amazon Selling Partner Appstore.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://github.com/amzn/selling-partner-api-samples",
+      "quote": "Selling Partner API REST API allowing Amazon sellers to programmatically access their data",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/amzn/selling-partner-api-samples/tree/main/use-cases/sp-api-mcp-server",
+      "quote": "SP-API MCP Server connects Large Language Models to Amazon\u2019s Selling Partner API ecosystem through the Model Context Protocol (MCP).",
+      "status": "pageUnreadable",
+      "detail": "HTTP 404"
+    }
+  ]
+}

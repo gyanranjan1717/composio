@@ -1,0 +1,26 @@
+{
+  "id": 92,
+  "name": "Otter AI",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://mcp.otter.ai/mcp). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://help.otter.ai/hc/en-us."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://help.otter.ai/hc/en-us."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The page cited for existingMcp could not be opened (https://mcp.otter.ai/mcp). Cite a page that fetchPage can open."
+    }
+  ]
+}

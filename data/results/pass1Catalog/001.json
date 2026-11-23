@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "toolkitSlug": "salesforce",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

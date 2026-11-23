@@ -1,0 +1,41 @@
+{
+  "id": 41,
+  "name": "Shopify",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://shopify.dev/docs/api/usage/authentication",
+      "quote": "GraphQL Admin API | Your app, on behalf of a merchant | OAuth, usually token exchange | X-Shopify-Access-Token",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://shopify.dev/docs/api/usage/authentication",
+      "quote": "Partner API | Your app, scoped to your Partner organization | Create a Partner API client in Organization settings, and use its access token | X-Shopify-Access-Token",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+      "quote": "You've created an app in the Dev Dashboard.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://shopify.dev/docs/api/usage/authentication",
+      "quote": "GraphQL Admin API to read and write store data, including products, orders, customers, and inventory.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://shopify.dev/docs/api/ai-toolkit",
+      "quote": "If you prefer MCP, you can connect to Shopify's developer resources through the Dev MCP server. The server runs locally and doesn't require authentication.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

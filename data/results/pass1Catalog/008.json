@@ -1,0 +1,12 @@
+{
+  "id": 8,
+  "name": "Close",
+  "toolkitSlug": "close",
+  "mcpToolkitSlug": "close_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

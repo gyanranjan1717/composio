@@ -1,0 +1,13 @@
+{
+  "id": 36,
+  "name": "Klaviyo",
+  "toolkitSlug": "klaviyo",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

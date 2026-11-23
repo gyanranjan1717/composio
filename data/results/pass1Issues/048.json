@@ -1,0 +1,11 @@
+{
+  "id": 48,
+  "name": "Gumroad",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://gumroad.com/help/article/280-create-application-api). Cite a page that fetchPage can open."
+    }
+  ]
+}

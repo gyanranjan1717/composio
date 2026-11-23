@@ -1,0 +1,12 @@
+{
+  "id": 12,
+  "name": "Intercom",
+  "toolkitSlug": "intercom",
+  "mcpToolkitSlug": "intercom_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": 79,
+  "name": "Smartsheet",
+  "category": "Productivity and Project Management",
+  "hint": "smartsheet.com/developers",
+  "record": {
+    "oneLiner": "Spreadsheet-style work management with an API for sheets, rows and columns.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "http://developers.smartsheet.com/",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "The API is restricted to Business and Enterprise plans, so an independent developer cannot get credentials on a free account. The MCP server is announced on the vendor's developer site, but its exact page path was not fetched, so mcpUrl points to the docs root.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+        "quote": "The Smartsheet API utilizes OAuth 2.0 for authentication and authorization."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+        "quote": "The Smartsheet API is restricted to users on Business and Enterprise plans"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+        "quote": "GET /sheets/{sheetId}/attachments"
+      },
+      {
+        "field": "existingMcp",
+        "url": "http://developers.smartsheet.com/",
+        "quote": "Connect Smartsheet to AI clients like Claude, Cursor, and Codex."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

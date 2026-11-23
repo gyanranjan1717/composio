@@ -1,0 +1,21 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://developer.aircall.io/docs/your-first-api-call."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://apitracker.io/a/aircall."
+    },
+    {
+      "source": "composioCatalog",
+      "field": "authMethods",
+      "message": "Composio's existing toolkit for this app authenticates with ['basic', 'oauth2'], but authMethods does not include ['basic']. Check the vendor's auth docs for those methods."
+    }
+  ]
+}

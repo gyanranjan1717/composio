@@ -1,0 +1,49 @@
+{
+  "id": 60,
+  "name": "Clay",
+  "category": "Data, SEO and Scraping",
+  "hint": "clay.com",
+  "record": {
+    "oneLiner": "GTM infrastructure platform for pulling in data, running AI agent workflows, and launching sales and marketing plays.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "Public API uses a clay-api-key header and keys are created self-serve via the clay CLI, but the only access route found is a 14-day Pro trial of a paid product and the docs do not state the plan needed for the API. Unverified: a web search names an official Clay MCP (developers.clay.com/concepts/mcp, run as clay mcp), but both Clay MCP pages returned 404 to WebFetch, so existingMcp is recorded as none pending re-check.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.clay.com/public-api/authentication.md",
+        "quote": "Every request to the Clay Public API must include a Clay API key in the `clay-api-key` header."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.clay.com/",
+        "quote": "14-day Pro trial, no credit card required"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.clay.com/quickstart.md",
+        "quote": "It says you can call the Clay API from your own applications."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.clay.com/quickstart.md",
+        "quote": "It requires a coding-agent host with a shell \u2014 Claude Code, Codex, or Cursor"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

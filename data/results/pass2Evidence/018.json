@@ -1,0 +1,34 @@
+{
+  "id": 18,
+  "name": "Help Scout",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+      "quote": "This is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.helpscout.com/pricing",
+      "quote": "Just need the basics? The Free plan includes 5 users, 1 Inbox, and 1 Docs site.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.helpscout.com/mailbox-api",
+      "quote": "Welcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/drewburchfield/help-scout-mcp-server",
+      "quote": "An MCP server that gives AI assistants direct access to your Help Scout inboxes, conversations, customers, organizations, threads, and Docs knowledge base.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

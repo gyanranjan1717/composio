@@ -1,0 +1,26 @@
+{
+  "id": 83,
+  "name": "Binance",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://developers.binance.com/docs/binance-spot-api-docs/faqs/api_key_types). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://developers.binance.com/en/docs/introduction). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://developers.binance.com/docs/binance-spot-api-docs). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The page cited for existingMcp could not be opened (https://developers.binance.com/en/docs/agent-native/mcp-server/agentic). Cite a page that fetchPage can open."
+    }
+  ]
+}

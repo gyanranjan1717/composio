@@ -1,0 +1,26 @@
+{
+  "id": 44,
+  "name": "Salesforce Commerce Cloud",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "authMethods",
+      "message": "The page cited for authMethods could not be opened (https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The page cited for accessLevel could not be opened (https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The page cited for apiType could not be opened (https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html). Cite a page that fetchPage can open."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The page cited for existingMcp could not be opened (https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/b2c-developer-tooling.html). Cite a page that fetchPage can open."
+    }
+  ]
+}

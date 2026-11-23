@@ -1,0 +1,13 @@
+{
+  "id": 84,
+  "name": "Paygent Connect",
+  "checks": [
+    {
+      "field": "accessLevel",
+      "url": "https://docs.nmi.com/docs/quick-start",
+      "quote": "Throughout the guide we point at our sandbox domain, <https://sandbox.nmi.com>.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

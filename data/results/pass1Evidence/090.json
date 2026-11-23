@@ -1,0 +1,41 @@
+{
+  "id": 90,
+  "name": "PitchBook",
+  "checks": [
+    {
+      "field": "apiType",
+      "url": "https://pitchbook.com/products/direct-access-data/api",
+      "quote": "Our RESTful API utilizes JSON and is system agnostic, so you can integrate it into custom applications and CRMs",
+      "status": "pageUnreadable",
+      "detail": "HTTP 403"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://pitchbook.com/products/direct-access-data/api",
+      "quote": "Our team of experts will work with you to ensure your organization can bridge any gap of understanding",
+      "status": "pageUnreadable",
+      "detail": "HTTP 403"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://pitchbook.com/products/direct-access-data",
+      "quote": "Choose the data that matters most to you and only pay for what you need.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 403"
+    },
+    {
+      "field": "authMethods",
+      "url": "https://premium.mcp.pitchbook.com/.well-known/oauth-protected-resource",
+      "quote": "\"resource\":\"https://premium.mcp.pitchbook.com/mcp\",\"authorization_servers\":[\"https://mcp.pitchbook.com\"],\"bearer_methods_supported\":[\"header\"]",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://premium.mcp.pitchbook.com/.well-known/oauth-protected-resource",
+      "quote": "\"resource\":\"https://premium.mcp.pitchbook.com/mcp\",\"authorization_servers\":[\"https://mcp.pitchbook.com\"],\"bearer_methods_supported\":[\"header\"]",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    }
+  ]
+}

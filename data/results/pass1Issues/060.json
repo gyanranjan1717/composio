@@ -1,0 +1,21 @@
+{
+  "id": 60,
+  "name": "Clay",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://www.clay.com/."
+    },
+    {
+      "source": "evidenceCheck",
+      "field": "apiType",
+      "message": "The quote cited for apiType is not on the page https://developers.clay.com/quickstart.md."
+    },
+    {
+      "source": "composioCatalog",
+      "field": "existingMcp",
+      "message": "Composio's catalog has an MCP toolkit for this app (clay_mcp), which suggests the vendor has an MCP server, but existingMcp says none. Check."
+    }
+  ]
+}

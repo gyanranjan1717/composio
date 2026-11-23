@@ -1,0 +1,14 @@
+{
+  "id": 15,
+  "name": "Pylon",
+  "toolkitSlug": "pylon_mcp",
+  "mcpToolkitSlug": "pylon_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "oauth2"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": 40,
+  "name": "SendGrid",
+  "toolkitSlug": "sendgrid",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

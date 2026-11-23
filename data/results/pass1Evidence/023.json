@@ -1,0 +1,34 @@
+{
+  "id": 23,
+  "name": "Zoho Cliq",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+      "quote": "Once you register your client, you will get a Client ID and Client secret for your application.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+      "quote": "Once you register your client, you will get a Client ID and Client secret for your application.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+      "quote": "Cliq API is standardized around REST, allowing you to perform read and write operations that you do with our web client.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+      "quote": "Any AI model or agent can use our official MCP server to access your Cliq data and do:",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

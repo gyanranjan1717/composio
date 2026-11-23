@@ -1,0 +1,48 @@
+{
+  "id": 23,
+  "name": "Zoho Cliq",
+  "category": "Communications and Messaging",
+  "hint": "zoho.com/cliq",
+  "record": {
+    "oneLiner": "Team chat product with a REST API for chats, channels, messages, users, files and bots, plus an official Cliq MCP server.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Client registration in the Zoho API console returns a client ID and secret, and the REST API covers most core Cliq objects. Zoho's pricing page does not clearly state that API access is on the free plan, so accessLevel is the least certain field. The OAuth docs also conflict with each other on token details, which should be checked against live behaviour.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+        "quote": "Once you register your client, you will get a Client ID and Client secret for your application."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+        "quote": "Once you register your client, you will get a Client ID and Client secret for your application."
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "quote": "Cliq API is standardized around REST, allowing you to perform read and write operations that you do with our web client."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+        "quote": "Any AI model or agent can use our official MCP server to access your Cliq data and do:"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

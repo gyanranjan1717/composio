@@ -1,0 +1,16 @@
+{
+  "id": 22,
+  "name": "Twilio",
+  "toolkitSlug": "twilio",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "basic",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "basic"
+  ]
+}

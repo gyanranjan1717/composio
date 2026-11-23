@@ -1,0 +1,34 @@
+{
+  "id": 32,
+  "name": "Meta Ads",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+      "quote": "Every Marketing API call requires an access token as a parameter.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+      "quote": "Automatically granted when you add the Marketing API product to your app.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+      "quote": "The Marketing API is a collection of Graph API endpoints and other features that can be used to help you advertise across Meta technologies.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "quote": "This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as references to community-built servers and additional resources.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

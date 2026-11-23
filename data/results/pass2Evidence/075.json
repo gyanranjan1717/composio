@@ -1,0 +1,34 @@
+{
+  "id": 75,
+  "name": "Asana",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.asana.com/docs/authentication",
+      "quote": "A personal access token (PAT) is the quickest and simplest way to authenticate in the API.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.asana.com/docs/authentication",
+      "quote": "PATs are generated in the developer console.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.asana.com/reference/rest-api-reference",
+      "quote": "The Asana API is a RESTful interface with predictable resource-oriented URLs",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+      "quote": "Asana offers a Model Context Protocol (MCP) server",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

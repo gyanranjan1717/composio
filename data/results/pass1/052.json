@@ -1,0 +1,73 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "category": "Data, SEO and Scraping",
+  "hint": "seranking.com/api",
+  "record": {
+    "oneLiner": "SE Ranking provides a robust REST API for SEO, keyword research, rank tracking, and backlink analysis, authenticated via API keys and complemented by an official remote MCP server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://seranking.com/api/integrations/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "SE Ranking offers a comprehensive, well-documented REST API that is fully self-serve via trial sign-up, authenticates simply via API keys, and includes an officially hosted remote Model Context Protocol (MCP) server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://seranking.com/api/data/getting-started",
+        "quote": "Method 1: Authorization header (recommended)\nInclude an Authorization header in your request, with the value Token YOUR_API_KEY ."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://seranking.com/blog/best-seo-mcps",
+        "quote": "SE Ranking offers a 14-day free trial with 100K API credits, which covers MCP usage. No credit card required to start."
+      },
+      {
+        "field": "apiType",
+        "url": "https://seranking.com/api/data/getting-started",
+        "quote": "The base URL for all endpoints is:\nhttps://api.seranking.com"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://seranking.com/api/integrations/mcp",
+        "quote": "The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model to access your SE Ranking and SE Visible data simply and securely."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "SE Ranking API documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://seranking.com/api/data/getting-started"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:seranking.com MCP server"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 30623,
+    "outputTokens": 977
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

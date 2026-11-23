@@ -1,0 +1,46 @@
+{
+  "id": 78,
+  "name": "Coda",
+  "category": "Productivity and Project Management",
+  "hint": "coda.io/developers",
+  "record": {
+    "oneLiner": "Docs-and-tables platform (now Superhuman Docs) with a REST API using bearer API tokens, plus an official Coda MCP endpoint.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://coda.io/apis/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "UNVERIFIED IN PART: the API page confirms bearer-token auth and broad read/write of rows and pages, but no fetched page states how to obtain a token or confirms the free tier, so accessLevel is unverified. The MCP evidence quote could not be fetched (help pages returned HTTP 403), so existingMcp rests on a search result only. The coda.io URL redirected to docs.superhuman.com, which is treated as the vendor's documentation.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.superhuman.com/developers/apis/v1",
+        "quote": "headers = {'Authorization': 'Bearer <your API token>'}"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.superhuman.com/developers/apis/v1",
+        "quote": "a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda):"
+      },
+      {
+        "field": "apiBreadth",
+        "url": "https://docs.superhuman.com/developers/apis/v1",
+        "quote": "Read, insert, upsert, update, and delete rows"
+      }
+    ]
+  },
+  "validationProblems": [
+    "evidence: nothing cited for accessLevel",
+    "evidence: nothing cited for existingMcp"
+  ],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

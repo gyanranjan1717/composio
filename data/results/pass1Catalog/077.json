@@ -1,0 +1,13 @@
+{
+  "id": 77,
+  "name": "ClickUp",
+  "toolkitSlug": "clickup",
+  "mcpToolkitSlug": "clickup_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

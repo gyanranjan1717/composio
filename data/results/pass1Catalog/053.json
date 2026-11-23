@@ -1,0 +1,15 @@
+{
+  "id": 53,
+  "name": "Ahrefs",
+  "toolkitSlug": "ahrefs",
+  "mcpToolkitSlug": "ahrefs_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "oauth2"
+  ]
+}

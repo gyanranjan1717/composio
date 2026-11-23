@@ -1,0 +1,60 @@
+{
+  "id": 40,
+  "name": "SendGrid",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "sendgrid.com",
+  "record": {
+    "oneLiner": "Twilio SendGrid is a cloud email API for sending transactional email, managing contacts and running marketing campaigns.",
+    "authMethods": [
+      "apiKey",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://www.twilio.com/docs/ai/mcp",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "API access is a 60-day timed free trial (100 sends per day via Web API or SMTP); sending stops after the trial unless a paid Email API plan is chosen. Twilio hosts an official MCP server, but it is documentation-lookup only (read-only, no SendGrid send operations), so it does not provide email-sending tools.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "quote": "The Twilio SendGrid Web API v3 supports API keys, which add an additional layer of security to your account."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+        "quote": "Twilio SendGrid supports Basic Authentication using an API key as your password value for some services."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Twilio-SendGrid-Trial-Account-Plan",
+        "quote": "users will be given a 60 day timed free trial plan"
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Twilio-SendGrid-Trial-Account-Plan",
+        "quote": "email send via any web API or SMTP integration for the account will stop unless an appropriate \"Email API\" plan is chosen"
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+        "quote": "provides a REST interface to send email at scale"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.twilio.com/docs/ai/mcp",
+        "quote": "This server is read-only: it searches and retrieves public API documentation"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "reResearchedFrom": "pass1"
+}

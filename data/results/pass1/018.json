@@ -1,0 +1,81 @@
+{
+  "id": 18,
+  "name": "Help Scout",
+  "category": "Support and Helpdesk",
+  "hint": "helpscout.com",
+  "record": {
+    "oneLiner": "Help Scout is a customer support platform featuring robust REST APIs (Inbox API and Docs API) utilizing OAuth 2.0 and API keys with a generous self-serve free tier.",
+    "authMethods": [
+      "oauth2",
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/drewburchfield/help-scout-mcp-server",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Help Scout provides fully documented REST APIs with self-serve credential creation on free accounts and existing community MCP support.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.helpscout.com/mailbox-api/overview/authentication",
+        "quote": "This is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.helpscout.com/pricing",
+        "quote": "Just need the basics? The Free plan includes 5 users, 1 Inbox, and 1 Docs site."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.helpscout.com/mailbox-api",
+        "quote": "Welcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/drewburchfield/help-scout-mcp-server",
+        "quote": "An MCP server that gives AI assistants direct access to your Help Scout inboxes, conversations, customers, organizations, threads, and Docs knowledge base."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Help Scout developer docs API authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developer.helpscout.com pricing plan free tier developer sandbox"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:helpscout.com pricing free trial"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com help scout mcp server OR \"model context protocol\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 32887,
+    "outputTokens": 1033
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

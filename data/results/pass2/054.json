@@ -1,0 +1,74 @@
+{
+  "id": 54,
+  "name": "MrScraper",
+  "category": "Data, SEO and Scraping",
+  "hint": "docs.mrscraper.com",
+  "record": {
+    "oneLiner": "MrScraper provides AI-powered web scraping and data extraction via a REST API authenticated with API tokens, offering a free tier and an official Model Context Protocol (MCP) server.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://github.com/mrscraper-com/mrscraper-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "MrScraper provides a fully documented REST API with broad platform and scraping endpoints, self-serve credentials available immediately upon signing up for their free tier, and an official MCP server provided by the vendor.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.mrscraper.com/docs/api/authentication",
+        "quote": "The MrScraper API uses API token authentication to secure all endpoints. Every request must include a valid API token in the HTTP request headers."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://mrscraper.com/pricing",
+        "quote": "Scraper Free includes 1,000 MrScraper tokens every month at no cost - no credit card required."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.mrscraper.com/docs/api/overview",
+        "quote": "Comprehensive documentation for MrScraper's API endpoints, including authentication, pagination, error handling, and scraper management."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/mrscraper-com/mrscraper-mcp",
+        "quote": "Official MrScraper MCP server: Scraper API for HTML, Markdown, and screenshots, web search, and account usage for AI agents."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "MrScraper documentation auth api"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "MrScraper pricing plans sign up free tier"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com \"mrscraper\" mcp"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 26719,
+    "outputTokens": 907
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 24,
+  "name": "Lark (Larksuite)",
+  "toolkitSlug": "lark",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

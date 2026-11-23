@@ -1,0 +1,34 @@
+{
+  "id": 57,
+  "name": "Bright Data",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "quote": "We create a default key for you upon account creation automatically.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://docs.brightdata.com/ai/mcp-server/faqs",
+      "quote": "Every Bright Data account gets 5,000 free credits per month, and the MCP server draws from them.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.brightdata.com/introduction",
+      "quote": "Authentication, endpoints, SDKs and the CLI.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.brightdata.com/ai/mcp-server/faqs",
+      "quote": "The Bright Data MCP server only requires an API token, for both the remote (hosted) and local (self-hosted) setup.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

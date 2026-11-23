@@ -1,0 +1,55 @@
+{
+  "id": 93,
+  "name": "Fathom",
+  "category": "AI, Research and Media-native",
+  "hint": "fathom.video",
+  "record": {
+    "oneLiner": "AI meeting notetaker that exposes meetings, recordings, summaries, transcripts and webhooks through a REST API and an official MCP server.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "official",
+    "mcpUrl": "https://developers.fathom.ai/mcp-docs",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "API key generated self-serve in User Settings and included on all plans; OAuth is for apps other users install. Coverage is read-leaning (meetings, recordings summary/transcript, teams, users) plus webhook create/delete, so breadth is medium. Official MCP server exists at https://api.fathom.ai/mcp.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.fathom.ai/quickstart",
+        "quote": "Head to the API Access section of your User Settings and generate an API key."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://developers.fathom.ai/faq",
+        "quote": "Use OAuth if you're building an app that other Fathom users will install so they can connect their own accounts."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.fathom.ai/faq",
+        "quote": "Yes. API access\u2014keys and webhooks\u2014 are included on all plans."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.fathom.ai/api-reference/openapi.yaml",
+        "quote": "The Fathom External API lets you poll meetings, teams, and team members, and optionally receive webhooks"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://developers.fathom.ai/mcp-docs",
+        "quote": "Fathom now offers an official MCP (Model Context Protocol) server"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

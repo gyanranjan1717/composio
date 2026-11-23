@@ -1,0 +1,74 @@
+{
+  "id": 46,
+  "name": "Squarespace",
+  "category": "Ecommerce",
+  "hint": "developers.squarespace.com",
+  "record": {
+    "oneLiner": "Squarespace provides Commerce APIs (Orders, Inventory, Products, Forms, Contacts, Discounts) authenticated via Bearer tokens (merchant API keys or OAuth 2.0) requiring a Commerce Advanced plan.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": true,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/timncox/squarespace-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Squarespace has a documented REST API covering e-commerce and store management objects. Credentials can be generated self-serve by merchants on the Commerce Advanced plan, and third-party community MCP servers exist.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "quote": "Squarespace Commerce APIs accept two credential types over one wire format. Every request carries Authorization: Bearer <token>, where the token is either a merchant-generated API key or an OAuth 2.0 access token."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "quote": "With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site. Follow the steps below to generate an API key for a custom application."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "quote": "API permission levels\nForms API\nRead Only : View form submission data; for Zapier integration only\nInventory API\nRead Only : View inventory stock levels\nRead and Write : Manage inventory stock levels\nOrders API"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/timncox/squarespace-mcp",
+        "quote": "Let AI agents manage your Squarespace websites \u2014 menus, pages, blog posts, products, images, SEO, and site settings through natural language."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Squarespace developer documentation api authentication API keys"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com squarespace mcp server"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 21740,
+    "outputTokens": 1086
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

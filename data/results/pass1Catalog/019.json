@@ -1,0 +1,13 @@
+{
+  "id": 19,
+  "name": "Gorgias",
+  "toolkitSlug": "gorgias",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "agrees",
+  "missing": []
+}

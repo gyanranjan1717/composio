@@ -1,0 +1,16 @@
+{
+  "id": 15,
+  "name": "Pylon",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "accessLevel",
+      "message": "The quote cited for accessLevel is not on the page https://www.usepylon.com/pylon-facts."
+    },
+    {
+      "source": "composioCatalog",
+      "field": "authMethods",
+      "message": "Composio's existing toolkit for this app authenticates with ['oauth2'], but authMethods does not include ['oauth2']. Check the vendor's auth docs for those methods."
+    }
+  ]
+}

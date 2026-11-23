@@ -1,0 +1,41 @@
+{
+  "id": 93,
+  "name": "Fathom",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.fathom.ai/quickstart",
+      "quote": "Head to the API Access section of your User Settings and generate an API key.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developers.fathom.ai/faq",
+      "quote": "Use OAuth if you're building an app that other Fathom users will install so they can connect their own accounts.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.fathom.ai/faq",
+      "quote": "Yes. API access\u2014keys and webhooks\u2014 are included on all plans.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.fathom.ai/api-reference/openapi.yaml",
+      "quote": "The Fathom External API lets you poll meetings, teams, and team members, and optionally receive webhooks",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developers.fathom.ai/mcp-docs",
+      "quote": "Fathom now offers an official MCP (Model Context Protocol) server",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

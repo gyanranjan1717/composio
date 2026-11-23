@@ -1,0 +1,12 @@
+{
+  "id": 54,
+  "name": "MrScraper",
+  "toolkitSlug": "mrscraper",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

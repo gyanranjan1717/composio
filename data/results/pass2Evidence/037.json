@@ -1,0 +1,34 @@
+{
+  "id": 37,
+  "name": "systeme.io",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+      "quote": "As a security measure, we will send you an email notification whenever a new public API key is created in your systeme.io account.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+      "quote": "You can create up to 3 API keys per account.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+      "quote": "Our API exposes a carefully selected set of features, enabling developers to interact with our platform transparently and efficiently.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+      "quote": "The new MCP server feature gives users, partners, and developers a powerful new way to interact with systeme.io using AI tools.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

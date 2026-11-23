@@ -1,0 +1,41 @@
+{
+  "id": 100,
+  "name": "Grain",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://support.grain.com/en/articles/14811968-how-to-use-the-grain-mcp-server",
+      "quote": "Grain's MCP server uses OAuth and HTTPS.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "authMethods",
+      "url": "https://developers.grain.com/",
+      "quote": "A Personal Access Token (PAT) authenticates requests as you, with the same access you have in Grain.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.grain.com/",
+      "quote": "A Personal Access Token (PAT) authenticates requests as you, with the same access you have in Grain.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.grain.com/",
+      "quote": "The Grain API lets you read and manage recordings, highlights, uploads, and more.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://support.grain.com/en/articles/14811968-how-to-use-the-grain-mcp-server",
+      "quote": "For technical setup and the full tool reference, see the Grain MCP developer docs.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

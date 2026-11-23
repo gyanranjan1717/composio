@@ -1,0 +1,48 @@
+{
+  "id": 59,
+  "name": "Waterfall.io",
+  "category": "Data, SEO and Scraping",
+  "hint": "waterfall.io (contact/company intel)",
+  "record": {
+    "oneLiner": "B2B data API that aggregates 30+ data vendors to find contacts, verified emails, mobile numbers, and job changes.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "partnerGated",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "partial",
+    "mainBlocker": "partnerOrSalesGate",
+    "verdictReason": "REST API authenticated with an x-api-key header, but the docs route API access and pricing through sales ('Contact the team'); no self-serve signup is documented. No official MCP server found in its docs.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.waterfall.io/v1/authentication",
+        "quote": "Authenticate data and account API requests with your Waterfall API key in the `x-api-key` header."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://waterfall.io/pricing",
+        "quote": "Talk to our team (most likely one of the founders)"
+      },
+      {
+        "field": "apiType",
+        "url": "https://waterfall.io",
+        "quote": "Waterfall Enrichment api, powered by 30+ data vendors"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.waterfall.io/v1/introduction",
+        "quote": "Use Waterfall with an agent"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

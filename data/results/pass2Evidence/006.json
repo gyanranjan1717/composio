@@ -1,0 +1,34 @@
+{
+  "id": 6,
+  "name": "Podio",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.podio.com/authentication",
+      "quote": "This API uses OAuth 2.0 for authentication. You'll need to set up an OAuth flow with client credentials.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.podio.com/index/faq",
+      "quote": "The Podio API is available to use for both paid and free Podio accounts. Both have full access to the API... You have to sign in or sign up with Podio. Then you find your API keys as a tab under your account settings.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "apiType",
+      "url": "https://apispine.com/podio/getting-started",
+      "quote": "The Podio API uses OAuth 2.0 for authentication and provides a RESTful interface for interacting with workspaces, applications, items, and other Podio resources.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://zapier.com/mcp/podio",
+      "quote": "Zapier PodioMCP lets you connect Podio's actions with any AI tool that supports MCP, all without managing integrations or writing glue code.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

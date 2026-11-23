@@ -1,0 +1,48 @@
+{
+  "id": 89,
+  "name": "Ramp",
+  "category": "Finance and Fintech",
+  "hint": "docs.ramp.com",
+  "record": {
+    "oneLiner": "Corporate cards and spend management platform with a Developer API covering accounting, banking, bills, approvals and audit logs.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": true,
+    "accessLevel": "adminApproval",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "partial",
+    "mainBlocker": "appReviewRequired",
+    "verdictReason": "Ramp authenticates with OAuth 2.0 client credentials, and production access needs approval; the guides say approval is required before production access for partner integrations. Sandbox is available to all customers. An official Ramp Developer MCP guide appears in search results but its page could not be fetched, so existingMcp is recorded as none and is UNVERIFIED.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.ramp.com/llms-guides.txt",
+        "quote": "Ramp uses OAuth 2.0."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.ramp.com/llms-guides.txt",
+        "quote": "Approval is required before production access."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.ramp.com/llms-api.txt",
+        "quote": "Create a financing application"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.ramp.com/llms-guides.txt",
+        "quote": "Sandbox and production need separate apps."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

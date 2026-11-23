@@ -1,0 +1,74 @@
+{
+  "id": 11,
+  "name": "Zendesk",
+  "category": "Support and Helpdesk",
+  "hint": "zendesk.com",
+  "record": {
+    "oneLiner": "Customer service software with a broad REST API supporting API tokens, OAuth, and basic auth.",
+    "authMethods": [
+      "apiKey",
+      "oauth2",
+      "basic"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeTrial",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/fullstorydev/zendesk-mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Zendesk provides a comprehensive public REST API supporting API tokens, basic auth, and OAuth. Developers can sign up for a self-serve trial to build integrations, and multiple community MCP servers already exist.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "Basic authentication is used for API tokens. The credentials must be sent with the request in an Authorization header."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "Security and authentication"
+      },
+      {
+        "field": "apiType",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/fullstorydev/zendesk-mcp",
+        "quote": "Local MCP server for Zendesk Support, Macros, attachments, and Help Center"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Zendesk API documentation authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com mcp zendesk or \"zendesk-mcp\""
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 17116,
+    "outputTokens": 1012
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

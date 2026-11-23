@@ -1,0 +1,74 @@
+{
+  "id": 39,
+  "name": "Threads (Meta)",
+  "category": "Marketing, Ads, Email and Social",
+  "hint": "developers.facebook.com/docs/threads",
+  "record": {
+    "oneLiner": "The Threads API by Meta provides REST endpoints for managing posts and profiles using OAuth 2.0 authentication, subject to App Review.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": true,
+    "accessLevel": "adminApproval",
+    "apiType": "rest",
+    "apiBreadth": "medium",
+    "existingMcp": "community",
+    "mcpUrl": "https://github.com/quinnjr/threads-mcp",
+    "buildable": "partial",
+    "mainBlocker": "appReviewRequired",
+    "verdictReason": "While the API is publicly documented and accessible for development, Meta enforces an App Review process before an application can be used to access production user data.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.facebook.com/docs/threads/get-started",
+        "quote": "API authentication is handled by Threads user access tokens that conform to the OAuth 2.0 protocol."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developers.facebook.com/docs/threads/get-started/create-an-app",
+        "quote": "Click the chevron next to each requirement listed under Prepare and submit for App Review. You must complete each requirement before publishing your app."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.facebook.com/docs/threads/reference/publishing",
+        "quote": "Upload media and create media containers. See Posts for more information."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://github.com/quinnjr/threads-mcp",
+        "quote": "GitHub - quinnjr/threads-mcp: Production-ready Model Context Protocol server for Threads.com API."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.facebook.com/docs/threads authentication api type"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:developers.facebook.com/docs/threads \"app review\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:github.com modelcontextprotocol servers threads"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 24427,
+    "outputTokens": 1166
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.1-flash-lite",
+  "carriedFrom": "pass1"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 96,
+  "name": "Devin",
+  "toolkitSlug": "devin_mcp",
+  "mcpToolkitSlug": "devin_mcp",
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

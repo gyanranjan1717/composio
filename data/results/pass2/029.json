@@ -1,0 +1,50 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "category": "Communications and Messaging",
+  "hint": "aircall.io",
+  "record": {
+    "oneLiner": "Aircall is a cloud phone and call-center platform with a public REST API for calls, numbers, contacts and users.",
+    "authMethods": [
+      "basic",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "community",
+    "mcpUrl": "https://composio.dev/toolkits/aircall",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "Aircall's public API uses HTTP Basic auth with an api_id and api_token from the dashboard, and OAuth2 for apps. The docs state that direct Messaging API access needs the Professional plan; the docs read did not give a general API plan rule, so paidPlan is the best supported value. No Aircall-hosted MCP server exists; Aircall's docs only describe partners registering their own MCP servers, so the only MCP option is third-party (Composio).",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://developers.aircall.io/api-references",
+        "quote": "Public API requests must be authenticated using HTTP Basic Authentication."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://developer.aircall.io/docs/sms",
+        "quote": "Direct API access requires the Professional plan."
+      },
+      {
+        "field": "apiType",
+        "url": "https://developers.aircall.io/api-references",
+        "quote": "Aircall Public API is a classic REST API."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://composio.dev/toolkits/aircall",
+        "quote": "Securely connect your AI agents and chatbots (Claude, ChatGPT, Cursor, etc) with Aircall MCP or direct API"
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "reResearchedFrom": "pass1"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 79,
+  "name": "Smartsheet",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+      "quote": "The Smartsheet API utilizes OAuth 2.0 for authentication and authorization.",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+      "quote": "The Smartsheet API is restricted to users on Business and Enterprise plans",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "apiType",
+      "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+      "quote": "GET /sheets/{sheetId}/attachments",
+      "status": "pageUnreadable",
+      "detail": "too little text"
+    },
+    {
+      "field": "existingMcp",
+      "url": "http://developers.smartsheet.com/",
+      "quote": "Connect Smartsheet to AI clients like Claude, Cursor, and Codex.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

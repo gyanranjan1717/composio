@@ -1,0 +1,34 @@
+{
+  "id": 25,
+  "name": "Pumble",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://pumble.com/help/integrations/add-pumble-apps/api-keys-integration",
+      "quote": "Once your API addon is installed, you can generate API keys directly in Pumble.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://pumble.com/help/integrations/add-pumble-apps/api-keys-integration",
+      "quote": "Once your API addon is installed, you can generate API keys directly in Pumble.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://pumble.com/help/integrations/add-pumble-apps/api-keys-integration",
+      "quote": "The full list of available actions is available in the Swagger documentation. You can also use the documentation in Swagger, just enter your API key in the Authorize part.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server",
+      "quote": "Built on the open Model Context Protocol (MCP) standard, it lets Claude fetch live context and execute actions inside third-party apps (e.g., Pumble) without manual copy-pasting.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

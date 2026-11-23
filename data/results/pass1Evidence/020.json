@@ -1,0 +1,34 @@
+{
+  "id": 20,
+  "name": "Gladly",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.gladly.com/rest",
+      "quote": "Gladly API uses token-based Basic Authentication. API tokens are associated with designated Gladly users. To create and use an API token, your user must have the API User permission.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.gladly.com/rest",
+      "quote": "You must create an API token to access Gladly API resources (see above Permissions). If your profile already has access to the API User permission, you'll see a menu item titled More settings. Click More settings:",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://developer.gladly.com/rest",
+      "quote": "The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. You can integrate easily with Gladly by calling Gladly's REST API",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://developer.gladly.com/rest",
+      "quote": "The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. You can integrate easily with Gladly by calling Gladly's REST API",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    }
+  ]
+}

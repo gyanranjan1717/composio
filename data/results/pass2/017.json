@@ -1,0 +1,101 @@
+{
+  "id": 17,
+  "name": "Plain",
+  "category": "Support and Helpdesk",
+  "hint": "plain.com",
+  "record": {
+    "oneLiner": "Customer support platform with a comprehensive public GraphQL API and an official MCP server.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "graphql",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.plain.com/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Plain provides a broad public GraphQL API authenticated with API keys or OAuth, is accessible via self-serve accounts with free trials, and offers an official MCP server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "Now that you have an API key, pass it on any API call as a header: Authorization: Bearer plainApiKey_xxx"
+      },
+      {
+        "field": "authMethods",
+        "url": "https://www.plain.com/docs/integrations/mcp-server",
+        "quote": "Plain MCP uses OAuth to allow your MCP server connection to share the same context as your normal web app user."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.plain.com/docs/product/billing/pricing",
+        "quote": "Every plan starts with a free 7-day trial, and the trial doesn\u2019t need a credit card."
+      },
+      {
+        "field": "apiType",
+        "url": "https://apis.io/providers/plain",
+        "quote": "Plain is a customer support platform for B2B and technical SaaS companies, built entirely on its own public GraphQL API so there is full parity between what the product UI and the API can do."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.plain.com/docs/integrations/mcp-server",
+        "quote": "The Plain MCP server at https://mcp.plain.com/mcp lets tools like Claude, ChatGPT, and Cursor work with your support data directly."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Plain support helpdesk API documentation auth authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://www.plain.com/docs/graphql/authentication"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:plain.com/docs/graphql MCP server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://www.plain.com/docs/integrations/mcp-server"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:plain.com/docs pricing plans or foundation"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:plain.com/docs free tier or developer sandbox"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 57039,
+    "outputTokens": 1275
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite",
+  "carriedFrom": "pass1"
+}

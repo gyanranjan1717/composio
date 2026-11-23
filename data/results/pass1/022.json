@@ -1,0 +1,79 @@
+{
+  "id": 22,
+  "name": "Twilio",
+  "category": "Communications and Messaging",
+  "hint": "twilio.com",
+  "record": {
+    "oneLiner": "Twilio is a communications platform providing programmable APIs for SMS, voice, and messaging, authenticated via API keys and OAuth 2.0 with an official MCP server available.",
+    "authMethods": [
+      "apiKey",
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.twilio.com/docs",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Twilio provides broad REST API coverage, accessible via self-serve free sign up and authenticated via API keys and OAuth 2.0. They also host an official Model Context Protocol (MCP) server.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://www.twilio.com/docs/iam/api-keys",
+        "quote": "API keys are the preferred way to authenticate with Twilio's REST APIs."
+      },
+      {
+        "field": "authMethods",
+        "url": "https://www.twilio.com/en-us/changelog/oauth-apis-ga",
+        "quote": "Twilio Communications APIs now support OAuth 2.0. Upgrading to OAuth 2.0 makes your applications more secure than using traditional API keys or Auth tokens."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+        "quote": "Sign up for a free trial\u2014no credit card required."
+      },
+      {
+        "field": "apiType",
+        "url": "https://www.twilio.com/docs/iam/api-keys",
+        "quote": "API keys are the preferred way to authenticate with Twilio's REST APIs."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+        "quote": "Our MCP server, hosted at mcp.twilio.com/docs , exposes two tools: twilio__search \u2013 Search Twilio's APIs and documentation using natural language."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "Twilio documentation API authentication api key oauth"
+      },
+      "failed": false
+    },
+    {
+      "tool": "searchWeb",
+      "arguments": {
+        "query": "site:twilio.com \"MCP\" OR \"Model Context Protocol\""
+      },
+      "failed": false
+    },
+    {
+      "tool": "fetchPage",
+      "arguments": {
+        "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills"
+      },
+      "failed": false
+    }
+  ],
+  "usage": {
+    "inputTokens": 26909,
+    "outputTokens": 1127
+  },
+  "hitTurnLimit": false,
+  "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_using_oauth.html",
+      "quote": "A user must be authenticated before accessing Salesforce. OAuth has multiple authentication flows. There are several steps in each authentication flow, as dictated by the OAuth standard and the type of application trying to access Salesforce.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 403"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_connecting.html",
+      "quote": "This example uses the OAuth 2.0 Client Credentials Flow for Server-to-Server Integration, so the grant type is client_credentials. The response includes the server instance and the access token.",
+      "status": "pageUnreadable",
+      "detail": "HTTP 403"
+    },
+    {
+      "field": "apiType",
+      "url": "https://github.com/jctissier/salesforce-oauth2-REST-Metadata-API-Examples/blob/master/README.md",
+      "quote": "Salesforce OAuth2, REST API and Metadata API Examples (Python 3+). Python implementations of Salesforce Oauth2 Flows, as well as authenticated REST API and Metadata API requests.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/modelcontextprotocol/servers/diffs/0?base_sha=0603044adaba5da2f93f372aedf264be05e0be10&head_user=atototo&name=main&pull_number=2737&qualified_name=refs%2Fheads%2Fmain&sha1=0603044adaba5da2f93f372aedf264be05e0be10&sha2=2e77f702bcc3a3326293b48fadc097094bd2c497&short_path=b335630&unchanged=expanded&w=false",
+      "quote": "Salesforce MCP - Interact with Salesforce Data and Metadata",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

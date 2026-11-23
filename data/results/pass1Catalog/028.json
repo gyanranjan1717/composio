@@ -1,0 +1,15 @@
+{
+  "id": 28,
+  "name": "WhatsApp Business",
+  "toolkitSlug": "whatsapp",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey",
+    "oauth2"
+  ],
+  "status": "disagrees",
+  "missing": [
+    "oauth2"
+  ]
+}

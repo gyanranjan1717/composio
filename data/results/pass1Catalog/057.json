@@ -1,0 +1,12 @@
+{
+  "id": 57,
+  "name": "Bright Data",
+  "toolkitSlug": "brightdata",
+  "mcpToolkitSlug": null,
+  "mcpContradiction": false,
+  "composioAuthMethods": [
+    "apiKey"
+  ],
+  "status": "agrees",
+  "missing": []
+}

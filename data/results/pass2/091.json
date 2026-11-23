@@ -1,0 +1,49 @@
+{
+  "id": 91,
+  "name": "NotebookLM",
+  "category": "AI, Research and Media-native",
+  "hint": "cloud.google.com/gemini (Enterprise API)",
+  "record": {
+    "oneLiner": "Google's NotebookLM Enterprise (Gemini Notebook for business) with a v1alpha Discovery Engine REST API for managing notebooks.",
+    "authMethods": [
+      "oauth2"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "paidPlan",
+    "apiType": "rest",
+    "apiBreadth": "narrow",
+    "existingMcp": "none",
+    "mcpUrl": "",
+    "buildable": "partial",
+    "mainBlocker": "paidPlanRequired",
+    "verdictReason": "The API covers notebook management only (create, retrieve, list recently viewed, delete, share) and calls use a gcloud user access token. Access requires an active Gemini Notebook Enterprise license plus the Cloud NotebookLM User role. No official Google MCP server was found; community MCP packages exist but are not Google-published.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "quote": "gcloud auth print-access-token generates an access token for your user account."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "quote": "require an authenticated user account with an active Gemini Notebook Enterprise license."
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "quote": "This page describes the APIs that let you perform the following notebook management tasks programmatically:"
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "quote": "Pre-GA features are available \"as is\" and might have limited support."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)",
+  "carriedFrom": "pass1"
+}

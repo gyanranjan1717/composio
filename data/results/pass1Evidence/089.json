@@ -1,0 +1,34 @@
+{
+  "id": 89,
+  "name": "Ramp",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://docs.ramp.com/llms-guides.txt",
+      "quote": "Ramp uses OAuth 2.0.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://docs.ramp.com/llms-guides.txt",
+      "quote": "Approval is required before production access.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://docs.ramp.com/llms-api.txt",
+      "quote": "Create a financing application",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://docs.ramp.com/llms-guides.txt",
+      "quote": "Sandbox and production need separate apps.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

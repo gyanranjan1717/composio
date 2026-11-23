@@ -1,0 +1,48 @@
+{
+  "id": 96,
+  "name": "Devin",
+  "category": "AI, Research and Media-native",
+  "hint": "docs.devin.ai (MCP)",
+  "record": {
+    "oneLiner": "Autonomous AI software engineer whose platform API and MCP server let other clients manage sessions and repositories.",
+    "authMethods": [
+      "apiKey"
+    ],
+    "oauthAppReviewRequired": false,
+    "accessLevel": "selfServeFree",
+    "apiType": "rest",
+    "apiBreadth": "broad",
+    "existingMcp": "official",
+    "mcpUrl": "https://mcp.devin.ai/mcp",
+    "buildable": "yes",
+    "mainBlocker": "none",
+    "verdictReason": "Service user and personal access token keys are generated in account settings and sent as a Bearer key to the MCP endpoint, which requires a Devin account. Enterprise accounts have extra org and PAT policy constraints. The pricing page did not state which plan includes API keys, so the access level is less certain.",
+    "evidence": [
+      {
+        "field": "authMethods",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "quote": "Use a personal access token or a service user key as `<API_KEY>`."
+      },
+      {
+        "field": "accessLevel",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "quote": "Requires Devin account"
+      },
+      {
+        "field": "apiType",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "quote": "For managing resources within a single organization \u2014 sessions, knowledge, playbooks, secrets, and more."
+      },
+      {
+        "field": "existingMcp",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "quote": "The Devin MCP server provides programmatic access to Devin's platform capabilities for both private and public repositories."
+      }
+    ]
+  },
+  "validationProblems": [],
+  "toolCalls": [],
+  "usage": {},
+  "hitTurnLimit": false,
+  "model": "claude-haiku-5-5 (sub-agent)"
+}

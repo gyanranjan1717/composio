@@ -1,0 +1,27 @@
+{
+  "id": 80,
+  "name": "Harvest",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "quote": "Implementing a full OAuth2 Authentication flow which allows other people to use your Harvest integrations.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "quote": "The API can be accessed by creating a Personal Access Token from the Developers section of Harvest ID.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://help.getharvest.com/api-v2/",
+      "quote": "This is the current API V2 documentation.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

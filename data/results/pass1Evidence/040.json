@@ -1,0 +1,41 @@
+{
+  "id": 40,
+  "name": "SendGrid",
+  "checks": [
+    {
+      "field": "authMethods",
+      "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+      "quote": "To use an API key, pass an Authorization header with a value of Bearer , where you replace <Your-API-Key-Here> with the API Key that you created in the UI.",
+      "status": "quoteNotFound",
+      "detail": "quote is not on the cited page"
+    },
+    {
+      "field": "authMethods",
+      "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+      "quote": "When using Basic Authentication, your username will always be apikey, and your password will be your API key.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "accessLevel",
+      "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan",
+      "quote": "When you sign up for a SendGrid account, you can start a 60-day free trial to explore the Email API and Marketing Campaigns features.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "apiType",
+      "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+      "quote": "The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes.",
+      "status": "quoteFound",
+      "detail": ""
+    },
+    {
+      "field": "existingMcp",
+      "url": "https://github.com/deyikong/sendgrid-mcp",
+      "quote": "A Model Context Protocol (MCP) server that provides comprehensive access to SendGrid's API v3 for email marketing, transactional email operations, dynamic template management, and detailed analytics.",
+      "status": "quoteFound",
+      "detail": ""
+    }
+  ]
+}

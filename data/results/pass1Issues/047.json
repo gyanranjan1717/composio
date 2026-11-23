@@ -1,0 +1,11 @@
+{
+  "id": 47,
+  "name": "Ecwid",
+  "issues": [
+    {
+      "source": "evidenceCheck",
+      "field": "existingMcp",
+      "message": "The quote cited for existingMcp is not on the page https://api-docs.ecwid.com/reference/community-libraries."
+    }
+  ]
+}
